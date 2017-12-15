@@ -1,0 +1,33 @@
+Chassis 1:
+    Overall Status: Power Problem
+    Operability: Operable
+    Power State: Redundancy Failed
+    Thermal Status: Ok
+
+    IOCard 1:
+        User Label:
+        Side: Left
+        Fabric ID: A
+        Threshold Status: N/A
+        Overall Status: Operable
+        Operability: Operable
+        Power State: N/A
+        Thermal Status: OK
+        Voltage Status: N/A
+
+        IO Card Stats:
+            Ambient Temp (C): 27.000000
+
+    IOCard 2:
+        User Label:
+        Side: Right
+        Fabric ID: B
+        Threshold Status: N/A
+        Overall Status: Operable
+        Operability: Operable
+        Power State: N/A
+        Thermal Status: OK
+        Voltage Status: N/A
+
+        IO Card Stats:
+            Ambient Temp (C): 25.000000

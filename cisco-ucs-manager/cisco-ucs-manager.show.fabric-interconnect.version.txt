@@ -1,0 +1,19 @@
+Fabric Interconnect A:
+    Running-Kern-Vers: 5.0(3)N2(2.11.3a)
+    Running-Sys-Vers: 5.0(3)N2(2.11.3a)
+    Package-Vers: 2.1(3a)A
+    Startup-Kern-Vers: 5.0(3)N2(2.11.3a)
+    Startup-Sys-Vers: 5.0(3)N2(2.11.3a)
+    Act-Kern-Status: Ready
+    Act-Sys-Status: Ready
+    Bootloader-Vers:   v3.6.0(05/09/2012)
+
+Fabric Interconnect B:
+    Running-Kern-Vers: 5.0(3)N2(2.11.3a)
+    Running-Sys-Vers: 5.0(3)N2(2.11.3a)
+    Package-Vers: 2.1(3a)A
+    Startup-Kern-Vers: 5.0(3)N2(2.11.3a)
+    Startup-Sys-Vers: 5.0(3)N2(2.11.3a)
+    Act-Kern-Status: Ready
+    Act-Sys-Status: Ready
+    Bootloader-Vers:   v3.6.0(05/09/2012)

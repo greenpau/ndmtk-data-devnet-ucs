@@ -1,0 +1,573 @@
+Chassis 1:
+    Overall Status: Power Problem
+    Operability: Operable
+    Power State: Redundancy Failed
+    Thermal Status: Ok
+
+    Server 1:
+        Name:
+        User Label:
+        Overall Status: Unassociated
+        Operability: Operable
+        Oper Power: Off
+
+        Adapter 1:
+            Threshold Status: N/A
+            Overall Status: Operable
+            Operability: Operable
+            Power State: Off
+            Thermal Status: N/A
+            Voltage Status: N/A
+
+        Motherboard:
+            Threshold Status: OK
+            Overall Status: N/A
+            Operability: N/A
+            Oper Power: Off
+            Power State: Ok
+            Thermal Status: OK
+            Voltage Status: OK
+            CMOS Battery Voltage Status: Ok
+            Mother Board Power Usage Status: Ok
+
+            Motherboard Temperature Statistics:
+                Motherboard Front Temperature (C): 13.000000
+                Motherboard Rear Temperature (C): 6.000000
+
+            Memory Array 1:
+                Threshold Status: N/A
+                Overall Status: N/A
+                Operability: N/A
+                Power State: N/A
+                Thermal Status: N/A
+                Voltage Status: N/A
+
+                DIMMs:
+
+                DIMM Threshold Status Overall Status  Operability     Power State   Thermal Status  Voltage Status
+                ---- ---------------- --------------- --------------- ------------- --------------- --------------
+                   1 OK               Operable        Operable        N/A           OK              N/A
+                   2 N/A              Removed         N/A             N/A           N/A             N/A
+                   3 N/A              Operable        Operable        N/A           OK              N/A
+                   4 N/A              Removed         N/A             N/A           N/A             N/A
+                   5 N/A              Operable        Operable        N/A           OK              N/A
+                   6 N/A              Operable        Operable        N/A           OK              N/A
+                   7 N/A              Removed         N/A             N/A           N/A             N/A
+                   8 N/A              Removed         N/A             N/A           N/A             N/A
+                   9 N/A              Removed         N/A             N/A           N/A             N/A
+                  10 N/A              Removed         N/A             N/A           N/A             N/A
+                  11 N/A              Removed         N/A             N/A           N/A             N/A
+                  12 N/A              Removed         N/A             N/A           N/A             N/A
+
+            CPU 1:
+                Threshold Status: N/A
+                Overall Status: Operable
+                Operability: Operable
+                Power State: N/A
+                Thermal Status: OK
+                Voltage Status: N/A
+
+            CPU 2:
+                Threshold Status: N/A
+                Overall Status: Removed
+                Operability: N/A
+                Power State: N/A
+                Thermal Status: N/A
+                Voltage Status: N/A
+
+    Server 2:
+        Name:
+        User Label:
+        Overall Status: Ok
+        Operability: Operable
+        Oper Power: On
+
+        Adapter 1:
+            Threshold Status: N/A
+            Overall Status: Operable
+            Operability: Operable
+            Power State: On
+            Thermal Status: N/A
+            Voltage Status: N/A
+
+        Motherboard:
+            Threshold Status: OK
+            Overall Status: N/A
+            Operability: N/A
+            Oper Power: On
+            Power State: Ok
+            Thermal Status: OK
+            Voltage Status: OK
+            CMOS Battery Voltage Status: Lower Non Critical
+            Mother Board Power Usage Status: Ok
+
+            Motherboard Temperature Statistics:
+                Motherboard Front Temperature (C): 17.000000
+                Motherboard Rear Temperature (C): 22.000000
+
+            Memory Array 1:
+                Threshold Status: N/A
+                Overall Status: N/A
+                Operability: N/A
+                Power State: N/A
+                Thermal Status: N/A
+                Voltage Status: N/A
+
+                DIMMs:
+
+                DIMM Threshold Status Overall Status  Operability     Power State   Thermal Status  Voltage Status
+                ---- ---------------- --------------- --------------- ------------- --------------- --------------
+                   1 OK               Operable        Operable        N/A           OK              N/A
+                   2 N/A              Removed         N/A             N/A           N/A             N/A
+                   3 N/A              Operable        Operable        N/A           OK              N/A
+                   4 N/A              Removed         N/A             N/A           N/A             N/A
+                   5 N/A              Operable        Operable        N/A           OK              N/A
+                   6 N/A              Operable        Operable        N/A           OK              N/A
+                   7 N/A              Removed         N/A             N/A           N/A             N/A
+                   8 N/A              Removed         N/A             N/A           N/A             N/A
+                   9 N/A              Removed         N/A             N/A           N/A             N/A
+                  10 N/A              Removed         N/A             N/A           N/A             N/A
+                  11 N/A              Removed         N/A             N/A           N/A             N/A
+                  12 N/A              Removed         N/A             N/A           N/A             N/A
+
+            CPU 1:
+                Threshold Status: N/A
+                Overall Status: Operable
+                Operability: Operable
+                Power State: N/A
+                Thermal Status: OK
+                Voltage Status: N/A
+
+            CPU 2:
+                Threshold Status: N/A
+                Overall Status: Removed
+                Operability: N/A
+                Power State: N/A
+                Thermal Status: N/A
+                Voltage Status: N/A
+
+    Server 3:
+        Name:
+        User Label:
+        Overall Status: Unassociated
+        Operability: Operable
+        Oper Power: Off
+
+        Adapter 1:
+            Threshold Status: N/A
+            Overall Status: Operable
+            Operability: Operable
+            Power State: Off
+            Thermal Status: N/A
+            Voltage Status: N/A
+
+        Motherboard:
+            Threshold Status: OK
+            Overall Status: N/A
+            Operability: N/A
+            Oper Power: Off
+            Power State: Ok
+            Thermal Status: OK
+            Voltage Status: OK
+            CMOS Battery Voltage Status: Ok
+            Mother Board Power Usage Status: Ok
+
+            Motherboard Temperature Statistics:
+                Motherboard Front Temperature (C): 13.000000
+                Motherboard Rear Temperature (C): 6.000000
+
+            Memory Array 1:
+                Threshold Status: N/A
+                Overall Status: N/A
+                Operability: N/A
+                Power State: N/A
+                Thermal Status: N/A
+                Voltage Status: N/A
+
+                DIMMs:
+
+                DIMM Threshold Status Overall Status  Operability     Power State   Thermal Status  Voltage Status
+                ---- ---------------- --------------- --------------- ------------- --------------- --------------
+                   1 OK               Operable        Operable        N/A           OK              N/A
+                   2 N/A              Removed         N/A             N/A           N/A             N/A
+                   3 N/A              Operable        Operable        N/A           OK              N/A
+                   4 N/A              Removed         N/A             N/A           N/A             N/A
+                   5 N/A              Operable        Operable        N/A           OK              N/A
+                   6 N/A              Operable        Operable        N/A           OK              N/A
+                   7 N/A              Removed         N/A             N/A           N/A             N/A
+                   8 N/A              Removed         N/A             N/A           N/A             N/A
+                   9 N/A              Removed         N/A             N/A           N/A             N/A
+                  10 N/A              Removed         N/A             N/A           N/A             N/A
+                  11 N/A              Removed         N/A             N/A           N/A             N/A
+                  12 N/A              Removed         N/A             N/A           N/A             N/A
+
+            CPU 1:
+                Threshold Status: N/A
+                Overall Status: Operable
+                Operability: Operable
+                Power State: N/A
+                Thermal Status: OK
+                Voltage Status: N/A
+
+            CPU 2:
+                Threshold Status: N/A
+                Overall Status: Removed
+                Operability: N/A
+                Power State: N/A
+                Thermal Status: N/A
+                Voltage Status: N/A
+
+    Server 4:
+        Name:
+        User Label:
+        Overall Status: Ok
+        Operability: Operable
+        Oper Power: On
+
+        Adapter 1:
+            Threshold Status: N/A
+            Overall Status: Operable
+            Operability: Operable
+            Power State: On
+            Thermal Status: N/A
+            Voltage Status: N/A
+
+        Motherboard:
+            Threshold Status: OK
+            Overall Status: N/A
+            Operability: N/A
+            Oper Power: On
+            Power State: Ok
+            Thermal Status: OK
+            Voltage Status: OK
+            CMOS Battery Voltage Status: Lower Non Critical
+            Mother Board Power Usage Status: Ok
+
+            Motherboard Temperature Statistics:
+                Motherboard Front Temperature (C): 16.000000
+                Motherboard Rear Temperature (C): 21.000000
+
+            Memory Array 1:
+                Threshold Status: N/A
+                Overall Status: N/A
+                Operability: N/A
+                Power State: N/A
+                Thermal Status: N/A
+                Voltage Status: N/A
+
+                DIMMs:
+
+                DIMM Threshold Status Overall Status  Operability     Power State   Thermal Status  Voltage Status
+                ---- ---------------- --------------- --------------- ------------- --------------- --------------
+                   1 OK               Operable        Operable        N/A           OK              N/A
+                   2 N/A              Removed         N/A             N/A           N/A             N/A
+                   3 N/A              Operable        Operable        N/A           OK              N/A
+                   4 N/A              Removed         N/A             N/A           N/A             N/A
+                   5 N/A              Operable        Operable        N/A           OK              N/A
+                   6 N/A              Operable        Operable        N/A           OK              N/A
+                   7 N/A              Removed         N/A             N/A           N/A             N/A
+                   8 N/A              Removed         N/A             N/A           N/A             N/A
+                   9 N/A              Removed         N/A             N/A           N/A             N/A
+                  10 N/A              Removed         N/A             N/A           N/A             N/A
+                  11 N/A              Removed         N/A             N/A           N/A             N/A
+                  12 N/A              Removed         N/A             N/A           N/A             N/A
+
+            CPU 1:
+                Threshold Status: N/A
+                Overall Status: Operable
+                Operability: Operable
+                Power State: N/A
+                Thermal Status: OK
+                Voltage Status: N/A
+
+            CPU 2:
+                Threshold Status: N/A
+                Overall Status: Removed
+                Operability: N/A
+                Power State: N/A
+                Thermal Status: N/A
+                Voltage Status: N/A
+
+    Server 5:
+        Name:
+        User Label:
+        Overall Status: Power Off
+        Operability: Operable
+        Oper Power: Off
+
+        Adapter 1:
+            Threshold Status: N/A
+            Overall Status: Operable
+            Operability: Operable
+            Power State: Off
+            Thermal Status: N/A
+            Voltage Status: N/A
+
+        Motherboard:
+            Threshold Status: OK
+            Overall Status: N/A
+            Operability: N/A
+            Oper Power: Off
+            Power State: Ok
+            Thermal Status: OK
+            Voltage Status: OK
+            CMOS Battery Voltage Status: Ok
+            Mother Board Power Usage Status: Ok
+
+            Motherboard Temperature Statistics:
+                Motherboard Front Temperature (C): 12.000000
+                Motherboard Rear Temperature (C): 6.000000
+
+            Memory Array 1:
+                Threshold Status: N/A
+                Overall Status: N/A
+                Operability: N/A
+                Power State: N/A
+                Thermal Status: N/A
+                Voltage Status: N/A
+
+                DIMMs:
+
+                DIMM Threshold Status Overall Status  Operability     Power State   Thermal Status  Voltage Status
+                ---- ---------------- --------------- --------------- ------------- --------------- --------------
+                   1 OK               Operable        Operable        N/A           OK              N/A
+                   2 N/A              Removed         N/A             N/A           N/A             N/A
+                   3 N/A              Operable        Operable        N/A           OK              N/A
+                   4 N/A              Removed         N/A             N/A           N/A             N/A
+                   5 N/A              Operable        Operable        N/A           OK              N/A
+                   6 N/A              Removed         N/A             N/A           N/A             N/A
+                   7 N/A              Removed         N/A             N/A           N/A             N/A
+                   8 N/A              Removed         N/A             N/A           N/A             N/A
+                   9 N/A              Removed         N/A             N/A           N/A             N/A
+                  10 N/A              Removed         N/A             N/A           N/A             N/A
+                  11 N/A              Removed         N/A             N/A           N/A             N/A
+                  12 N/A              Removed         N/A             N/A           N/A             N/A
+
+            CPU 1:
+                Threshold Status: N/A
+                Overall Status: Operable
+                Operability: Operable
+                Power State: N/A
+                Thermal Status: OK
+                Voltage Status: N/A
+
+            CPU 2:
+                Threshold Status: N/A
+                Overall Status: Removed
+                Operability: N/A
+                Power State: N/A
+                Thermal Status: N/A
+                Voltage Status: N/A
+
+    Server 6:
+        Name:
+        User Label:
+        Overall Status: Unassociated
+        Operability: Operable
+        Oper Power: Off
+
+        Adapter 1:
+            Threshold Status: N/A
+            Overall Status: Operable
+            Operability: Operable
+            Power State: Off
+            Thermal Status: N/A
+            Voltage Status: N/A
+
+        Motherboard:
+            Threshold Status: OK
+            Overall Status: N/A
+            Operability: N/A
+            Oper Power: Off
+            Power State: Ok
+            Thermal Status: OK
+            Voltage Status: OK
+            CMOS Battery Voltage Status: Ok
+            Mother Board Power Usage Status: Ok
+
+            Motherboard Temperature Statistics:
+                Motherboard Front Temperature (C): 15.000000
+                Motherboard Rear Temperature (C): 8.000000
+
+            Memory Array 1:
+                Threshold Status: N/A
+                Overall Status: N/A
+                Operability: N/A
+                Power State: N/A
+                Thermal Status: N/A
+                Voltage Status: N/A
+
+                DIMMs:
+
+                DIMM Threshold Status Overall Status  Operability     Power State   Thermal Status  Voltage Status
+                ---- ---------------- --------------- --------------- ------------- --------------- --------------
+                   1 OK               Operable        Operable        N/A           OK              N/A
+                   2 N/A              Operable        Operable        N/A           OK              N/A
+                   3 N/A              Operable        Operable        N/A           OK              N/A
+                   4 N/A              Removed         N/A             N/A           N/A             N/A
+                   5 N/A              Operable        Operable        N/A           OK              N/A
+                   6 N/A              Removed         N/A             N/A           N/A             N/A
+                   7 N/A              Removed         N/A             N/A           N/A             N/A
+                   8 N/A              Removed         N/A             N/A           N/A             N/A
+                   9 N/A              Removed         N/A             N/A           N/A             N/A
+                  10 N/A              Removed         N/A             N/A           N/A             N/A
+                  11 N/A              Removed         N/A             N/A           N/A             N/A
+                  12 N/A              Removed         N/A             N/A           N/A             N/A
+
+            CPU 1:
+                Threshold Status: N/A
+                Overall Status: Operable
+                Operability: Operable
+                Power State: N/A
+                Thermal Status: OK
+                Voltage Status: N/A
+
+            CPU 2:
+                Threshold Status: N/A
+                Overall Status: Removed
+                Operability: N/A
+                Power State: N/A
+                Thermal Status: N/A
+                Voltage Status: N/A
+
+    Server 7:
+        Name:
+        User Label:
+        Overall Status: Unassociated
+        Operability: Operable
+        Oper Power: Off
+
+        Adapter 1:
+            Threshold Status: N/A
+            Overall Status: Operable
+            Operability: Operable
+            Power State: Off
+            Thermal Status: N/A
+            Voltage Status: N/A
+
+        Motherboard:
+            Threshold Status: OK
+            Overall Status: N/A
+            Operability: N/A
+            Oper Power: Off
+            Power State: Ok
+            Thermal Status: OK
+            Voltage Status: OK
+            CMOS Battery Voltage Status: Ok
+            Mother Board Power Usage Status: Ok
+
+            Motherboard Temperature Statistics:
+                Motherboard Front Temperature (C): 11.000000
+                Motherboard Rear Temperature (C): 5.000000
+
+            Memory Array 1:
+                Threshold Status: N/A
+                Overall Status: N/A
+                Operability: N/A
+                Power State: N/A
+                Thermal Status: N/A
+                Voltage Status: N/A
+
+                DIMMs:
+
+                DIMM Threshold Status Overall Status  Operability     Power State   Thermal Status  Voltage Status
+                ---- ---------------- --------------- --------------- ------------- --------------- --------------
+                   1 OK               Operable        Operable        N/A           OK              N/A
+                   2 N/A              Removed         N/A             N/A           N/A             N/A
+                   3 N/A              Operable        Operable        N/A           OK              N/A
+                   4 N/A              Removed         N/A             N/A           N/A             N/A
+                   5 N/A              Operable        Operable        N/A           OK              N/A
+                   6 N/A              Operable        Operable        N/A           OK              N/A
+                   7 N/A              Removed         N/A             N/A           N/A             N/A
+                   8 N/A              Removed         N/A             N/A           N/A             N/A
+                   9 N/A              Removed         N/A             N/A           N/A             N/A
+                  10 N/A              Removed         N/A             N/A           N/A             N/A
+                  11 N/A              Removed         N/A             N/A           N/A             N/A
+                  12 N/A              Removed         N/A             N/A           N/A             N/A
+
+            CPU 1:
+                Threshold Status: N/A
+                Overall Status: Operable
+                Operability: Operable
+                Power State: N/A
+                Thermal Status: OK
+                Voltage Status: N/A
+
+            CPU 2:
+                Threshold Status: N/A
+                Overall Status: Removed
+                Operability: N/A
+                Power State: N/A
+                Thermal Status: N/A
+                Voltage Status: N/A
+
+    Server 8:
+        Name:
+        User Label:
+        Overall Status: Unassociated
+        Operability: Operable
+        Oper Power: Off
+
+        Adapter 1:
+            Threshold Status: N/A
+            Overall Status: Operable
+            Operability: Operable
+            Power State: Off
+            Thermal Status: N/A
+            Voltage Status: N/A
+
+        Motherboard:
+            Threshold Status: OK
+            Overall Status: N/A
+            Operability: N/A
+            Oper Power: Off
+            Power State: Ok
+            Thermal Status: OK
+            Voltage Status: OK
+            CMOS Battery Voltage Status: Ok
+            Mother Board Power Usage Status: Ok
+
+            Motherboard Temperature Statistics:
+                Motherboard Front Temperature (C): 14.000000
+                Motherboard Rear Temperature (C): 8.000000
+
+            Memory Array 1:
+                Threshold Status: N/A
+                Overall Status: N/A
+                Operability: N/A
+                Power State: N/A
+                Thermal Status: N/A
+                Voltage Status: N/A
+
+                DIMMs:
+
+                DIMM Threshold Status Overall Status  Operability     Power State   Thermal Status  Voltage Status
+                ---- ---------------- --------------- --------------- ------------- --------------- --------------
+                   1 OK               Operable        Operable        N/A           OK              N/A
+                   2 N/A              Removed         N/A             N/A           N/A             N/A
+                   3 N/A              Operable        Operable        N/A           OK              N/A
+                   4 N/A              Removed         N/A             N/A           N/A             N/A
+                   5 N/A              Operable        Operable        N/A           OK              N/A
+                   6 N/A              Operable        Operable        N/A           OK              N/A
+                   7 N/A              Removed         N/A             N/A           N/A             N/A
+                   8 N/A              Removed         N/A             N/A           N/A             N/A
+                   9 N/A              Removed         N/A             N/A           N/A             N/A
+                  10 N/A              Removed         N/A             N/A           N/A             N/A
+                  11 N/A              Removed         N/A             N/A           N/A             N/A
+                  12 N/A              Removed         N/A             N/A           N/A             N/A
+
+            CPU 1:
+                Threshold Status: N/A
+                Overall Status: Operable
+                Operability: Operable
+                Power State: N/A
+                Thermal Status: OK
+                Voltage Status: N/A
+
+            CPU 2:
+                Threshold Status: N/A
+                Overall Status: Removed
+                Operability: N/A
+                Power State: N/A
+                Thermal Status: N/A
+                Voltage Status: N/A

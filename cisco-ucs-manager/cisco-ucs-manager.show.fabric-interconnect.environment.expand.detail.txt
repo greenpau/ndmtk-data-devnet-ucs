@@ -1,0 +1,181 @@
+Fabric Interconnect A:
+    Operability: Operable
+
+    Fabric Card 1:
+        Threshold Status: N/A
+        Overall Status: Operable
+        Operability: Operable
+        Power State: OnLine
+        Thermal Status: N/A
+        Voltage Status: N/A
+
+    PSU 1:
+        Threshold Status: N/A
+        Overall Status: Power Problem
+        Operability: Inoperable
+        Power State: Error
+        Thermal Status: N/A
+        Voltage Status: N/A
+
+    PSU 2:
+        Threshold Status: N/A
+        Overall Status: Operable
+        Operability: Operable
+        Power State: On
+        Thermal Status: N/A
+        Voltage Status: N/A
+
+    Fan 1:
+        Threshold Status: N/A
+        Overall Status: Operable
+        Operability: Operable
+        Power State: On
+        Thermal Status: OK
+        Voltage Status: N/A
+
+    Fan 2:
+        Threshold Status: N/A
+        Overall Status: Operable
+        Operability: Operable
+        Power State: On
+        Thermal Status: OK
+        Voltage Status: N/A
+
+    Fan 3:
+        Threshold Status: N/A
+        Overall Status: Operable
+        Operability: Operable
+        Power State: On
+        Thermal Status: OK
+        Voltage Status: N/A
+
+    Fan 4:
+        Threshold Status: N/A
+        Overall Status: Operable
+        Operability: Operable
+        Power State: On
+        Thermal Status: OK
+        Voltage Status: N/A
+
+    Fan 1:
+        Threshold Status: N/A
+        Overall Status: Operable
+        Operability: Operable
+        Power State: On
+        Thermal Status: OK
+        Voltage Status: N/A
+
+    Fan 2:
+        Threshold Status: N/A
+        Overall Status: Operable
+        Operability: Operable
+        Power State: On
+        Thermal Status: OK
+        Voltage Status: N/A
+
+    Fan 3:
+        Threshold Status: N/A
+        Overall Status: Operable
+        Operability: Operable
+        Power State: On
+        Thermal Status: OK
+        Voltage Status: N/A
+
+    Fan 4:
+        Threshold Status: N/A
+        Overall Status: Operable
+        Operability: Operable
+        Power State: On
+        Thermal Status: OK
+        Voltage Status: N/A
+
+Fabric Interconnect B:
+    Operability: Operable
+
+    Fabric Card 1:
+        Threshold Status: N/A
+        Overall Status: Operable
+        Operability: Operable
+        Power State: OnLine
+        Thermal Status: N/A
+        Voltage Status: N/A
+
+    PSU 1:
+        Threshold Status: N/A
+        Overall Status: Power Problem
+        Operability: Inoperable
+        Power State: Error
+        Thermal Status: N/A
+        Voltage Status: N/A
+
+    PSU 2:
+        Threshold Status: N/A
+        Overall Status: Operable
+        Operability: Operable
+        Power State: On
+        Thermal Status: N/A
+        Voltage Status: N/A
+
+    Fan 1:
+        Threshold Status: N/A
+        Overall Status: Operable
+        Operability: Operable
+        Power State: On
+        Thermal Status: OK
+        Voltage Status: N/A
+
+    Fan 2:
+        Threshold Status: N/A
+        Overall Status: Operable
+        Operability: Operable
+        Power State: On
+        Thermal Status: OK
+        Voltage Status: N/A
+
+    Fan 3:
+        Threshold Status: N/A
+        Overall Status: Operable
+        Operability: Operable
+        Power State: On
+        Thermal Status: OK
+        Voltage Status: N/A
+
+    Fan 4:
+        Threshold Status: N/A
+        Overall Status: Operable
+        Operability: Operable
+        Power State: On
+        Thermal Status: OK
+        Voltage Status: N/A
+
+    Fan 1:
+        Threshold Status: N/A
+        Overall Status: Operable
+        Operability: Operable
+        Power State: On
+        Thermal Status: OK
+        Voltage Status: N/A
+
+    Fan 2:
+        Threshold Status: N/A
+        Overall Status: Operable
+        Operability: Operable
+        Power State: On
+        Thermal Status: OK
+        Voltage Status: N/A
+
+    Fan 3:
+        Threshold Status: N/A
+        Overall Status: Operable
+        Operability: Operable
+        Power State: On
+        Thermal Status: OK
+        Voltage Status: N/A
+
+    Fan 4:
+        Threshold Status: N/A
+        Overall Status: Operable
+        Operability: Operable
+        Power State: On
+        Thermal Status: OK
+        Voltage Status: N/A

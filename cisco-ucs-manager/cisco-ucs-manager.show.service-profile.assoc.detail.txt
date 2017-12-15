@@ -1,0 +1,89 @@
+Service Profile Name: Team1-ESXi1
+Association: Unassociated
+Server:
+Selected Server:
+Server Pool:
+
+Service Profile Name: Team1-ESXi2
+Association: Unassociated
+Server:
+Selected Server:
+Server Pool:
+
+Service Profile Name: Team1SPTemplate
+Association: Unassociated
+Server:
+Selected Server:
+Server Pool:
+
+Service Profile Name: Team2-ESXi1
+Association: Unassociated
+Server:
+Selected Server:
+Server Pool:
+
+Service Profile Name: Team2-ESXi2
+Association: Unassociated
+Server:
+Selected Server:
+Server Pool:
+
+Service Profile Name: Team2SPTemplate
+Association: Unassociated
+Server:
+Selected Server:
+Server Pool:
+
+Service Profile Name: Team3-ESXi1
+Association: Unassociated
+Server:
+Selected Server:
+Server Pool:
+
+Service Profile Name: Team3-ESXi2
+Association: Unassociated
+Server:
+Selected Server:
+Server Pool:
+
+Service Profile Name: Team3MobileProfile
+Association: Associated
+Server: 1/5
+Selected Server: sys/chassis-1/blade-5
+Server Pool:
+
+Service Profile Name: Team3SPTemplate
+Association: Unassociated
+Server:
+Selected Server:
+Server Pool:
+
+Service Profile Name: Team4MobileProfile
+Association: Associated
+Server: 1/4
+Selected Server: sys/chassis-1/blade-4
+Server Pool:
+
+Service Profile Name: Team5MobileProfile
+Association: Associated
+Server: 1/2
+Selected Server: sys/chassis-1/blade-2
+Server Pool:
+
+Service Profile Name: Team6-ESXi1
+Association: Unassociated
+Server:
+Selected Server:
+Server Pool:
+
+Service Profile Name: Team6-ESXi2
+Association: Unassociated
+Server:
+Selected Server:
+Server Pool:
+
+Service Profile Name: Team6SPTemplate
+Association: Unassociated
+Server:
+Selected Server:
+Server Pool:

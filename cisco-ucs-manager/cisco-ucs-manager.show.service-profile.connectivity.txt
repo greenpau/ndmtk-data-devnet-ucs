@@ -1,0 +1,365 @@
+Service Profile: Team1-ESXi1
+vNIC: eth0
+vNIC: eth1
+vHBA: fc0
+
+Service Profile: Team1-ESXi2
+vNIC: eth0
+vNIC: eth1
+vHBA: fc0
+
+Service Profile: Team1SPTemplate
+vNIC: eth0
+vNIC: eth1
+vHBA: fc0
+
+Service Profile: Team2-ESXi1
+vNIC: eth0
+vNIC: eth1
+vHBA: fc0
+
+Service Profile: Team2-ESXi2
+vNIC: eth0
+vNIC: eth1
+vHBA: fc0
+
+Service Profile: Team2SPTemplate
+vNIC: eth0
+vNIC: eth1
+vHBA: fc0
+
+Service Profile: Team3-ESXi1
+vNIC: eth0
+vNIC: eth1
+vHBA: fc0
+
+Service Profile: Team3-ESXi2
+vNIC: eth0
+vNIC: eth1
+vHBA: fc0
+
+Service Profile: Team3MobileProfile
+vNIC: dynamic-prot-001
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1135 Ether     A         Allocated   Primary     1136        Admin Down
+              1136 Ether     B         Allocated   Backup      1135        Admin Down
+vNIC: dynamic-prot-002
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1137 Ether     B         Allocated   Primary     1138        Admin Down
+              1138 Ether     A         Allocated   Backup      1137        Admin Down
+vNIC: dynamic-prot-003
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1139 Ether     A         Allocated   Primary     1140        Admin Down
+              1140 Ether     B         Allocated   Backup      1139        Admin Down
+vNIC: dynamic-prot-004
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1141 Ether     B         Allocated   Primary     1142        Admin Down
+              1142 Ether     A         Allocated   Backup      1141        Admin Down
+vNIC: dynamic-prot-005
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1143 Ether     A         Allocated   Primary     1144        Admin Down
+              1144 Ether     B         Allocated   Backup      1143        Admin Down
+vNIC: dynamic-prot-006
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1145 Ether     B         Allocated   Primary     1146        Admin Down
+              1146 Ether     A         Allocated   Backup      1145        Admin Down
+vNIC: dynamic-prot-007
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1147 Ether     A         Allocated   Primary     1148        Admin Down
+              1148 Ether     B         Allocated   Backup      1147        Admin Down
+vNIC: dynamic-prot-008
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1149 Ether     B         Allocated   Primary     1150        Admin Down
+              1150 Ether     A         Allocated   Backup      1149        Admin Down
+vNIC: dynamic-prot-009
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1151 Ether     A         Allocated   Primary     1152        Admin Down
+              1152 Ether     B         Allocated   Backup      1151        Admin Down
+vNIC: dynamic-prot-010
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1153 Ether     B         Allocated   Primary     1154        Admin Down
+              1154 Ether     A         Allocated   Backup      1153        Admin Down
+vNIC: dynamic-prot-011
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1155 Ether     A         Allocated   Primary     1156        Admin Down
+              1156 Ether     B         Allocated   Backup      1155        Admin Down
+vNIC: dynamic-prot-012
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1157 Ether     B         Allocated   Primary     1158        Admin Down
+              1158 Ether     A         Allocated   Backup      1157        Admin Down
+vNIC: dynamic-prot-013
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1159 Ether     A         Allocated   Primary     1160        Admin Down
+              1160 Ether     B         Allocated   Backup      1159        Admin Down
+vNIC: dynamic-prot-014
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1161 Ether     B         Allocated   Primary     1162        Admin Down
+              1162 Ether     A         Allocated   Backup      1161        Admin Down
+vNIC: dynamic-prot-015
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1163 Ether     A         Allocated   Primary     1164        Admin Down
+              1164 Ether     B         Allocated   Backup      1163        Admin Down
+vNIC: dynamic-prot-016
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1165 Ether     B         Allocated   Primary     1166        Admin Down
+              1166 Ether     A         Allocated   Backup      1165        Admin Down
+vNIC: dynamic-prot-017
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1167 Ether     A         Allocated   Primary     1168        Admin Down
+              1168 Ether     B         Allocated   Backup      1167        Admin Down
+vNIC: dynamic-prot-018
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1169 Ether     B         Allocated   Primary     1170        Admin Down
+              1170 Ether     A         Allocated   Backup      1169        Admin Down
+vNIC: dynamic-prot-019
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1171 Ether     A         Allocated   Primary     1172        Admin Down
+              1172 Ether     B         Allocated   Backup      1171        Admin Down
+vNIC: dynamic-prot-020
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1173 Ether     B         Allocated   Primary     1174        Admin Down
+              1174 Ether     A         Allocated   Backup      1173        Admin Down
+vNIC: dynamic-prot-021
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1175 Ether     A         Allocated   Primary     1176        Admin Down
+              1176 Ether     B         Allocated   Backup      1175        Admin Down
+vNIC: dynamic-prot-022
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1177 Ether     B         Allocated   Primary     1178        Admin Down
+              1178 Ether     A         Allocated   Backup      1177        Admin Down
+vNIC: dynamic-prot-023
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1179 Ether     A         Allocated   Primary     1180        Admin Down
+              1180 Ether     B         Allocated   Backup      1179        Admin Down
+vNIC: dynamic-prot-024
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1181 Ether     B         Allocated   Primary     1182        Admin Down
+              1182 Ether     A         Allocated   Backup      1181        Admin Down
+vNIC: dynamic-prot-025
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1183 Ether     A         Allocated   Primary     1184        Admin Down
+              1184 Ether     B         Allocated   Backup      1183        Admin Down
+vNIC: dynamic-prot-026
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1185 Ether     B         Allocated   Primary     1186        Admin Down
+              1186 Ether     A         Allocated   Backup      1185        Admin Down
+vNIC: dynamic-prot-027
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1187 Ether     A         Allocated   Primary     1188        Admin Down
+              1188 Ether     B         Allocated   Backup      1187        Admin Down
+vNIC: dynamic-prot-028
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1189 Ether     B         Allocated   Primary     1190        Admin Down
+              1190 Ether     A         Allocated   Backup      1189        Admin Down
+vNIC: dynamic-prot-029
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1191 Ether     A         Allocated   Primary     1192        Admin Down
+              1192 Ether     B         Allocated   Backup      1191        Admin Down
+vNIC: dynamic-prot-030
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1193 Ether     B         Allocated   Primary     1194        Admin Down
+              1194 Ether     A         Allocated   Backup      1193        Admin Down
+vNIC: dynamic-prot-031
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1195 Ether     A         Allocated   Primary     1196        Admin Down
+              1196 Ether     B         Allocated   Backup      1195        Admin Down
+vNIC: dynamic-prot-032
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1197 Ether     B         Allocated   Primary     1198        Admin Down
+              1198 Ether     A         Allocated   Backup      1197        Admin Down
+vNIC: dynamic-prot-033
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1199 Ether     A         Allocated   Primary     1200        Admin Down
+              1200 Ether     B         Allocated   Backup      1199        Admin Down
+vNIC: dynamic-prot-034
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1201 Ether     B         Allocated   Primary     1202        Admin Down
+              1202 Ether     A         Allocated   Backup      1201        Admin Down
+vNIC: dynamic-prot-035
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1203 Ether     A         Allocated   Primary     1204        Admin Down
+              1204 Ether     B         Allocated   Backup      1203        Admin Down
+vNIC: dynamic-prot-036
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1205 Ether     B         Allocated   Primary     1206        Admin Down
+              1206 Ether     A         Allocated   Backup      1205        Admin Down
+vNIC: dynamic-prot-037
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1207 Ether     A         Allocated   Primary     1208        Admin Down
+              1208 Ether     B         Allocated   Backup      1207        Admin Down
+vNIC: dynamic-prot-038
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1209 Ether     B         Allocated   Primary     1210        Admin Down
+              1210 Ether     A         Allocated   Backup      1209        Admin Down
+vNIC: dynamic-prot-039
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1211 Ether     A         Allocated   Primary     1212        Admin Down
+              1212 Ether     B         Allocated   Backup      1211        Admin Down
+vNIC: dynamic-prot-040
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1213 Ether     B         Allocated   Primary     1214        Admin Down
+              1214 Ether     A         Allocated   Backup      1213        Admin Down
+vNIC: dynamic-prot-041
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1215 Ether     A         Allocated   Primary     1216        Admin Down
+              1216 Ether     B         Allocated   Backup      1215        Admin Down
+vNIC: dynamic-prot-042
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1217 Ether     B         Allocated   Primary     1218        Admin Down
+              1218 Ether     A         Allocated   Backup      1217        Admin Down
+vNIC: dynamic-prot-043
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1219 Ether     A         Allocated   Primary     1220        Admin Down
+              1220 Ether     B         Allocated   Backup      1219        Admin Down
+vNIC: dynamic-prot-044
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1221 Ether     B         Allocated   Primary     1222        Admin Down
+              1222 Ether     A         Allocated   Backup      1221        Admin Down
+vNIC: dynamic-prot-045
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1223 Ether     A         Allocated   Primary     1224        Admin Down
+              1224 Ether     B         Allocated   Backup      1223        Admin Down
+vNIC: dynamic-prot-046
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1225 Ether     B         Allocated   Primary     1226        Admin Down
+              1226 Ether     A         Allocated   Backup      1225        Admin Down
+vNIC: dynamic-prot-047
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1227 Ether     A         Allocated   Primary     1228        Admin Down
+              1228 Ether     B         Allocated   Backup      1227        Admin Down
+vNIC: dynamic-prot-048
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1229 Ether     B         Allocated   Primary     1230        Admin Down
+              1230 Ether     A         Allocated   Backup      1229        Admin Down
+vNIC: dynamic-prot-049
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1231 Ether     A         Allocated   Primary     1232        Admin Down
+              1232 Ether     B         Allocated   Backup      1231        Admin Down
+vNIC: dynamic-prot-050
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1233 Ether     B         Allocated   Primary     1234        Admin Down
+              1234 Ether     A         Allocated   Backup      1233        Admin Down
+vNIC: dynamic-prot-051
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1235 Ether     A         Allocated   Primary     1236        Admin Down
+              1236 Ether     B         Allocated   Backup      1235        Admin Down
+vNIC: dynamic-prot-052
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1237 Ether     B         Allocated   Primary     1238        Admin Down
+              1238 Ether     A         Allocated   Backup      1237        Admin Down
+vNIC: dynamic-prot-053
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1239 Ether     A         Allocated   Primary     1240        Admin Down
+              1240 Ether     B         Allocated   Backup      1239        Admin Down
+vNIC: dynamic-prot-054
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1241 Ether     B         Allocated   Primary     1242        Admin Down
+              1242 Ether     A         Allocated   Backup      1241        Admin Down
+vNIC: eth0
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1132 Ether     A         Allocated   Primary     1133        Admin Down
+              1133 Ether     B         Allocated   Backup      1132        Admin Down
+vHBA: fc0
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1134 Fc        A         Allocated   Unprotected 0           Admin Down
+              9326 Ether     A         Allocated   Unprotected 0           Admin Down
+
+Service Profile: Team3SPTemplate
+vNIC: eth0
+vNIC: eth1
+vHBA: fc0
+
+Service Profile: Team4MobileProfile
+vNIC: eth0
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1126 Ether     A         Allocated   Primary     1127        Active
+              1127 Ether     B         Allocated   Backup      1126        Passive
+vHBA: fc0
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1128 Fc        A         Allocated   Unprotected 0           Active
+              9320 Ether     A         Allocated   Unprotected 0           Unknown
+
+Service Profile: Team5MobileProfile
+vNIC: eth0
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1129 Ether     A         Allocated   Primary     1130        Active
+              1130 Ether     B         Allocated   Backup      1129        Passive
+vHBA: fc0
+        VIF ID     Transport Fabric ID Status      Prot Role   Peer VIF ID Oper State
+        ---------- --------- --------- ----------- ----------- ----------- ----------
+              1131 Fc        A         Allocated   Unprotected 0           Active
+              9323 Ether     A         Allocated   Unprotected 0           Unknown
+
+Service Profile: Team6-ESXi1
+vNIC: eth0
+vNIC: eth1
+vHBA: fc0
+
+Service Profile: Team6-ESXi2
+vNIC: eth0
+vNIC: eth1
+vHBA: fc0
+
+Service Profile: Team6SPTemplate
+vNIC: eth0
+vNIC: eth1
+vHBA: fc0

@@ -1,0 +1,179 @@
+Chassis: 1
+Id: A
+Name:
+C Type: Mux To Host
+Transport: Ether
+Side: Left
+Slot Id: 2
+Locale: Server
+Type: Lan
+
+Chassis: 1
+Id: B
+Name:
+C Type: Mux To Host
+Transport: Ether
+Side: Right
+Slot Id: 2
+Locale: Server
+Type: Lan
+
+Chassis: 1
+Id: A
+Name:
+C Type: Mux To Host
+Transport: Ether
+Side: Left
+Slot Id: 4
+Locale: Server
+Type: Lan
+
+Chassis: 1
+Id: B
+Name:
+C Type: Mux To Host
+Transport: Ether
+Side: Right
+Slot Id: 4
+Locale: Server
+Type: Lan
+
+Chassis: 1
+Id: A
+Name:
+C Type: Mux To Host
+Transport: Ether
+Side: Left
+Slot Id: 5
+Locale: Server
+Type: Lan
+
+Chassis: 1
+Id: B
+Name:
+C Type: Mux To Host
+Transport: Ether
+Side: Right
+Slot Id: 5
+Locale: Server
+Type: Lan
+
+Chassis: 1
+Id: A
+Name:
+C Type: Mux To Host
+Transport: Ether
+Side: Left
+Slot Id: 1
+Locale: Server
+Type: Lan
+
+Chassis: 1
+Id: B
+Name:
+C Type: Mux To Host
+Transport: Ether
+Side: Right
+Slot Id: 1
+Locale: Server
+Type: Lan
+
+Chassis: 1
+Id: A
+Name:
+C Type: Mux To Host
+Transport: Ether
+Side: Left
+Slot Id: 3
+Locale: Server
+Type: Lan
+
+Chassis: 1
+Id: B
+Name:
+C Type: Mux To Host
+Transport: Ether
+Side: Right
+Slot Id: 3
+Locale: Server
+Type: Lan
+
+Chassis: 1
+Id: A
+Name:
+C Type: Mux To Host
+Transport: Ether
+Side: Left
+Slot Id: 6
+Locale: Server
+Type: Lan
+
+Chassis: 1
+Id: B
+Name:
+C Type: Mux To Host
+Transport: Ether
+Side: Right
+Slot Id: 6
+Locale: Server
+Type: Lan
+
+Chassis: 1
+Id: A
+Name:
+C Type: Mux To Host
+Transport: Ether
+Side: Left
+Slot Id: 7
+Locale: Server
+Type: Lan
+
+Chassis: 1
+Id: B
+Name:
+C Type: Mux To Host
+Transport: Ether
+Side: Right
+Slot Id: 7
+Locale: Server
+Type: Lan
+
+Chassis: 1
+Id: A
+Name:
+C Type: Mux To Host
+Transport: Ether
+Side: Left
+Slot Id: 8
+Locale: Server
+Type: Lan
+
+Chassis: 1
+Id: B
+Name:
+C Type: Mux To Host
+Transport: Ether
+Side: Right
+Slot Id: 8
+Locale: Server
+Type: Lan
+
+Chassis: 1
+Id: A
+Name:
+C Type: Mux Fabricpc
+Transport: Ether
+Side: Left
+Slot Id: 1
+Locale: Chassis
+Type: Lan
+
+Chassis: 1
+Id: B
+Name:
+C Type: Mux Fabricpc
+Transport: Ether
+Side: Right
+Slot Id: 2
+Locale: Chassis
+Type: Lan

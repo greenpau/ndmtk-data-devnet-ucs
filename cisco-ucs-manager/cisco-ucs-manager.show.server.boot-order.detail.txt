@@ -1,0 +1,123 @@
+Boot Definition:
+    Full Name: sys/chassis-1/blade-1/boot-policy
+    Reboot on Update: No
+    Description:
+    Enforce Vnic Name: Yes
+
+    Boot LAN:
+        Order: 1
+
+        LAN Image Path:
+            Type: Primary
+            VNIC: default
+
+    Full Name: sys/chassis-1/blade-2/boot-policy
+    Reboot on Update: No
+    Description:
+    Enforce Vnic Name: Yes
+
+    Boot Storage:
+        Order: 2
+
+        SAN Image:
+            Type: Primary
+            VHBA: fc0
+
+            SAN Image Path:
+                Type: Primary
+                LUN: 0
+                WWN: 50:0A:09:81:91:12:E4:98
+
+    Boot virtual media:
+        Order: 1
+        Access: Read Only
+
+    Full Name: sys/chassis-1/blade-3/boot-policy
+    Reboot on Update: No
+    Description:
+    Enforce Vnic Name: Yes
+
+    Boot LAN:
+        Order: 1
+
+        LAN Image Path:
+            Type: Primary
+            VNIC: default
+
+    Full Name: sys/chassis-1/blade-4/boot-policy
+    Reboot on Update: No
+    Description:
+    Enforce Vnic Name: Yes
+
+    Boot Storage:
+        Order: 2
+
+        SAN Image:
+            Type: Primary
+            VHBA: fc0
+
+            SAN Image Path:
+                Type: Primary
+                LUN: 0
+                WWN: 50:0A:09:81:91:12:E4:98
+
+    Boot virtual media:
+        Order: 1
+        Access: Read Only
+
+    Full Name: sys/chassis-1/blade-5/boot-policy
+    Reboot on Update: No
+    Description:
+    Enforce Vnic Name: Yes
+
+    Boot Storage:
+        Order: 2
+
+        SAN Image:
+            Type: Primary
+            VHBA: fc0
+
+            SAN Image Path:
+                Type: Primary
+                LUN: 0
+                WWN: 50:0A:09:81:91:12:E4:98
+
+    Boot virtual media:
+        Order: 1
+        Access: Read Only
+
+    Full Name: sys/chassis-1/blade-6/boot-policy
+    Reboot on Update: No
+    Description:
+    Enforce Vnic Name: Yes
+
+    Boot LAN:
+        Order: 1
+
+        LAN Image Path:
+            Type: Primary
+            VNIC: default
+
+    Full Name: sys/chassis-1/blade-7/boot-policy
+    Reboot on Update: No
+    Description:
+    Enforce Vnic Name: Yes
+
+    Boot LAN:
+        Order: 1
+
+        LAN Image Path:
+            Type: Primary
+            VNIC: default
+
+    Full Name: sys/chassis-1/blade-8/boot-policy
+    Reboot on Update: No
+    Description:
+    Enforce Vnic Name: Yes
+
+    Boot LAN:
+        Order: 1
+
+        LAN Image Path:
+            Type: Primary
+            VNIC: default

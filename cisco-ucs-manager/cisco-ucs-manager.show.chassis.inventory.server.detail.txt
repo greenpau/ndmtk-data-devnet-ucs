@@ -1,0 +1,169 @@
+Chassis 1:
+    Servers:
+        Server 1/1:
+            Equipped Product Name: Cisco UCS B200 M2
+            Equipped PID: N20-B6625-1
+            Equipped VID: V01
+            Equipped Vendor: Cisco Systems Inc
+            Equipped Serial (SN): QCI1424A3SJ
+            Equipped Revision: 0
+            Slot Status: Equipped
+            Acknowledged Product Name: Cisco UCS B200 M2
+            Acknowledged PID: N20-B6625-1
+            Acknowledged VID: V01
+            Acknowledged Vendor: Cisco Systems Inc
+            Acknowledged Serial (SN): QCI1424A3SJ
+            Acknowledged Revision: 0
+            Acknowledged Memory (MB): 16384
+            Acknowledged Effective Memory (MB): 16384
+            Acknowledged Cores: 4
+            Acknowledged Adapters: 1
+            Acknowledged Burned-In UUID: 53478d37-7eb6-11df-a7ba-18a905163202
+            Acknowledged Dynamic UUID: 53478d37-7eb6-11df-a7ba-18a905163202
+
+        Server 1/2:
+            Equipped Product Name: Cisco UCS B200 M2
+            Equipped PID: N20-B6625-1
+            Equipped VID: V01
+            Equipped Vendor: Cisco Systems Inc
+            Equipped Serial (SN): QCI1438A0OW
+            Equipped Revision: 0
+            Slot Status: Equipped
+            Acknowledged Product Name: Cisco UCS B200 M2
+            Acknowledged PID: N20-B6625-1
+            Acknowledged VID: V01
+            Acknowledged Vendor: Cisco Systems Inc
+            Acknowledged Serial (SN): QCI1438A0OW
+            Acknowledged Revision: 0
+            Acknowledged Memory (MB): 16384
+            Acknowledged Effective Memory (MB): 16384
+            Acknowledged Cores: 4
+            Acknowledged Adapters: 1
+            Acknowledged Burned-In UUID: baf2f49c-c869-11df-b88c-0010185aae51
+            Acknowledged Dynamic UUID: 50000000-0000-0000-0000-000000000000
+
+        Server 1/3:
+            Equipped Product Name: Cisco UCS B200 M1
+            Equipped PID: N20-B6620-1
+            Equipped VID: V01
+            Equipped Vendor: Cisco Systems Inc
+            Equipped Serial (SN): QCI1405A1I7
+            Equipped Revision: 0
+            Slot Status: Equipped
+            Acknowledged Product Name: Cisco UCS B200 M1
+            Acknowledged PID: N20-B6620-1
+            Acknowledged VID: V01
+            Acknowledged Vendor: Cisco Systems Inc
+            Acknowledged Serial (SN): QCI1405A1I7
+            Acknowledged Revision: 0
+            Acknowledged Memory (MB): 16384
+            Acknowledged Effective Memory (MB): 16384
+            Acknowledged Cores: 4
+            Acknowledged Adapters: 1
+            Acknowledged Burned-In UUID: 5485b721-1058-11df-a3b0-000bab01c0fb
+            Acknowledged Dynamic UUID: 5485b721-1058-11df-a3b0-000bab01c0fb
+
+        Server 1/4:
+            Equipped Product Name: Cisco UCS B200 M2
+            Equipped PID: N20-B6625-1
+            Equipped VID: V01
+            Equipped Vendor: Cisco Systems Inc
+            Equipped Serial (SN): QCI1438A5MS
+            Equipped Revision: 0
+            Slot Status: Equipped
+            Acknowledged Product Name: Cisco UCS B200 M2
+            Acknowledged PID: N20-B6625-1
+            Acknowledged VID: V01
+            Acknowledged Vendor: Cisco Systems Inc
+            Acknowledged Serial (SN): QCI1438A5MS
+            Acknowledged Revision: 0
+            Acknowledged Memory (MB): 16384
+            Acknowledged Effective Memory (MB): 16384
+            Acknowledged Cores: 4
+            Acknowledged Adapters: 1
+            Acknowledged Burned-In UUID: 27d4b6dd-ca3a-11df-acd3-0010185aae51
+            Acknowledged Dynamic UUID: 40000000-0000-0000-0000-000000000000
+
+        Server 1/5:
+            Equipped Product Name: Cisco UCS B200 M2
+            Equipped PID: N20-B6625-1
+            Equipped VID: V01
+            Equipped Vendor: Cisco Systems Inc
+            Equipped Serial (SN): QCI1434A4BG
+            Equipped Revision: 0
+            Slot Status: Equipped
+            Acknowledged Product Name: Cisco UCS B200 M2
+            Acknowledged PID: N20-B6625-1
+            Acknowledged VID: V01
+            Acknowledged Vendor: Cisco Systems Inc
+            Acknowledged Serial (SN): QCI1434A4BG
+            Acknowledged Revision: 0
+            Acknowledged Memory (MB): 12288
+            Acknowledged Effective Memory (MB): 12288
+            Acknowledged Cores: 4
+            Acknowledged Adapters: 1
+            Acknowledged Burned-In UUID: 2ed4dfc2-b32c-11df-b79b-00101859a7a0
+            Acknowledged Dynamic UUID: 30000000-0000-0000-0000-000000000000
+
+        Server 1/6:
+            Equipped Product Name: Cisco UCS B200 M2
+            Equipped PID: N20-B6625-1
+            Equipped VID: V01
+            Equipped Vendor: Cisco Systems Inc
+            Equipped Serial (SN): QCI1438A5ZK
+            Equipped Revision: 0
+            Slot Status: Equipped
+            Acknowledged Product Name: Cisco UCS B200 M2
+            Acknowledged PID: N20-B6625-1
+            Acknowledged VID: V01
+            Acknowledged Vendor: Cisco Systems Inc
+            Acknowledged Serial (SN): QCI1438A5ZK
+            Acknowledged Revision: 0
+            Acknowledged Memory (MB): 16384
+            Acknowledged Effective Memory (MB): 16384
+            Acknowledged Cores: 4
+            Acknowledged Adapters: 1
+            Acknowledged Burned-In UUID: 75188b62-caad-11df-ab1e-0010185aae51
+            Acknowledged Dynamic UUID: 75188b62-caad-11df-ab1e-0010185aae51
+
+        Server 1/7:
+            Equipped Product Name: Cisco UCS B200 M2
+            Equipped PID: N20-B6625-1
+            Equipped VID: V01
+            Equipped Vendor: Cisco Systems Inc
+            Equipped Serial (SN): QCI1416A4B9
+            Equipped Revision: 0
+            Slot Status: Equipped
+            Acknowledged Product Name: Cisco UCS B200 M2
+            Acknowledged PID: N20-B6625-1
+            Acknowledged VID: V01
+            Acknowledged Vendor: Cisco Systems Inc
+            Acknowledged Serial (SN): QCI1416A4B9
+            Acknowledged Revision: 0
+            Acknowledged Memory (MB): 16384
+            Acknowledged Effective Memory (MB): 16384
+            Acknowledged Cores: 4
+            Acknowledged Adapters: 1
+            Acknowledged Burned-In UUID: dce40971-8e0f-11df-b54a-18a905163202
+            Acknowledged Dynamic UUID: dce40971-8e0f-11df-b54a-18a905163202
+
+        Server 1/8:
+            Equipped Product Name: Cisco UCS B200 M2
+            Equipped PID: N20-B6625-1
+            Equipped VID: V01
+            Equipped Vendor: Cisco Systems Inc
+            Equipped Serial (SN): QCI1438A5PJ
+            Equipped Revision: 0
+            Slot Status: Equipped
+            Acknowledged Product Name: Cisco UCS B200 M2
+            Acknowledged PID: N20-B6625-1
+            Acknowledged VID: V01
+            Acknowledged Vendor: Cisco Systems Inc
+            Acknowledged Serial (SN): QCI1438A5PJ
+            Acknowledged Revision: 0
+            Acknowledged Memory (MB): 16384
+            Acknowledged Effective Memory (MB): 16384
+            Acknowledged Cores: 4
+            Acknowledged Adapters: 1
+            Acknowledged Burned-In UUID: 4d183667-ca49-11df-b009-0010185aae51
+            Acknowledged Dynamic UUID: 4d183667-ca49-11df-b009-0010185aae51

@@ -1,0 +1,652 @@
+!Command: show running-config
+!Time: Wed May 10 08:28:36 2017
+
+version 5.0(3)N2(2.11.3a)
+feature fcoe
+feature adapter-fex
+
+no feature telnet
+no telnet server enable
+feature tacacs+
+cfs ipv4 distribute
+cfs eth distribute
+feature private-vlan
+feature port-security
+feature lacp
+feature lldp
+feature fex
+logging level assoc_mgr 2
+
+logging level aaa 2
+logging level afm 2
+logging level cfs 2
+logging level enm 2
+logging level fex 2
+logging level fwm 2
+logging level msp 2
+logging level npv 2
+logging level pfm 2
+logging level vms 2
+logging level evmc 2
+logging level port 2
+logging level vshd 2
+logging level ethpm 2
+logging level track 2
+logging level xmlma 2
+logging level licmgr 2
+logging level radius 2
+logging level tacacs 2
+logging level bootvar 2
+logging level monitor 2
+logging level fcdomain 2
+logging level ascii-cfg 2
+logging level provision 2
+logging level securityd 2
+logging level pltfm_config 2
+logging level port-channel 2
+logging level private-vlan 2
+logging level spanning-tree 2
+logging level port-resources 2
+role name server-equipment
+  rule 3 permit read-write feature sam-pn-maintenance
+  rule 2 permit read-write feature sam-pn-policy
+  rule 1 permit read-write feature sam-pn-equipment
+role name facility-manager
+  rule 1 permit read-write feature sam-power-mgmt
+role name server-security
+  rule 3 permit read-write feature sam-ls-security-policy
+  rule 2 permit read-write feature sam-ls-security
+  rule 1 permit read-write feature sam-pn-security
+role name server-compute
+  rule 3 permit read-write feature sam-ls-compute
+  rule 2 permit read-write feature sam-ls-server-oper
+  rule 1 permit read-write feature sam-ls-server-policy
+role name server-profile
+  rule 6 permit read-write feature sam-ls-server-oper
+  rule 5 permit read-write feature sam-ls-ext-access
+  rule 4 permit read-write feature sam-ls-server-policy
+  rule 3 permit read-write feature sam-ls-config-policy
+  rule 2 permit read-write feature sam-ls-server
+  rule 1 permit read-write feature sam-ls-config
+role name operations
+  rule 2 permit read-write feature sam-fault
+  rule 1 permit read-write feature sam-operations
+role name read-only
+  rule 1 permit read-write feature sam-read-only
+role name network
+  rule 12 permit read-write feature sam-ls-qos-policy
+  rule 11 permit read-write feature sam-ls-network-policy
+  rule 10 permit read-write feature sam-ls-qos
+  rule 9 permit read-write feature sam-ls-network
+  rule 8 permit read-write feature sam-ext-lan-qos
+  rule 7 permit read-write feature sam-ext-lan-security
+  rule 6 permit read-write feature sam-ext-lan-policy
+  rule 5 permit read-write feature sam-ext-lan-config
+  rule 4 permit read-write feature sam-pod-qos
+  rule 3 permit read-write feature sam-pod-security
+  rule 2 permit read-write feature sam-pod-policy
+  rule 1 permit read-write feature sam-pod-config
+role name storage
+  rule 6 permit read-write feature sam-ls-storage-policy
+  rule 5 permit read-write feature sam-ls-storage
+  rule 4 permit read-write feature sam-ext-san-qos
+  rule 3 permit read-write feature sam-ext-san-security
+  rule 2 permit read-write feature sam-ext-san-policy
+  rule 1 permit read-write feature sam-ext-san-config
+role name admin
+  rule 1 permit read-write feature sam-admin
+role name aaa
+  rule 1 permit read-write feature sam-aaa
+username admin password 5 $1$hvMoJhKP$Pk7uoCbtnzvjwgMPEc.0i/  role network-admin
+username admin role read-only
+username admin role admin
+username samdme password 5 !  role network-operator
+no password strength-check
+
+banner motd #Cisco UCS 6200 Series Fabric Interconnect
+#
+
+ip domain-lookup
+ip domain-list ucs.lab
+aaa group server tacacs+ tacacs
+switchname S6200-B
+logging event link-status default
+errdisable recovery interval 60
+errdisable recovery cause link-flap
+errdisable recovery cause udld
+errdisable recovery cause bpduguard
+errdisable recovery cause loopback
+errdisable recovery cause pause-rate-limit
+class-map type qos class-fcoe
+class-map type queuing class-fcoe
+  match qos-group 1
+class-map type queuing class-all-flood
+  match qos-group 2
+class-map type queuing class-ip-multicast
+  match qos-group 2
+policy-map type qos system_qos_policy
+  class class-fcoe
+    set qos-group 1
+policy-map type queuing system_q_in_policy
+  class type queuing class-fcoe
+    bandwidth percent 50
+  class type queuing class-default
+    bandwidth percent 50
+policy-map type queuing system_q_out_policy
+  class type queuing class-fcoe
+    bandwidth percent 50
+  class type queuing class-default
+    bandwidth percent 50
+class-map type network-qos class-fcoe
+  match qos-group 1
+class-map type network-qos class-all-flood
+  match qos-group 2
+class-map type network-qos class-ip-multicast
+  match qos-group 2
+policy-map type network-qos system_nq_policy
+  class type network-qos class-fcoe
+    pause no-drop
+    mtu 2158
+  class type network-qos class-default
+system qos
+  service-policy type qos input system_qos_policy
+  service-policy type queuing input system_q_in_policy
+  service-policy type queuing output system_q_out_policy
+  service-policy type network-qos system_nq_policy
+fex 1
+  pinning max-links 1
+  description "FEX0001"
+fex management-instance 5601e392-3113-11e7-b624-002a6a6a66c4 fabric 2
+snmp-server enable traps entity fru
+no snmp-server enable traps entity entity_mib_change
+no snmp-server enable traps entity entity_module_status_change
+no snmp-server enable traps entity entity_power_status_change
+no snmp-server enable traps entity entity_module_inserted
+no snmp-server enable traps entity entity_module_removed
+no snmp-server enable traps entity entity_unrecognised_module
+no snmp-server enable traps entity entity_fan_status_change
+no snmp-server enable traps link linkDown
+no snmp-server enable traps link linkUp
+no snmp-server enable traps link extended-linkDown
+no snmp-server enable traps link extended-linkUp
+no snmp-server enable traps link cieLinkDown
+no snmp-server enable traps link cieLinkUp
+no snmp-server enable traps link connUnitPortStatusChange
+no snmp-server enable traps link fcTrunkIfUpNotify
+no snmp-server enable traps link fcTrunkIfDownNotify
+no snmp-server enable traps link delayed-link-state-change
+no snmp-server enable traps link fcot-inserted
+no snmp-server enable traps link fcot-removed
+no snmp-server enable traps rf redundancy_framework
+no snmp-server enable traps license notify-license-expiry
+no snmp-server enable traps license notify-no-license-for-feature
+no snmp-server enable traps license notify-licensefile-missing
+no snmp-server enable traps license notify-license-expiry-warning
+no snmp-server enable traps rmon risingAlarm
+no snmp-server enable traps rmon fallingAlarm
+no snmp-server enable traps rmon hcRisingAlarm
+no snmp-server enable traps rmon hcFallingAlarm
+no aaa user default-role
+
+vrf context management
+  ip domain-list ucs.lab
+vlan 1,10,20,30,40,50,60,70,80
+vlan 1012
+  fcoe vsan 12
+  name fcoe-vsan-1012
+vlan 3100
+  fcoe vsan 100
+  name fcoe-vsan-3100
+vlan 4044
+  name SAM-vlan-management
+vlan 4047
+  name SAM-vlan-boot
+vlan 4048
+  fcoe vsan 1
+  name fcoe-vsan-4048
+vlan 4049
+port-channel load-balance ethernet invalid invalid-hash
+port-profile type vethernet ucsm_internal_rackserver_portprofile
+  switchport trunk allowed vlan 4044
+  switchport mode trunk
+  no shutdown
+  vmware port-group
+  max-ports 320
+  state enabled
+port-profile type vethernet Template_vNIC1
+  switchport trunk native vlan 70
+  switchport trunk allowed vlan 70
+  switchport mode trunk
+  no cdp enable
+  pinning server pinning-failure link-down
+  no shutdown
+  vmware port-group
+  max-ports 64
+  state enabled
+port-profile type vethernet Template_vNIC2
+  switchport trunk native vlan 70
+  switchport trunk allowed vlan 70
+  switchport mode trunk
+  no cdp enable
+  pinning server pinning-failure link-down
+  no shutdown
+  vmware port-group
+  max-ports 64
+  state enabled
+port-profile type vethernet POD-8-ORG-Template_vNIC1
+  switchport trunk native vlan 80
+  switchport trunk allowed vlan 80
+  switchport mode trunk
+  no cdp enable
+  pinning server pinning-failure link-down
+  no shutdown
+  vmware port-group
+  max-ports 64
+  state enabled
+port-profile type vethernet POD-8-ORG-Template_vNIC2
+  switchport trunk native vlan 80
+  switchport trunk allowed vlan 80
+  switchport mode trunk
+  no cdp enable
+  pinning server pinning-failure link-down
+  no shutdown
+  vmware port-group
+  max-ports 64
+  state enabled
+port-profile type vethernet Template5_vNIC1
+  switchport trunk native vlan 50
+  switchport trunk allowed vlan 50
+  switchport mode trunk
+  no cdp enable
+  pinning server pinning-failure link-down
+  no shutdown
+  vmware port-group
+  max-ports 64
+  state enabled
+port-profile type vethernet Template5_vNIC2
+  switchport trunk native vlan 50
+  switchport trunk allowed vlan 50
+  switchport mode trunk
+  no cdp enable
+  pinning server pinning-failure link-down
+  no shutdown
+  vmware port-group
+  max-ports 64
+  state enabled
+port-profile type vethernet POD-3-ORG-Template_vNIC1
+  switchport trunk native vlan 30
+  switchport trunk allowed vlan 30
+  switchport mode trunk
+  no cdp enable
+  pinning server pinning-failure link-down
+  no shutdown
+  vmware port-group
+  max-ports 64
+  state enabled
+port-profile type vethernet POD-3-ORG-Template_vNIC2
+  switchport trunk native vlan 30
+  switchport trunk allowed vlan 30
+  switchport mode trunk
+  no cdp enable
+  pinning server pinning-failure link-down
+  no shutdown
+  vmware port-group
+  max-ports 64
+  state enabled
+port-profile type vethernet POD-1-ORg-Template_vNIC1
+  switchport trunk native vlan 10
+  switchport trunk allowed vlan 10
+  switchport mode trunk
+  no cdp enable
+  pinning server pinning-failure link-down
+  no shutdown
+  vmware port-group
+  max-ports 64
+  state enabled
+port-profile type vethernet POD-1-ORg-Template-vNIC2
+  switchport trunk allowed vlan 10
+  switchport mode trunk
+  no cdp enable
+  pinning server pinning-failure link-down
+  no shutdown
+  vmware port-group
+  max-ports 64
+  state enabled
+port-profile type vethernet POD-3e-ORG-Template_vNIC1
+  switchport trunk native vlan 30
+  switchport trunk allowed vlan 30
+  switchport mode trunk
+  no cdp enable
+  pinning server pinning-failure link-down
+  no shutdown
+  vmware port-group
+  max-ports 64
+  state enabled
+port-profile type vethernet POD-3e-ORG-Template_vNIC2
+  switchport trunk native vlan 30
+  switchport trunk allowed vlan 30
+  switchport mode trunk
+  no cdp enable
+  pinning server pinning-failure link-down
+  no shutdown
+  vmware port-group
+  max-ports 64
+  state enabled
+port-profile type vethernet POD-4-ORG-Template_vNIC1
+  switchport trunk native vlan 40
+  switchport trunk allowed vlan 40
+  switchport mode trunk
+  no cdp enable
+  pinning server pinning-failure link-down
+  no shutdown
+  vmware port-group
+  max-ports 64
+  state enabled
+port-profile type vethernet POD-4-ORG-Template_vNIC2
+  switchport trunk native vlan 40
+  switchport trunk allowed vlan 40
+  switchport mode trunk
+  no cdp enable
+  pinning server pinning-failure link-down
+  no shutdown
+  vmware port-group
+  max-ports 64
+  state enabled
+
+logging level sysmgr 2
+vsan database
+  vsan 12
+  vsan 100
+
+
+interface port-channel1
+  description U: Uplink
+  switchport mode trunk
+  pinning border
+  switchport trunk allowed vlan 1,10,20,30,40,50,60,70,80
+  speed 10000
+
+interface port-channel1153
+  switchport mode fex-fabric
+  no pinning server sticky
+  fex associate 1 chassis-serial FOX1442GEZU module-serial FCH1727JCM3
+vsan database
+  vsan 100 interface fc1/26
+  vsan 12 interface fc1/31
+
+feature npv
+feature npiv
+
+
+interface fc1/25
+  no shutdown
+
+interface fc1/26
+  no shutdown
+
+interface fc1/27
+  no shutdown
+
+interface fc1/28
+  no shutdown
+
+interface fc1/29
+  no shutdown
+
+interface fc1/30
+  no shutdown
+
+interface fc1/31
+  no shutdown
+
+interface fc1/32
+  no shutdown
+
+interface Ethernet1/1
+  description S: Server, Port-channel 1153
+  no pinning server sticky
+  switchport mode fex-fabric
+  fex associate 1
+  channel-group 1153
+  no shutdown
+
+interface Ethernet1/2
+  description S: Server, Port-channel 1153
+  no pinning server sticky
+  switchport mode fex-fabric
+  fex associate 1
+  channel-group 1153
+  no shutdown
+
+interface Ethernet1/3
+  description S: Server
+  no pinning server sticky
+  switchport mode trunk
+  switchport trunk native vlan 4044
+  switchport trunk allowed vlan 4044,4047
+  no shutdown
+
+interface Ethernet1/4
+  description S: Server
+  no pinning server sticky
+  switchport mode trunk
+  switchport trunk native vlan 4044
+  switchport trunk allowed vlan 4044,4047
+  no shutdown
+
+interface Ethernet1/5
+
+interface Ethernet1/6
+
+interface Ethernet1/7
+
+interface Ethernet1/8
+
+interface Ethernet1/9
+
+interface Ethernet1/10
+
+interface Ethernet1/11
+
+interface Ethernet1/12
+
+interface Ethernet1/13
+
+interface Ethernet1/14
+
+interface Ethernet1/15
+
+interface Ethernet1/16
+
+interface Ethernet1/17
+
+interface Ethernet1/18
+
+interface Ethernet1/19
+  description U: Uplink
+  pinning border
+  switchport mode trunk
+  switchport trunk allowed vlan 1,10,20,30,40,50,60,70,80
+  channel-group 1 mode active
+  no shutdown
+
+interface Ethernet1/20
+  description U: Uplink
+  pinning border
+  switchport mode trunk
+  switchport trunk allowed vlan 1,10,20,30,40,50,60,70,80
+  channel-group 1 mode active
+  no shutdown
+
+interface Ethernet1/21
+
+interface Ethernet1/22
+
+interface Ethernet1/23
+
+interface Ethernet1/24
+
+interface mgmt0
+  shutdown force
+  ip address 192.168.10.102/24
+
+interface Ethernet1/1/1
+  switchport vntag max-vifs 118
+  no pinning server sticky
+  switchport mode vntag
+  no shutdown
+
+interface Ethernet1/1/2
+  no pinning server sticky
+
+interface Ethernet1/1/3
+  switchport vntag max-vifs 118
+  no pinning server sticky
+  switchport mode vntag
+  no shutdown
+
+interface Ethernet1/1/4
+  no pinning server sticky
+
+interface Ethernet1/1/5
+  switchport vntag max-vifs 118
+  no pinning server sticky
+  switchport mode vntag
+  no shutdown
+
+interface Ethernet1/1/6
+  no pinning server sticky
+
+interface Ethernet1/1/7
+  switchport vntag max-vifs 118
+  no pinning server sticky
+  switchport mode vntag
+  no shutdown
+
+interface Ethernet1/1/8
+  no pinning server sticky
+
+interface Ethernet1/1/9
+  switchport vntag max-vifs 118
+  no pinning server sticky
+  switchport mode vntag
+  no shutdown
+
+interface Ethernet1/1/10
+  no pinning server sticky
+
+interface Ethernet1/1/11
+  switchport vntag max-vifs 118
+  no pinning server sticky
+  switchport mode vntag
+  no shutdown
+
+interface Ethernet1/1/12
+  no pinning server sticky
+
+interface Ethernet1/1/13
+  switchport vntag max-vifs 118
+  no pinning server sticky
+  switchport mode vntag
+  no shutdown
+
+interface Ethernet1/1/14
+  no pinning server sticky
+
+interface Ethernet1/1/15
+  switchport vntag max-vifs 118
+  no pinning server sticky
+  switchport mode vntag
+  no shutdown
+
+interface Ethernet1/1/16
+  no pinning server sticky
+
+interface Ethernet1/1/17
+  no pinning server sticky
+  switchport mode trunk
+  switchport trunk native vlan 4044
+  switchport trunk allowed vlan 4044
+  no shutdown
+
+interface Vethernet1127
+  description server 1/4, VNIC eth0
+  switchport mode trunk
+  no pinning server sticky
+  pinning server pinning-failure link-down
+  no cdp enable
+  switchport trunk native vlan 40
+  switchport trunk allowed vlan 40
+  bind interface Ethernet1/1/7 channel 1127
+  service-policy type queuing input default-in-policy
+  no shutdown
+
+interface Vethernet1130
+  description server 1/2, VNIC eth0
+  switchport mode trunk
+  no pinning server sticky
+  pinning server pinning-failure link-down
+  no cdp enable
+  switchport trunk native vlan 50
+  switchport trunk allowed vlan 50
+  bind interface Ethernet1/1/3 channel 1130
+  service-policy type queuing input default-in-policy
+  no shutdown
+
+interface Vethernet1133
+  description server 1/5, VNIC eth0
+  switchport mode trunk
+  no pinning server sticky
+  pinning server pinning-failure link-down
+  no cdp enable
+  switchport trunk native vlan 30
+  switchport trunk allowed vlan 30
+  bind interface Ethernet1/1/9 channel 1133
+  service-policy type queuing input default-in-policy
+  no shutdown
+line console
+line vty
+system default switchport shutdown
+ldap-server timeout 30
+ldap-server port 0
+aaa group server ldap ldap
+svs veth auto-delete retention-timer days 0 hours 0 mins 15
+interface fc1/25
+  switchport mode NP
+interface fc1/26
+  switchport mode NP
+interface fc1/27
+  switchport mode NP
+interface fc1/28
+  switchport mode NP
+interface fc1/29
+  switchport mode NP
+interface fc1/30
+  switchport mode NP
+interface fc1/31
+  switchport mode NP
+interface fc1/32
+  switchport mode NP
+logging logfile messages 2
+no logging monitor
+logging level kernel 2
+logging level user 2
+logging level mail 2
+logging level daemon 2
+logging level auth 2
+logging level syslog 2
+logging level lpr 2
+logging level news 2
+logging level uucp 2
+logging level cron 2
+logging level authpri 2
+logging level ftp 2
+logging level local0 2
+logging level local1 2
+logging level local2 2
+logging level local3 2
+logging level local4 2
+logging level local5 2
+logging level local6 2
+logging level local7 2
+no logging console

@@ -1,0 +1,20 @@
+Chassis 1:
+    IOCard 1:
+        Side: Left
+        Fabric ID: A
+        Product Name: Cisco UCS 2204XP
+        PID: UCS-IOM-2204XP
+        VID: V02
+        Vendor: Cisco Systems Inc
+        Serial (SN): FCH1727JCQH
+        HW Revision: 0
+
+    IOCard 2:
+        Side: Right
+        Fabric ID: B
+        Product Name: Cisco UCS 2204XP
+        PID: UCS-IOM-2204XP
+        VID: V02
+        Vendor: Cisco Systems Inc
+        Serial (SN): FCH1727JCM3
+        HW Revision: 0

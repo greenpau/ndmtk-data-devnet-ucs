@@ -1,0 +1,10 @@
+Server  Association  Service Profile
+------- ------------ ---------------
+1/1     None
+1/2     Associated   Team5MobileProfile
+1/3     None
+1/4     Associated   Team4MobileProfile
+1/5     Associated   Team3MobileProfile
+1/6     None
+1/7     None
+1/8     None

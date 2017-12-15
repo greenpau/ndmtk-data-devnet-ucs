@@ -1,0 +1,19 @@
+Cluster Id: 0x5601e392311311e7-0xb624002a6a6a66c4
+
+Start time: Fri Apr 21 14:25:49 2017
+Last election time: Wed May 10 06:59:59 2017
+
+B: UP, PRIMARY
+A: UP, SUBORDINATE
+
+B: memb state UP, lead state PRIMARY, mgmt services state: UP
+A: memb state UP, lead state SUBORDINATE, mgmt services state: UP
+   heartbeat state PRIMARY_OK
+
+INTERNAL NETWORK INTERFACES:
+eth1, UP
+eth2, UP
+
+HA READY
+Detailed state of the device selected for HA storage:
+Chassis 1, serial: FOX1442GEZU, state: active

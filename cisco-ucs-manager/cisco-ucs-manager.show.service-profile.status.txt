@@ -1,0 +1,17 @@
+Service Profile Name Server  Assignment Association    Power State    Op State
+-------------------- ------- ---------- -------------- -------------- --------
+Team1-ESXi1                  Unassigned Unassociated                  Unassociated
+Team1-ESXi2                  Unassigned Unassociated                  Unassociated
+Team1SPTemplate              Unassigned Unassociated                  Unassociated
+Team2-ESXi1                  Unassigned Unassociated                  Unassociated
+Team2-ESXi2                  Unassigned Unassociated                  Unassociated
+Team2SPTemplate              Unassigned Unassociated                  Unassociated
+Team3-ESXi1                  Unassigned Unassociated                  Unassociated
+Team3-ESXi2                  Unassigned Unassociated                  Unassociated
+Team3MobileProfile   1/5     Assigned   Associated     Off            Power Off
+Team3SPTemplate              Unassigned Unassociated                  Unassociated
+Team4MobileProfile   1/4     Assigned   Associated     On             Ok
+Team5MobileProfile   1/2     Assigned   Associated     On             Ok
+Team6-ESXi1                  Unassigned Unassociated                  Unassociated
+Team6-ESXi2                  Unassigned Unassociated                  Unassociated
+Team6SPTemplate              Unassigned Unassociated                  Unassociated

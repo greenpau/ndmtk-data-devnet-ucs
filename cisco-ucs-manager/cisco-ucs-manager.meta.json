@@ -1,0 +1,1512 @@
+{
+    "args": "ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -p 5901 -tt admin@10.199.0.219",
+    "cli": [
+        {
+            "_seq": 1,
+            "allow_empty_response": false,
+            "cli": "show configuration all",
+            "format": "txt",
+            "lines": "6698",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.configuration.all.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.configuration.all.txt",
+            "sha1": "732e27ea2685ec0f4a42de757040eb9bf4b8ef1c",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "configuration"
+            ],
+            "time_start": "1496267376848",
+            "timestamp": "2017-05-31T21:49:36 UTC"
+        },
+        {
+            "_seq": 2,
+            "allow_empty_response": false,
+            "cli": "show version",
+            "format": "txt",
+            "lines": "2",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.version.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.version.txt",
+            "sha1": "ff695968c7577308a804256617f589f836e202d1",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "version"
+            ],
+            "time_start": "1496267379433",
+            "timestamp": "2017-05-31T21:49:39 UTC"
+        },
+        {
+            "_seq": 3,
+            "allow_empty_response": false,
+            "cli": "show chassis detail",
+            "description": "Collect UCS Chassis information",
+            "format": "txt",
+            "lines": "26",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.chassis.detail.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.chassis.detail.txt",
+            "sha1": "f47967aa7cc51a83bad751d4002d37fda4048e3c",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "version"
+            ],
+            "time_start": "1496267379750",
+            "timestamp": "2017-05-31T21:49:39 UTC"
+        },
+        {
+            "_seq": 4,
+            "allow_empty_response": false,
+            "cli": "show chassis firmware detail",
+            "description": "Collect firmware information",
+            "format": "txt",
+            "lines": "461",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.chassis.firmware.detail.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.chassis.firmware.detail.txt",
+            "sha1": "b00677111756e9c142a3c4bab849a396c01f2ab4",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "management"
+            ],
+            "time_start": "1496267380173",
+            "timestamp": "2017-05-31T21:49:40 UTC"
+        },
+        {
+            "_seq": 5,
+            "allow_empty_response": false,
+            "cli": "show chassis version detail",
+            "description": "Collect version information",
+            "format": "txt",
+            "lines": "461",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.chassis.version.detail.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.chassis.version.detail.txt",
+            "sha1": "b00677111756e9c142a3c4bab849a396c01f2ab4",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "management"
+            ],
+            "time_start": "1496267380830",
+            "timestamp": "2017-05-31T21:49:40 UTC"
+        },
+        {
+            "_seq": 6,
+            "allow_empty_response": false,
+            "cli": "show chassis fabric detail",
+            "description": "Collect fabric information",
+            "format": "txt",
+            "lines": "180",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.chassis.fabric.detail.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.chassis.fabric.detail.txt",
+            "sha1": "2daaf6294ed4c5021eac0f4edfc85205039758c8",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "management"
+            ],
+            "time_start": "1496267381484",
+            "timestamp": "2017-05-31T21:49:41 UTC"
+        },
+        {
+            "_seq": 7,
+            "allow_empty_response": false,
+            "cli": "show chassis environment detail",
+            "description": "Collect chassis health information",
+            "format": "txt",
+            "lines": "6",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.chassis.environment.detail.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.chassis.environment.detail.txt",
+            "sha1": "e85059fa8ae7f6215222a51f9d90da83de9bd3ed",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "management"
+            ],
+            "time_start": "1496267382016",
+            "timestamp": "2017-05-31T21:49:42 UTC"
+        },
+        {
+            "_seq": 8,
+            "allow_empty_response": false,
+            "cli": "show chassis environment iom detail",
+            "description": "Collect chassis health information (IO Module)",
+            "format": "txt",
+            "lines": "34",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.chassis.environment.iom.detail.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.chassis.environment.iom.detail.txt",
+            "sha1": "7cfe49976e66b2942514993bfd75d2268f66d153",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "management"
+            ],
+            "time_start": "1496267382486",
+            "timestamp": "2017-05-31T21:49:42 UTC"
+        },
+        {
+            "_seq": 9,
+            "allow_empty_response": false,
+            "cli": "show chassis environment psu detail",
+            "description": "Collect chassis health information (Power Supplies)",
+            "format": "txt",
+            "lines": "38",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.chassis.environment.psu.detail.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.chassis.environment.psu.detail.txt",
+            "sha1": "6950a579ac4f4c4ae03d057c750429e3fb445508",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "management"
+            ],
+            "time_start": "1496267382958",
+            "timestamp": "2017-05-31T21:49:42 UTC"
+        },
+        {
+            "_seq": 10,
+            "allow_empty_response": false,
+            "cli": "show chassis environment fan detail",
+            "description": "Collect chassis health information (Fans)",
+            "format": "txt",
+            "lines": "222",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.chassis.environment.fan.detail.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.chassis.environment.fan.detail.txt",
+            "sha1": "00f478431b91509d1e22b4630c204b29294f3127",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "management"
+            ],
+            "time_start": "1496267383501",
+            "timestamp": "2017-05-31T21:49:43 UTC"
+        },
+        {
+            "_seq": 11,
+            "allow_empty_response": false,
+            "cli": "show chassis environment server detail",
+            "description": "Collect chassis health information (Servers)",
+            "format": "txt",
+            "lines": "574",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.chassis.environment.server.detail.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.chassis.environment.server.detail.txt",
+            "sha1": "1327803efa9505f2eac79824ad988b99b415b904",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "management"
+            ],
+            "time_start": "1496267384084",
+            "timestamp": "2017-05-31T21:49:44 UTC"
+        },
+        {
+            "_seq": 12,
+            "allow_empty_response": false,
+            "cli": "show chassis inventory detail",
+            "description": "Collect chassis inventory information",
+            "format": "txt",
+            "lines": "9",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.chassis.inventory.detail.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.chassis.inventory.detail.txt",
+            "sha1": "ca7ed87b733a80dd1ce6ea4c9558558b6fd3b494",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "inventory"
+            ],
+            "time_start": "1496267384837",
+            "timestamp": "2017-05-31T21:49:44 UTC"
+        },
+        {
+            "_seq": 13,
+            "allow_empty_response": false,
+            "cli": "show chassis inventory iom detail",
+            "description": "Collect chassis inventory information (IO Module)",
+            "format": "txt",
+            "lines": "21",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.chassis.inventory.iom.detail.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.chassis.inventory.iom.detail.txt",
+            "sha1": "38362c3fef02faee8ef8de31ba3789d1976310f7",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "inventory"
+            ],
+            "time_start": "1496267385318",
+            "timestamp": "2017-05-31T21:49:45 UTC"
+        },
+        {
+            "_seq": 14,
+            "allow_empty_response": false,
+            "cli": "show chassis inventory psu detail",
+            "description": "Collect chassis inventory information (Power Supplies)",
+            "format": "txt",
+            "lines": "37",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.chassis.inventory.psu.detail.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.chassis.inventory.psu.detail.txt",
+            "sha1": "75154507330e7c30da5982ad8d503506d48b8ce3",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "inventory"
+            ],
+            "time_start": "1496267385740",
+            "timestamp": "2017-05-31T21:49:45 UTC"
+        },
+        {
+            "_seq": 15,
+            "allow_empty_response": false,
+            "cli": "show chassis inventory fan detail",
+            "description": "Collect chassis inventory information (Fans)",
+            "format": "txt",
+            "lines": "210",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.chassis.inventory.fan.detail.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.chassis.inventory.fan.detail.txt",
+            "sha1": "e77450606d3852d774cec0b47bfb514b8271e1cb",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "inventory"
+            ],
+            "time_start": "1496267386211",
+            "timestamp": "2017-05-31T21:49:46 UTC"
+        },
+        {
+            "_seq": 16,
+            "allow_empty_response": false,
+            "cli": "show chassis inventory server detail",
+            "description": "Collect chassis inventory information (Servers)",
+            "format": "txt",
+            "lines": "170",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.chassis.inventory.server.detail.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.chassis.inventory.server.detail.txt",
+            "sha1": "7225b2568654334187e2d4bfad55d784ba41803a",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "inventory"
+            ],
+            "time_start": "1496267386738",
+            "timestamp": "2017-05-31T21:49:46 UTC"
+        },
+        {
+            "_seq": 17,
+            "allow_empty_response": false,
+            "cli": "show clock detail",
+            "format": "txt",
+            "lines": "2",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.clock.detail.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.clock.detail.txt",
+            "sha1": "2958cf6281a17e0c5a6a8f7e71620eefe947172d",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "clock"
+            ],
+            "time_start": "1496267387368",
+            "timestamp": "2017-05-31T21:49:47 UTC"
+        },
+        {
+            "_seq": 18,
+            "allow_empty_response": false,
+            "cli": "show cluster state",
+            "format": "txt",
+            "lines": "7",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.cluster.state.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.cluster.state.txt",
+            "sha1": "003dfd3506a060b8165f6d58b43e3a7a75bd005a",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "high_availability"
+            ],
+            "time_start": "1496267387682",
+            "timestamp": "2017-05-31T21:49:47 UTC"
+        },
+        {
+            "_seq": 19,
+            "allow_empty_response": false,
+            "cli": "show cluster extended-state",
+            "format": "txt",
+            "lines": "20",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.cluster.extended-state.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.cluster.extended-state.txt",
+            "sha1": "299cd5e428d5466a0484454695779ba62b53e817",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "high_availability"
+            ],
+            "time_start": "1496267388221",
+            "timestamp": "2017-05-31T21:49:48 UTC"
+        },
+        {
+            "_seq": 20,
+            "allow_empty_response": false,
+            "cli": "show eth-uplink detail",
+            "format": "txt",
+            "lines": "7",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.eth-uplink.detail.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.eth-uplink.detail.txt",
+            "sha1": "6a749d2099223d88954543eed42e9be02b7775db",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "network"
+            ],
+            "time_start": "1496267388976",
+            "timestamp": "2017-05-31T21:49:48 UTC"
+        },
+        {
+            "_seq": 21,
+            "allow_empty_response": false,
+            "cli": "show eth-uplink detail expand",
+            "format": "txt",
+            "lines": "254",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.eth-uplink.detail.expand.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.eth-uplink.detail.expand.txt",
+            "sha1": "1e96db85175cf77df9075a667afac09b9c5fdb60",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "network"
+            ],
+            "time_start": "1496267389373",
+            "timestamp": "2017-05-31T21:49:49 UTC"
+        },
+        {
+            "_seq": 22,
+            "allow_empty_response": false,
+            "cli": "show fabric-interconnect detail",
+            "format": "txt",
+            "lines": "34",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.fabric-interconnect.detail.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.fabric-interconnect.detail.txt",
+            "sha1": "d10af56a090346f5f469ca0b94d12f7afd56120a",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "network"
+            ],
+            "time_start": "1496267389862",
+            "timestamp": "2017-05-31T21:49:49 UTC"
+        },
+        {
+            "_seq": 23,
+            "allow_empty_response": false,
+            "cli": "show fabric-interconnect environment expand detail",
+            "format": "txt",
+            "lines": "182",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.fabric-interconnect.environment.expand.detail.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.fabric-interconnect.environment.expand.detail.txt",
+            "sha1": "e17b2cc3f40b0e57260081fa6b9366b288a13354",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "network"
+            ],
+            "time_start": "1496267390298",
+            "timestamp": "2017-05-31T21:49:50 UTC"
+        },
+        {
+            "_seq": 24,
+            "allow_empty_response": false,
+            "cli": "show fabric-interconnect inventory expand detail",
+            "format": "txt",
+            "lines": "923",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.fabric-interconnect.inventory.expand.detail.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.fabric-interconnect.inventory.expand.detail.txt",
+            "sha1": "77a11285ff27aa69d381b2144b4a1e3545a519d3",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "network"
+            ],
+            "time_start": "1496267390932",
+            "timestamp": "2017-05-31T21:49:50 UTC"
+        },
+        {
+            "_seq": 25,
+            "allow_empty_response": false,
+            "cli": "show fabric-interconnect mode",
+            "format": "txt",
+            "lines": "5",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.fabric-interconnect.mode.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.fabric-interconnect.mode.txt",
+            "sha1": "b4245045635c982d36f209b6ea9831f195a3a6d1",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "network"
+            ],
+            "time_start": "1496267392385",
+            "timestamp": "2017-05-31T21:49:52 UTC"
+        },
+        {
+            "_seq": 26,
+            "allow_empty_response": false,
+            "cli": "show fabric-interconnect mac-aging",
+            "format": "txt",
+            "lines": "2",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.fabric-interconnect.mac-aging.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.fabric-interconnect.mac-aging.txt",
+            "sha1": "a5d7bbf2a60837186567c42190792766770eca7f",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "network"
+            ],
+            "time_start": "1496267392854",
+            "timestamp": "2017-05-31T21:49:52 UTC"
+        },
+        {
+            "_seq": 27,
+            "allow_empty_response": false,
+            "cli": "show fabric-interconnect version",
+            "format": "txt",
+            "lines": "20",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.fabric-interconnect.version.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.fabric-interconnect.version.txt",
+            "sha1": "fbd29a17b085a7e4b6ac1bb07934e0f80df7ef60",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "network"
+            ],
+            "time_start": "1496267393325",
+            "timestamp": "2017-05-31T21:49:53 UTC"
+        },
+        {
+            "_seq": 28,
+            "allow_empty_response": false,
+            "cli": "show fabric-interconnect firmware",
+            "format": "txt",
+            "lines": "20",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.fabric-interconnect.firmware.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.fabric-interconnect.firmware.txt",
+            "sha1": "fbd29a17b085a7e4b6ac1bb07934e0f80df7ef60",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "network"
+            ],
+            "time_start": "1496267393817",
+            "timestamp": "2017-05-31T21:49:53 UTC"
+        },
+        {
+            "_seq": 29,
+            "allow_empty_response": false,
+            "cli": "show fault",
+            "format": "txt",
+            "lines": "53",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.fault.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.fault.txt",
+            "sha1": "801bf5996d63f83fa910bb629932e2209a050803",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "management"
+            ],
+            "time_start": "1496267394289",
+            "timestamp": "2017-05-31T21:49:54 UTC"
+        },
+        {
+            "_seq": 30,
+            "allow_empty_response": false,
+            "cli": "show security detail",
+            "format": "txt",
+            "lines": "5",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.security.detail.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.security.detail.txt",
+            "sha1": "0610a4ed883b5434d38dfd9c31cd1808229fa6d0",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "servers"
+            ],
+            "time_start": "1496267394714",
+            "timestamp": "2017-05-31T21:49:54 UTC"
+        },
+        {
+            "_seq": 31,
+            "allow_empty_response": false,
+            "cli": "show server inventory expand detail",
+            "format": "txt",
+            "lines": "2991",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.server.inventory.expand.detail.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.server.inventory.expand.detail.txt",
+            "sha1": "37596a54f919f9abd0fb4b17e545da7d80561f37",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "servers"
+            ],
+            "time_start": "1496267395107",
+            "timestamp": "2017-05-31T21:49:55 UTC"
+        },
+        {
+            "_seq": 32,
+            "allow_empty_response": false,
+            "cli": "show server assoc",
+            "format": "txt",
+            "lines": "11",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.server.assoc.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.server.assoc.txt",
+            "sha1": "f8717cae29a820583890d041430d193d5bcd0971",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "servers"
+            ],
+            "time_start": "1496267396556",
+            "timestamp": "2017-05-31T21:49:56 UTC"
+        },
+        {
+            "_seq": 33,
+            "allow_empty_response": false,
+            "cli": "show server boot-order detail",
+            "format": "txt",
+            "lines": "125",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.server.boot-order.detail.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.server.boot-order.detail.txt",
+            "sha1": "bc9f86c2e7b87cd6b024003c6c16a72d9c1f6074",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "servers"
+            ],
+            "time_start": "1496267396878",
+            "timestamp": "2017-05-31T21:49:56 UTC"
+        },
+        {
+            "_seq": 34,
+            "allow_empty_response": false,
+            "cli": "show server firmware detail",
+            "format": "txt",
+            "lines": "442",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.server.firmware.detail.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.server.firmware.detail.txt",
+            "sha1": "fd497e2f4b6776f79d86bfac1a408b55a4e178ce",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "servers"
+            ],
+            "time_start": "1496267397358",
+            "timestamp": "2017-05-31T21:49:57 UTC"
+        },
+        {
+            "_seq": 35,
+            "allow_empty_response": false,
+            "cli": "show server identity",
+            "format": "txt",
+            "lines": "178",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.server.identity.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.server.identity.txt",
+            "sha1": "513e34c08b5304bfff5da2940263ba482283500f",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "servers"
+            ],
+            "time_start": "1496267397968",
+            "timestamp": "2017-05-31T21:49:57 UTC"
+        },
+        {
+            "_seq": 36,
+            "allow_empty_response": false,
+            "cli": "show server status",
+            "format": "txt",
+            "lines": "11",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.server.status.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.server.status.txt",
+            "sha1": "01f8d76a425015f5383aa9fe03f3a9a7b3607c22",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "servers"
+            ],
+            "time_start": "1496267398469",
+            "timestamp": "2017-05-31T21:49:58 UTC"
+        },
+        {
+            "_seq": 37,
+            "allow_empty_response": false,
+            "cli": "show server status detail",
+            "format": "txt",
+            "lines": "104",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.server.status.detail.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.server.status.detail.txt",
+            "sha1": "3e5a27ac3f216799c8344efc744248f1cc6e26c4",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "servers"
+            ],
+            "time_start": "1496267398839",
+            "timestamp": "2017-05-31T21:49:58 UTC"
+        },
+        {
+            "_seq": 38,
+            "allow_empty_response": false,
+            "cli": "show server storage detail",
+            "format": "txt",
+            "lines": "335",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.server.storage.detail.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.server.storage.detail.txt",
+            "sha1": "5718ab3b0f3fff6159347c726b72a1a8a613addf",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "servers"
+            ],
+            "time_start": "1496267399247",
+            "timestamp": "2017-05-31T21:49:59 UTC"
+        },
+        {
+            "_seq": 39,
+            "allow_empty_response": false,
+            "cli": "show server version detail",
+            "format": "txt",
+            "lines": "442",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.server.version.detail.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.server.version.detail.txt",
+            "sha1": "fd497e2f4b6776f79d86bfac1a408b55a4e178ce",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "servers"
+            ],
+            "time_start": "1496267399757",
+            "timestamp": "2017-05-31T21:49:59 UTC"
+        },
+        {
+            "_seq": 40,
+            "allow_empty_response": false,
+            "cli": "show service-profile assoc",
+            "format": "txt",
+            "lines": "18",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.service-profile.assoc.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.service-profile.assoc.txt",
+            "sha1": "9691555e5be8ed8e7fed3298cad896e09642da88",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "sevice_profile"
+            ],
+            "time_start": "1496267400303",
+            "timestamp": "2017-05-31T21:50:00 UTC"
+        },
+        {
+            "_seq": 41,
+            "allow_empty_response": false,
+            "cli": "show service-profile assoc detail",
+            "format": "txt",
+            "lines": "90",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.service-profile.assoc.detail.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.service-profile.assoc.detail.txt",
+            "sha1": "2116a83070cdbd6d6c75ddb3709466a14911c596",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "sevice_profile"
+            ],
+            "time_start": "1496267400847",
+            "timestamp": "2017-05-31T21:50:00 UTC"
+        },
+        {
+            "_seq": 42,
+            "allow_empty_response": false,
+            "cli": "show service-profile circuit",
+            "format": "txt",
+            "lines": "297",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.service-profile.circuit.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.service-profile.circuit.txt",
+            "sha1": "487e77c1c78f448d2d2c19e43e54e4cd39d8d50a",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "sevice_profile"
+            ],
+            "time_start": "1496267401382",
+            "timestamp": "2017-05-31T21:50:01 UTC"
+        },
+        {
+            "_seq": 43,
+            "allow_empty_response": false,
+            "cli": "show service-profile circuit detail",
+            "format": "txt",
+            "lines": "1251",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.service-profile.circuit.detail.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.service-profile.circuit.detail.txt",
+            "sha1": "8f7cc4d7cf3f7c01de6d19fec72a092fa4c423ca",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "sevice_profile"
+            ],
+            "time_start": "1496267402091",
+            "timestamp": "2017-05-31T21:50:02 UTC"
+        },
+        {
+            "_seq": 44,
+            "allow_empty_response": false,
+            "cli": "show service-profile connectivity",
+            "format": "txt",
+            "lines": "367",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.service-profile.connectivity.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.service-profile.connectivity.txt",
+            "sha1": "5b76f6aa8c390cd26349dbad387e4178e1870c01",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "sevice_profile"
+            ],
+            "time_start": "1496267402871",
+            "timestamp": "2017-05-31T21:50:02 UTC"
+        },
+        {
+            "_seq": 45,
+            "allow_empty_response": false,
+            "cli": "show service-profile connectivity detail",
+            "format": "txt",
+            "lines": "1303",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.service-profile.connectivity.detail.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.service-profile.connectivity.detail.txt",
+            "sha1": "f0fa297162200c22a93ff54198c09ce4b6950bac",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "sevice_profile"
+            ],
+            "time_start": "1496267403677",
+            "timestamp": "2017-05-31T21:50:03 UTC"
+        },
+        {
+            "_seq": 46,
+            "allow_empty_response": false,
+            "cli": "show service-profile identity",
+            "format": "txt",
+            "lines": "120",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.service-profile.identity.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.service-profile.identity.txt",
+            "sha1": "2123277af89628b406a54b54c7a04656b26f0379",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "sevice_profile"
+            ],
+            "time_start": "1496267404608",
+            "timestamp": "2017-05-31T21:50:04 UTC"
+        },
+        {
+            "_seq": 47,
+            "allow_empty_response": false,
+            "cli": "show service-profile inventory",
+            "format": "txt",
+            "lines": "18",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.service-profile.inventory.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.service-profile.inventory.txt",
+            "sha1": "d3f4731195a06da1b16d6ffb226f299b916f870d",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "sevice_profile"
+            ],
+            "time_start": "1496267405160",
+            "timestamp": "2017-05-31T21:50:05 UTC"
+        },
+        {
+            "_seq": 48,
+            "allow_empty_response": false,
+            "cli": "show service-profile inventory expand detail",
+            "format": "txt",
+            "lines": "1683",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.service-profile.inventory.expand.detail.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.service-profile.inventory.expand.detail.txt",
+            "sha1": "56aaa844a349e856da64631aa0d0cebe7eda5ef2",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "sevice_profile"
+            ],
+            "time_start": "1496267405686",
+            "timestamp": "2017-05-31T21:50:05 UTC"
+        },
+        {
+            "_seq": 49,
+            "allow_empty_response": false,
+            "cli": "show service-profile path",
+            "format": "txt",
+            "lines": "76",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.service-profile.path.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.service-profile.path.txt",
+            "sha1": "670e5c2352ae8b75e33e42b8fc4f4ef30a4340d0",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "sevice_profile"
+            ],
+            "time_start": "1496267406576",
+            "timestamp": "2017-05-31T21:50:06 UTC"
+        },
+        {
+            "_seq": 50,
+            "allow_empty_response": false,
+            "cli": "show service-profile path detail",
+            "format": "txt",
+            "lines": "154",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.service-profile.path.detail.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.service-profile.path.detail.txt",
+            "sha1": "2faa5fd6332e7963aa2ce9207cdc1cf2e57f8adb",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "sevice_profile"
+            ],
+            "time_start": "1496267407037",
+            "timestamp": "2017-05-31T21:50:07 UTC"
+        },
+        {
+            "_seq": 51,
+            "allow_empty_response": false,
+            "cli": "show service-profile status",
+            "format": "txt",
+            "lines": "18",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.service-profile.status.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.service-profile.status.txt",
+            "sha1": "652c7e7df56a62c60cd20ba31f2854992f83d3f7",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "sevice_profile"
+            ],
+            "time_start": "1496267407567",
+            "timestamp": "2017-05-31T21:50:07 UTC"
+        },
+        {
+            "_seq": 52,
+            "allow_empty_response": false,
+            "cli": "show service-profile status expand detail",
+            "format": "txt",
+            "lines": "399",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.show.service-profile.status.expand.detail.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.show.service-profile.status.expand.detail.txt",
+            "sha1": "7c5c84d12e82e9db8e606d3d4fb56a30199ecda1",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "sevice_profile"
+            ],
+            "time_start": "1496267408067",
+            "timestamp": "2017-05-31T21:50:08 UTC"
+        },
+        {
+            "_seq": 53,
+            "allow_empty_response": true,
+            "cli": "connect nxos a",
+            "format": "txt",
+            "lines": "12",
+            "mode": "pre",
+            "source": "src",
+            "status": "ok",
+            "time_start": "1496267408943",
+            "timestamp": "2017-05-31T21:50:08 UTC"
+        },
+        {
+            "_seq": 54,
+            "allow_empty_response": false,
+            "cli": "show running-config",
+            "description": "Collect configuration from Fabric Interconnect A",
+            "format": "txt",
+            "lines": "694",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.connect.nxos.a.show.running-config.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.connect.nxos.a.show.running-config.txt",
+            "sha1": "afacd4958f4ef3b2c7491b212d294b8f348ae90b",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "network"
+            ],
+            "time_start": "1496267439876",
+            "timestamp": "2017-05-31T21:50:39 UTC"
+        },
+        {
+            "_seq": 55,
+            "allow_empty_response": true,
+            "cli": "exit",
+            "format": "txt",
+            "lines": "1",
+            "mode": "post",
+            "source": "src",
+            "status": "ok",
+            "time_start": "1496267470484",
+            "timestamp": "2017-05-31T21:51:10 UTC"
+        },
+        {
+            "_seq": 56,
+            "allow_empty_response": true,
+            "cli": "connect nxos a",
+            "format": "txt",
+            "lines": "12",
+            "mode": "pre",
+            "source": "src",
+            "status": "ok",
+            "time_start": "1496267470728",
+            "timestamp": "2017-05-31T21:51:10 UTC"
+        },
+        {
+            "_seq": 57,
+            "allow_empty_response": false,
+            "cli": "show version",
+            "description": "Collect version from Fabric Interconnect A",
+            "format": "txt",
+            "lines": "44",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.connect.nxos.a.show.version.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.connect.nxos.a.show.version.txt",
+            "sha1": "a2bbc6451434dc580a18b71ccbd6fa8d6a8d4f02",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "network"
+            ],
+            "time_start": "1496267501599",
+            "timestamp": "2017-05-31T21:51:41 UTC"
+        },
+        {
+            "_seq": 58,
+            "allow_empty_response": true,
+            "cli": "exit",
+            "format": "txt",
+            "lines": "1",
+            "mode": "post",
+            "source": "src",
+            "status": "ok",
+            "time_start": "1496267532549",
+            "timestamp": "2017-05-31T21:52:12 UTC"
+        },
+        {
+            "_seq": 59,
+            "allow_empty_response": true,
+            "cli": "connect nxos a",
+            "format": "txt",
+            "lines": "12",
+            "mode": "pre",
+            "source": "src",
+            "status": "ok",
+            "time_start": "1496267532798",
+            "timestamp": "2017-05-31T21:52:12 UTC"
+        },
+        {
+            "_seq": 60,
+            "allow_empty_response": false,
+            "cli": "show interface",
+            "description": "Collect interface information from Fabric Interconnect A",
+            "format": "txt",
+            "lines": "1790",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.connect.nxos.a.show.interface.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.connect.nxos.a.show.interface.txt",
+            "sha1": "e1ba6599d32da0fe62c8494eef60c19ceed85a0f",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "network"
+            ],
+            "time_start": "1496267563577",
+            "timestamp": "2017-05-31T21:52:43 UTC"
+        },
+        {
+            "_seq": 61,
+            "allow_empty_response": true,
+            "cli": "exit",
+            "format": "txt",
+            "lines": "1",
+            "mode": "post",
+            "source": "src",
+            "status": "ok",
+            "time_start": "1496267594210",
+            "timestamp": "2017-05-31T21:53:14 UTC"
+        },
+        {
+            "_seq": 62,
+            "allow_empty_response": true,
+            "cli": "connect nxos a",
+            "format": "txt",
+            "lines": "12",
+            "mode": "pre",
+            "source": "src",
+            "status": "ok",
+            "time_start": "1496267594457",
+            "timestamp": "2017-05-31T21:53:14 UTC"
+        },
+        {
+            "_seq": 63,
+            "allow_empty_response": false,
+            "cli": "show interface snmp-ifindex",
+            "description": "Collect interface SNMP index information from Fabric Interconnect A",
+            "format": "txt",
+            "lines": "66",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.connect.nxos.a.show.interface.snmp-ifindex.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.connect.nxos.a.show.interface.snmp-ifindex.txt",
+            "sha1": "ec720bbce97a9db4007130a8b40db19f5c341aad",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "network"
+            ],
+            "time_start": "1496267625211",
+            "timestamp": "2017-05-31T21:53:45 UTC"
+        },
+        {
+            "_seq": 64,
+            "allow_empty_response": true,
+            "cli": "exit",
+            "format": "txt",
+            "lines": "1",
+            "mode": "post",
+            "source": "src",
+            "status": "ok",
+            "time_start": "1496267655727",
+            "timestamp": "2017-05-31T21:54:15 UTC"
+        },
+        {
+            "_seq": 65,
+            "allow_empty_response": true,
+            "cli": "connect nxos a",
+            "format": "txt",
+            "lines": "12",
+            "mode": "pre",
+            "source": "src",
+            "status": "ok",
+            "time_start": "1496267655993",
+            "timestamp": "2017-05-31T21:54:15 UTC"
+        },
+        {
+            "_seq": 66,
+            "allow_empty_response": false,
+            "cli": "show mac address-table",
+            "description": "Collect MAC address table from Fabric Interconnect A",
+            "format": "txt",
+            "lines": "23",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.connect.nxos.a.show.mac.address-table.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.connect.nxos.a.show.mac.address-table.txt",
+            "sha1": "8eba56ccd44faeaa15eeaefcaa4f8c254a51a199",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "network"
+            ],
+            "time_start": "1496267686773",
+            "timestamp": "2017-05-31T21:54:46 UTC"
+        },
+        {
+            "_seq": 67,
+            "allow_empty_response": true,
+            "cli": "exit",
+            "format": "txt",
+            "lines": "1",
+            "mode": "post",
+            "source": "src",
+            "status": "ok",
+            "time_start": "1496267717158",
+            "timestamp": "2017-05-31T21:55:17 UTC"
+        },
+        {
+            "_seq": 68,
+            "allow_empty_response": true,
+            "cli": "connect nxos a",
+            "format": "txt",
+            "lines": "12",
+            "mode": "pre",
+            "source": "src",
+            "status": "ok",
+            "time_start": "1496267717396",
+            "timestamp": "2017-05-31T21:55:17 UTC"
+        },
+        {
+            "_seq": 69,
+            "allow_empty_response": false,
+            "cli": "show vlan",
+            "description": "Collect VLAN information from Fabric Interconnect A",
+            "format": "txt",
+            "lines": "33",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.connect.nxos.a.show.vlan.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.connect.nxos.a.show.vlan.txt",
+            "sha1": "33ff47d76bab0a93370bc5e1c5be8cf47f40b7b0",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "network"
+            ],
+            "time_start": "1496267748146",
+            "timestamp": "2017-05-31T21:55:48 UTC"
+        },
+        {
+            "_seq": 70,
+            "allow_empty_response": true,
+            "cli": "exit",
+            "format": "txt",
+            "lines": "1",
+            "mode": "post",
+            "source": "src",
+            "status": "ok",
+            "time_start": "1496267778398",
+            "timestamp": "2017-05-31T21:56:18 UTC"
+        },
+        {
+            "_seq": 71,
+            "allow_empty_response": true,
+            "cli": "connect nxos b",
+            "format": "txt",
+            "lines": "12",
+            "mode": "pre",
+            "source": "src",
+            "status": "ok",
+            "time_start": "1496267778661",
+            "timestamp": "2017-05-31T21:56:18 UTC"
+        },
+        {
+            "_seq": 72,
+            "allow_empty_response": false,
+            "cli": "show running-config",
+            "description": "Collect configuration from Fabric Interconnect B",
+            "format": "txt",
+            "lines": "654",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.connect.nxos.b.show.running-config.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.connect.nxos.b.show.running-config.txt",
+            "sha1": "362cee47d85723e911b40baec3446695e13d6da6",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "network"
+            ],
+            "time_start": "1496267779309",
+            "timestamp": "2017-05-31T21:56:19 UTC"
+        },
+        {
+            "_seq": 73,
+            "allow_empty_response": true,
+            "cli": "exit",
+            "format": "txt",
+            "lines": "1",
+            "mode": "post",
+            "source": "src",
+            "status": "ok",
+            "time_start": "1496267779874",
+            "timestamp": "2017-05-31T21:56:19 UTC"
+        },
+        {
+            "_seq": 74,
+            "allow_empty_response": true,
+            "cli": "connect nxos b",
+            "format": "txt",
+            "lines": "12",
+            "mode": "pre",
+            "source": "src",
+            "status": "ok",
+            "time_start": "1496267780130",
+            "timestamp": "2017-05-31T21:56:20 UTC"
+        },
+        {
+            "_seq": 75,
+            "allow_empty_response": false,
+            "cli": "show version",
+            "description": "Collect version from Fabric Interconnect B",
+            "format": "txt",
+            "lines": "43",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.connect.nxos.b.show.version.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.connect.nxos.b.show.version.txt",
+            "sha1": "35bc609e41171b08daeaa74bad78a9b2e803c4e6",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "network"
+            ],
+            "time_start": "1496267780734",
+            "timestamp": "2017-05-31T21:56:20 UTC"
+        },
+        {
+            "_seq": 76,
+            "allow_empty_response": true,
+            "cli": "exit",
+            "format": "txt",
+            "lines": "1",
+            "mode": "post",
+            "source": "src",
+            "status": "ok",
+            "time_start": "1496267781697",
+            "timestamp": "2017-05-31T21:56:21 UTC"
+        },
+        {
+            "_seq": 77,
+            "allow_empty_response": true,
+            "cli": "connect nxos b",
+            "format": "txt",
+            "lines": "12",
+            "mode": "pre",
+            "source": "src",
+            "status": "ok",
+            "time_start": "1496267781944",
+            "timestamp": "2017-05-31T21:56:21 UTC"
+        },
+        {
+            "_seq": 78,
+            "allow_empty_response": false,
+            "cli": "show interface",
+            "description": "Collect interface information from Fabric Interconnect B",
+            "format": "txt",
+            "lines": "1669",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.connect.nxos.b.show.interface.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.connect.nxos.b.show.interface.txt",
+            "sha1": "c6463fe4eadaa8c878875e1ee1aa3216c7fe6148",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "network"
+            ],
+            "time_start": "1496267782578",
+            "timestamp": "2017-05-31T21:56:22 UTC"
+        },
+        {
+            "_seq": 79,
+            "allow_empty_response": true,
+            "cli": "exit",
+            "format": "txt",
+            "lines": "1",
+            "mode": "post",
+            "source": "src",
+            "status": "ok",
+            "time_start": "1496267783146",
+            "timestamp": "2017-05-31T21:56:23 UTC"
+        },
+        {
+            "_seq": 80,
+            "allow_empty_response": true,
+            "cli": "connect nxos b",
+            "format": "txt",
+            "lines": "12",
+            "mode": "pre",
+            "source": "src",
+            "status": "ok",
+            "time_start": "1496267783469",
+            "timestamp": "2017-05-31T21:56:23 UTC"
+        },
+        {
+            "_seq": 81,
+            "allow_empty_response": false,
+            "cli": "show interface snmp-ifindex",
+            "description": "Collect interface SNMP index information from Fabric Interconnect B",
+            "format": "txt",
+            "lines": "60",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.connect.nxos.b.show.interface.snmp-ifindex.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.connect.nxos.b.show.interface.snmp-ifindex.txt",
+            "sha1": "cf161b5e54e3cad026af318f0303015cefc81d99",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "network"
+            ],
+            "time_start": "1496267784085",
+            "timestamp": "2017-05-31T21:56:24 UTC"
+        },
+        {
+            "_seq": 82,
+            "allow_empty_response": true,
+            "cli": "exit",
+            "format": "txt",
+            "lines": "1",
+            "mode": "post",
+            "source": "src",
+            "status": "ok",
+            "time_start": "1496267784537",
+            "timestamp": "2017-05-31T21:56:24 UTC"
+        },
+        {
+            "_seq": 83,
+            "allow_empty_response": true,
+            "cli": "connect nxos b",
+            "format": "txt",
+            "lines": "12",
+            "mode": "pre",
+            "source": "src",
+            "status": "ok",
+            "time_start": "1496267784786",
+            "timestamp": "2017-05-31T21:56:24 UTC"
+        },
+        {
+            "_seq": 84,
+            "allow_empty_response": false,
+            "cli": "show mac address-table",
+            "description": "Collect MAC address table from Fabric Interconnect B",
+            "format": "txt",
+            "lines": "20",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.connect.nxos.b.show.mac.address-table.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.connect.nxos.b.show.mac.address-table.txt",
+            "sha1": "592e26f97c7981424b2a078cb4c4f6f924fc905d",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "network"
+            ],
+            "time_start": "1496267785420",
+            "timestamp": "2017-05-31T21:56:25 UTC"
+        },
+        {
+            "_seq": 85,
+            "allow_empty_response": true,
+            "cli": "exit",
+            "format": "txt",
+            "lines": "1",
+            "mode": "post",
+            "source": "src",
+            "status": "ok",
+            "time_start": "1496267785830",
+            "timestamp": "2017-05-31T21:56:25 UTC"
+        },
+        {
+            "_seq": 86,
+            "allow_empty_response": true,
+            "cli": "connect nxos b",
+            "format": "txt",
+            "lines": "12",
+            "mode": "pre",
+            "source": "src",
+            "status": "ok",
+            "time_start": "1496267786079",
+            "timestamp": "2017-05-31T21:56:26 UTC"
+        },
+        {
+            "_seq": 87,
+            "allow_empty_response": false,
+            "cli": "show vlan",
+            "description": "Collect VLAN information from Fabric Interconnect B",
+            "format": "txt",
+            "lines": "35",
+            "mode": "analytics",
+            "path": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933/cisco-ucs-manager/cisco-ucs-manager.connect.nxos.b.show.vlan.txt",
+            "path_tmp": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.connect.nxos.b.show.vlan.txt",
+            "sha1": "45db19cd7ce854ca79bcd90c38a46e0daec1ddde",
+            "source": "os_default",
+            "status": "ok",
+            "tags": [
+                "network"
+            ],
+            "time_start": "1496267786688",
+            "timestamp": "2017-05-31T21:56:26 UTC"
+        },
+        {
+            "_seq": 88,
+            "allow_empty_response": true,
+            "cli": "exit",
+            "format": "txt",
+            "lines": "1",
+            "mode": "post",
+            "source": "src",
+            "status": "ok",
+            "time_start": "1496267786942",
+            "timestamp": "2017-05-31T21:56:26 UTC"
+        }
+    ],
+    "conf": {
+        "fqdn": "cisco-ucs-manager",
+        "host": "cisco-ucs-manager",
+        "host_overwrite": "10.199.0.219",
+        "host_port": 5901,
+        "host_protocol": null,
+        "hostname": "cisco-ucs-manager",
+        "jumphosts": null,
+        "os": "cisco_ucs",
+        "timeout": "30"
+    },
+    "output_dir": "/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933",
+    "play_uuid": "0859a9ac-464b-11e7-9d86-080027ed58b0",
+    "status": {
+        "authenticated": "yes",
+        "authorized": "yes",
+        "clisets": [
+            "/usr/lib/python2.7/site-packages/ndmtk/plugins/action/files/cli/os/cisco_ucs.yml",
+            "/usr/lib/python2.7/site-packages/ndmtk/plugins/action/files/cli/core/openflow.yml"
+        ],
+        "connect_end": 1496267376516,
+        "connect_end_utc": "2017-05-31T21:49:36 UTC",
+        "connect_start": 1496267373961,
+        "connect_start_utc": "2017-05-31T21:49:33 UTC",
+        "disconnect_end": 1496267787694,
+        "disconnect_end_utc": "2017-05-31T21:56:27 UTC",
+        "disconnect_start": 1496267787194,
+        "disconnect_start_utc": "2017-05-31T21:56:27 UTC",
+        "disconnected": "yes",
+        "paging_mode": "configured",
+        "password_prompted": "yes",
+        "pound_prompt": "yes",
+        "prompt_mode": "disabled",
+        "return_code": 0,
+        "return_msg": "ok",
+        "return_status": "ok",
+        "scripting_mode": "disabled",
+        "spawned": "yes"
+    },
+    "task_uuid": "08726de8-464b-11e7-9d86-080027ed58b0",
+    "temp_dir": "/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager"
+}

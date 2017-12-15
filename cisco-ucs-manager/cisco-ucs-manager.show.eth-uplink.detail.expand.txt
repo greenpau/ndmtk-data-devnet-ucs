@@ -1,0 +1,252 @@
+Ethernet Uplink:
+    Mode: End Host
+    MAC Table Aging Time (dd:hh:mm:ss): Mode Default
+    VLAN Port Count Optimization: Disabled
+    Current Task:
+
+    Fabric:
+        Id: A
+        Current Task 1:
+        Current Task 2:
+
+        Port Channel:
+            Port Channel Id: 1
+            Name: PO1
+            Admin State: Enabled
+            Oper State: Up
+            Speed: 10 Gbps
+            Oper Speed (Gbps): 20
+            State Reason:
+            flow control policy: default
+
+            Member Port:
+                Slot Id: 1
+                Port Id: 19
+                Membership: Up
+                Oper State: Up
+                State Reason:
+                Lic State: License Ok
+                Grace Period: 0
+                Current Task:
+
+                Slot Id: 1
+                Port Id: 20
+                Membership: Up
+                Oper State: Up
+                State Reason:
+                Lic State: License Ok
+                Grace Period: 0
+                Current Task:
+
+        Id: B
+        Current Task 1:
+        Current Task 2:
+
+        Port Channel:
+            Port Channel Id: 1
+            Name: PO2
+            Admin State: Enabled
+            Oper State: Up
+            Speed: 10 Gbps
+            Oper Speed (Gbps): 20
+            State Reason:
+            flow control policy: default
+
+            Member Port:
+                Slot Id: 1
+                Port Id: 19
+                Membership: Up
+                Oper State: Up
+                State Reason:
+                Lic State: License Ok
+                Grace Period: 0
+                Current Task:
+
+                Slot Id: 1
+                Port Id: 20
+                Membership: Up
+                Oper State: Up
+                State Reason:
+                Lic State: License Ok
+                Grace Period: 0
+                Current Task:
+
+    Stats Threshold Policy:
+        Name: default
+        Full Name: fabric/lan/thr-policy-default
+        Description:
+        Owner: Local
+
+    VLAN:
+        Name: default
+        VLAN ID: 1
+        Fabric ID: Dual
+        Native VLAN: Yes
+        Sharing Type: None
+        Primary Vlan:
+        Multicast Policy Name:
+        Compression Type: Included
+        Policy Owner: Local
+        Multicast Policy Instance: org-root/mc-policy-default
+
+        Name: T1-MGMT
+        VLAN ID: 10
+        Fabric ID: Dual
+        Native VLAN: No
+        Sharing Type: None
+        Primary Vlan:
+        Multicast Policy Name:
+        Compression Type: Included
+        Policy Owner: Local
+        Multicast Policy Instance: org-root/mc-policy-default
+
+        Name: T2-MGMT
+        VLAN ID: 20
+        Fabric ID: Dual
+        Native VLAN: No
+        Sharing Type: None
+        Primary Vlan:
+        Multicast Policy Name:
+        Compression Type: Included
+        Policy Owner: Local
+        Multicast Policy Instance: org-root/mc-policy-default
+
+        Name: T3-MGMT
+        VLAN ID: 30
+        Fabric ID: Dual
+        Native VLAN: No
+        Sharing Type: None
+        Primary Vlan:
+        Multicast Policy Name:
+        Compression Type: Included
+        Policy Owner: Local
+        Multicast Policy Instance: org-root/mc-policy-default
+
+        Name: T4-MGMT
+        VLAN ID: 40
+        Fabric ID: Dual
+        Native VLAN: No
+        Sharing Type: None
+        Primary Vlan:
+        Multicast Policy Name:
+        Compression Type: Included
+        Policy Owner: Local
+        Multicast Policy Instance: org-root/mc-policy-default
+
+        Name: T5-MGMT
+        VLAN ID: 50
+        Fabric ID: Dual
+        Native VLAN: No
+        Sharing Type: None
+        Primary Vlan:
+        Multicast Policy Name:
+        Compression Type: Included
+        Policy Owner: Local
+        Multicast Policy Instance: org-root/mc-policy-default
+
+        Name: T6-MGMT
+        VLAN ID: 60
+        Fabric ID: Dual
+        Native VLAN: No
+        Sharing Type: None
+        Primary Vlan:
+        Multicast Policy Name:
+        Compression Type: Included
+        Policy Owner: Local
+        Multicast Policy Instance: org-root/mc-policy-default
+
+        Name: T7-MGMT
+        VLAN ID: 70
+        Fabric ID: Dual
+        Native VLAN: No
+        Sharing Type: None
+        Primary Vlan:
+        Multicast Policy Name:
+        Compression Type: Included
+        Policy Owner: Local
+        Multicast Policy Instance: org-root/mc-policy-default
+
+        Name: T8-MGMT
+        VLAN ID: 80
+        Fabric ID: Dual
+        Native VLAN: No
+        Sharing Type: None
+        Primary Vlan:
+        Multicast Policy Name:
+        Compression Type: Included
+        Policy Owner: Local
+        Multicast Policy Instance: org-root/mc-policy-default
+
+        Name: Team1VLAN
+        VLAN ID: 10
+        Fabric ID: Dual
+        Native VLAN: No
+        Sharing Type: None
+        Primary Vlan:
+        Multicast Policy Name:
+        Compression Type: Included
+        Policy Owner: Local
+        Multicast Policy Instance: org-root/mc-policy-default
+
+        Monitor Source:
+            Session Name: destport
+            Source Direction: Receive
+
+        Name: Team2VLAN
+        VLAN ID: 20
+        Fabric ID: Dual
+        Native VLAN: No
+        Sharing Type: None
+        Primary Vlan:
+        Multicast Policy Name:
+        Compression Type: Included
+        Policy Owner: Local
+        Multicast Policy Instance: org-root/mc-policy-default
+
+        Monitor Source:
+            Session Name: destport
+            Source Direction: Receive
+
+        Name: Team3vlan
+        VLAN ID: 30
+        Fabric ID: Dual
+        Native VLAN: No
+        Sharing Type: None
+        Primary Vlan:
+        Multicast Policy Name:
+        Compression Type: Included
+        Policy Owner: Local
+        Multicast Policy Instance: org-root/mc-policy-default
+
+        Name: Team4VLAN
+        VLAN ID: 40
+        Fabric ID: Dual
+        Native VLAN: No
+        Sharing Type: None
+        Primary Vlan:
+        Multicast Policy Name:
+        Compression Type: Included
+        Policy Owner: Local
+        Multicast Policy Instance: org-root/mc-policy-default
+
+        Name: Team5VLAN
+        VLAN ID: 50
+        Fabric ID: Dual
+        Native VLAN: No
+        Sharing Type: None
+        Primary Vlan:
+        Multicast Policy Name:
+        Compression Type: Included
+        Policy Owner: Local
+        Multicast Policy Instance: org-root/mc-policy-default
+
+        Name: Team6VLAN
+        VLAN ID: 60
+        Fabric ID: Dual
+        Native VLAN: No
+        Sharing Type: None
+        Primary Vlan:
+        Multicast Policy Name:
+        Compression Type: Included
+        Policy Owner: Local
+        Multicast Policy Instance: org-root/mc-policy-default

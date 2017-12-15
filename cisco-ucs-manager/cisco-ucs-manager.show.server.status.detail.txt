@@ -1,0 +1,103 @@
+Server 1/1:
+    Slot Status: Equipped
+    Equipped Conn Path: A,B
+    Equipped Conn Status: A,B
+    Equipped Managing Instance: A
+    Availability: Available
+    Admin State: In Service
+    Overall Status: Unassociated
+    Oper Qualifier: N/A
+    Discovery: Complete
+    Current Task:
+    Check Point: Discovered
+
+Server 1/2:
+    Slot Status: Equipped
+    Equipped Conn Path: A,B
+    Equipped Conn Status: A,B
+    Equipped Managing Instance: A
+    Availability: Unavailable
+    Admin State: In Service
+    Overall Status: Ok
+    Oper Qualifier: N/A
+    Discovery: Complete
+    Current Task:
+    Check Point: Discovered
+
+Server 1/3:
+    Slot Status: Equipped
+    Equipped Conn Path: A,B
+    Equipped Conn Status: A,B
+    Equipped Managing Instance: A
+    Availability: Available
+    Admin State: In Service
+    Overall Status: Unassociated
+    Oper Qualifier: N/A
+    Discovery: Complete
+    Current Task:
+    Check Point: Discovered
+
+Server 1/4:
+    Slot Status: Equipped
+    Equipped Conn Path: A,B
+    Equipped Conn Status: A,B
+    Equipped Managing Instance: A
+    Availability: Unavailable
+    Admin State: In Service
+    Overall Status: Ok
+    Oper Qualifier: N/A
+    Discovery: Complete
+    Current Task:
+    Check Point: Discovered
+
+Server 1/5:
+    Slot Status: Equipped
+    Equipped Conn Path: A,B
+    Equipped Conn Status: A,B
+    Equipped Managing Instance: A
+    Availability: Unavailable
+    Admin State: In Service
+    Overall Status: Power Off
+    Oper Qualifier: N/A
+    Discovery: Complete
+    Current Task:
+    Check Point: Discovered
+
+Server 1/6:
+    Slot Status: Equipped
+    Equipped Conn Path: A,B
+    Equipped Conn Status: A,B
+    Equipped Managing Instance: B
+    Availability: Available
+    Admin State: In Service
+    Overall Status: Unassociated
+    Oper Qualifier: N/A
+    Discovery: Complete
+    Current Task:
+    Check Point: Discovered
+
+Server 1/7:
+    Slot Status: Equipped
+    Equipped Conn Path: A,B
+    Equipped Conn Status: A,B
+    Equipped Managing Instance: A
+    Availability: Available
+    Admin State: In Service
+    Overall Status: Unassociated
+    Oper Qualifier: N/A
+    Discovery: Complete
+    Current Task:
+    Check Point: Discovered
+
+Server 1/8:
+    Slot Status: Equipped
+    Equipped Conn Path: A,B
+    Equipped Conn Status: A,B
+    Equipped Managing Instance: A
+    Availability: Available
+    Admin State: In Service
+    Overall Status: Unassociated
+    Oper Qualifier: N/A
+    Discovery: Complete
+    Current Task:
+    Check Point: Discovered

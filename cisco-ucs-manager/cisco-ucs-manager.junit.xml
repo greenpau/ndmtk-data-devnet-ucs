@@ -1,0 +1,1295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+ <testsuite hostname="cisco-ucs-manager" name="ndmtk.connect" errors="0" skipped="0" tests="1" failures="0" time="2.555" timestamp="2017-05-31T21:49:33">
+  <properties>
+   <property name="host" value="cisco-ucs-manager"/>
+   <property name="os" value="cisco_ucs"/>
+   <property name="output_dir" value="/opt/data/devnet-cisco-ucs/cisco-ucs-20170531214933"/>
+   <property name="on_error" value="continue"/>
+   <property name="on_prompt" value="abort"/>
+   <property name="temp_dir" value="/home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager"/>
+   <property name="args" value="ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -p 5901 -tt admin@10.199.0.219"/>
+   <property name="play_uuid" value="0859a9ac-464b-11e7-9d86-080027ed58b0"/>
+   <property name="task_uuid" value="08726de8-464b-11e7-9d86-080027ed58b0"/>
+   <property name="return_code" value="0"/>
+   <property name="return_status" value="ok"/>
+   <property name="return_msg" value="ok"/>
+   <property name="paging_mode" value="configured"/>
+   <property name="scripting_mode" value="disabled"/>
+   <property name="prompt_mode" value="disabled"/>
+   <property name="clisets.0" value="/usr/lib/python2.7/site-packages/ndmtk/plugins/action/files/cli/os/cisco_ucs.yml"/>
+   <property name="clisets.1" value="/usr/lib/python2.7/site-packages/ndmtk/plugins/action/files/cli/core/openflow.yml"/>
+  </properties>
+  <testcase name="connect" status="ok" time="2.555">
+   <system_out><![CDATA[
+################################################################################
+# connection establishment log :
+# /home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.log_connect
+################################################################################
+
+Warning: Permanently added '[10.199.0.219]:5901' (RSA) to the list of known hosts.
+Cisco UCS 6200 Series Fabric Interconnect
+Password: 
+Cisco Nexus Operating System (NX-OS) Software
+TAC support: http://www.cisco.com/tac
+Copyright (c) 2009, Cisco Systems, Inc. All rights reserved.
+The copyrights to certain works contained in this software are
+owned by other third parties and used and distributed under
+license. Certain components of this software are licensed under
+the GNU General Public License (GPL) version 2.0 or the GNU
+Lesser General Public License (LGPL) Version 2.1. A copy of each
+such license is available at
+http://www.opensource.org/licenses/gpl-2.0.php and
+http://www.opensource.org/licenses/lgpl-2.1.php
+
+S6200-B# 
+terminal length 0
+]]>
+   </system_out>
+  </testcase>
+ </testsuite>
+ <testsuite hostname="cisco-ucs-manager" name="ndmtk.execute" errors="0" skipped="0" tests="88" failures="0" time="414.058" timestamp="2017-05-31T21:49:33">
+  <testcase name="show configuration all" classname="configuration" status="ok" time="2.585"/>
+  <testcase name="show version" classname="version" status="ok" time="0.317"/>
+  <testcase name="Collect UCS Chassis information" classname="version" status="ok" time="0.423">
+   <system_out><![CDATA[
+$ show chassis detail
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="Collect firmware information" classname="management" status="ok" time="0.657">
+   <system_out><![CDATA[
+$ show chassis firmware detail
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="Collect version information" classname="management" status="ok" time="0.654">
+   <system_out><![CDATA[
+$ show chassis version detail
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="Collect fabric information" classname="management" status="ok" time="0.532">
+   <system_out><![CDATA[
+$ show chassis fabric detail
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="Collect chassis health information" classname="management" status="ok" time="0.47">
+   <system_out><![CDATA[
+$ show chassis environment detail
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="Collect chassis health information (IO Module)" classname="management" status="ok" time="0.472">
+   <system_out><![CDATA[
+$ show chassis environment iom detail
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="Collect chassis health information (Power Supplies)" classname="management" status="ok" time="0.543">
+   <system_out><![CDATA[
+$ show chassis environment psu detail
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="Collect chassis health information (Fans)" classname="management" status="ok" time="0.583">
+   <system_out><![CDATA[
+$ show chassis environment fan detail
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="Collect chassis health information (Servers)" classname="management" status="ok" time="0.753">
+   <system_out><![CDATA[
+$ show chassis environment server detail
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="Collect chassis inventory information" classname="inventory" status="ok" time="0.481">
+   <system_out><![CDATA[
+$ show chassis inventory detail
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="Collect chassis inventory information (IO Module)" classname="inventory" status="ok" time="0.422">
+   <system_out><![CDATA[
+$ show chassis inventory iom detail
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="Collect chassis inventory information (Power Supplies)" classname="inventory" status="ok" time="0.471">
+   <system_out><![CDATA[
+$ show chassis inventory psu detail
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="Collect chassis inventory information (Fans)" classname="inventory" status="ok" time="0.527">
+   <system_out><![CDATA[
+$ show chassis inventory fan detail
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="Collect chassis inventory information (Servers)" classname="inventory" status="ok" time="0.63">
+   <system_out><![CDATA[
+$ show chassis inventory server detail
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="show clock detail" classname="clock" status="ok" time="0.314"/>
+  <testcase name="show cluster state" classname="high_availability" status="ok" time="0.539"/>
+  <testcase name="show cluster extended-state" classname="high_availability" status="ok" time="0.755"/>
+  <testcase name="show eth-uplink detail" classname="network" status="ok" time="0.397"/>
+  <testcase name="show eth-uplink detail expand" classname="network" status="ok" time="0.489"/>
+  <testcase name="show fabric-interconnect detail" classname="network" status="ok" time="0.436"/>
+  <testcase name="show fabric-interconnect environment expand detail" classname="network" status="ok" time="0.634"/>
+  <testcase name="show fabric-interconnect inventory expand detail" classname="network" status="ok" time="1.453"/>
+  <testcase name="show fabric-interconnect mode" classname="network" status="ok" time="0.469"/>
+  <testcase name="show fabric-interconnect mac-aging" classname="network" status="ok" time="0.471"/>
+  <testcase name="show fabric-interconnect version" classname="network" status="ok" time="0.492"/>
+  <testcase name="show fabric-interconnect firmware" classname="network" status="ok" time="0.472"/>
+  <testcase name="show fault" classname="management" status="ok" time="0.425"/>
+  <testcase name="show security detail" classname="servers" status="ok" time="0.393"/>
+  <testcase name="show server inventory expand detail" classname="servers" status="ok" time="1.449"/>
+  <testcase name="show server assoc" classname="servers" status="ok" time="0.322"/>
+  <testcase name="show server boot-order detail" classname="servers" status="ok" time="0.48"/>
+  <testcase name="show server firmware detail" classname="servers" status="ok" time="0.61"/>
+  <testcase name="show server identity" classname="servers" status="ok" time="0.501"/>
+  <testcase name="show server status" classname="servers" status="ok" time="0.37"/>
+  <testcase name="show server status detail" classname="servers" status="ok" time="0.408"/>
+  <testcase name="show server storage detail" classname="servers" status="ok" time="0.51"/>
+  <testcase name="show server version detail" classname="servers" status="ok" time="0.546"/>
+  <testcase name="show service-profile assoc" classname="sevice_profile" status="ok" time="0.544"/>
+  <testcase name="show service-profile assoc detail" classname="sevice_profile" status="ok" time="0.535"/>
+  <testcase name="show service-profile circuit" classname="sevice_profile" status="ok" time="0.709"/>
+  <testcase name="show service-profile circuit detail" classname="sevice_profile" status="ok" time="0.78"/>
+  <testcase name="show service-profile connectivity" classname="sevice_profile" status="ok" time="0.806"/>
+  <testcase name="show service-profile connectivity detail" classname="sevice_profile" status="ok" time="0.931"/>
+  <testcase name="show service-profile identity" classname="sevice_profile" status="ok" time="0.552"/>
+  <testcase name="show service-profile inventory" classname="sevice_profile" status="ok" time="0.526"/>
+  <testcase name="show service-profile inventory expand detail" classname="sevice_profile" status="ok" time="0.89"/>
+  <testcase name="show service-profile path" classname="sevice_profile" status="ok" time="0.461"/>
+  <testcase name="show service-profile path detail" classname="sevice_profile" status="ok" time="0.53"/>
+  <testcase name="show service-profile status" classname="sevice_profile" status="ok" time="0.5"/>
+  <testcase name="show service-profile status expand detail" classname="sevice_profile" status="ok" time="0.876"/>
+  <testcase name="connect nxos a" status="ok" time="30.933">
+   <system_out><![CDATA[
+connect nxos a
+Cisco Nexus Operating System (NX-OS) Software
+TAC support: http://www.cisco.com/tac
+Copyright (c) 2002-2013, Cisco Systems, Inc. All rights reserved.
+The copyrights to certain works contained in this software are
+owned by other third parties and used and distributed under
+license. Certain components of this software are licensed under
+the GNU General Public License (GPL) version 2.0 or the GNU
+Lesser General Public License (LGPL) Version 2.1. A copy of each
+such license is available at
+http://www.opensource.org/licenses/gpl-2.0.php and
+http://www.opensource.org/licenses/lgpl-2.1.php
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="Collect configuration from Fabric Interconnect A" classname="network" status="ok" time="30.608">
+   <system_out><![CDATA[
+$ show running-config
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="exit" status="ok" time="0.244">
+   <system_out><![CDATA[
+exit
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="connect nxos a" status="ok" time="30.871">
+   <system_out><![CDATA[
+connect nxos a
+Cisco Nexus Operating System (NX-OS) Software
+TAC support: http://www.cisco.com/tac
+Copyright (c) 2002-2013, Cisco Systems, Inc. All rights reserved.
+The copyrights to certain works contained in this software are
+owned by other third parties and used and distributed under
+license. Certain components of this software are licensed under
+the GNU General Public License (GPL) version 2.0 or the GNU
+Lesser General Public License (LGPL) Version 2.1. A copy of each
+such license is available at
+http://www.opensource.org/licenses/gpl-2.0.php and
+http://www.opensource.org/licenses/lgpl-2.1.php
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="Collect version from Fabric Interconnect A" classname="network" status="ok" time="30.95">
+   <system_out><![CDATA[
+$ show version
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="exit" status="ok" time="0.249">
+   <system_out><![CDATA[
+exit
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="connect nxos a" status="ok" time="30.779">
+   <system_out><![CDATA[
+connect nxos a
+Cisco Nexus Operating System (NX-OS) Software
+TAC support: http://www.cisco.com/tac
+Copyright (c) 2002-2013, Cisco Systems, Inc. All rights reserved.
+The copyrights to certain works contained in this software are
+owned by other third parties and used and distributed under
+license. Certain components of this software are licensed under
+the GNU General Public License (GPL) version 2.0 or the GNU
+Lesser General Public License (LGPL) Version 2.1. A copy of each
+such license is available at
+http://www.opensource.org/licenses/gpl-2.0.php and
+http://www.opensource.org/licenses/lgpl-2.1.php
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="Collect interface information from Fabric Interconnect A" classname="network" status="ok" time="30.633">
+   <system_out><![CDATA[
+$ show interface
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="exit" status="ok" time="0.247">
+   <system_out><![CDATA[
+exit
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="connect nxos a" status="ok" time="30.754">
+   <system_out><![CDATA[
+connect nxos a
+Cisco Nexus Operating System (NX-OS) Software
+TAC support: http://www.cisco.com/tac
+Copyright (c) 2002-2013, Cisco Systems, Inc. All rights reserved.
+The copyrights to certain works contained in this software are
+owned by other third parties and used and distributed under
+license. Certain components of this software are licensed under
+the GNU General Public License (GPL) version 2.0 or the GNU
+Lesser General Public License (LGPL) Version 2.1. A copy of each
+such license is available at
+http://www.opensource.org/licenses/gpl-2.0.php and
+http://www.opensource.org/licenses/lgpl-2.1.php
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="Collect interface SNMP index information from Fabric Interconnect A" classname="network" status="ok" time="30.516">
+   <system_out><![CDATA[
+$ show interface snmp-ifindex
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="exit" status="ok" time="0.266">
+   <system_out><![CDATA[
+exit
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="connect nxos a" status="ok" time="30.78">
+   <system_out><![CDATA[
+connect nxos a
+Cisco Nexus Operating System (NX-OS) Software
+TAC support: http://www.cisco.com/tac
+Copyright (c) 2002-2013, Cisco Systems, Inc. All rights reserved.
+The copyrights to certain works contained in this software are
+owned by other third parties and used and distributed under
+license. Certain components of this software are licensed under
+the GNU General Public License (GPL) version 2.0 or the GNU
+Lesser General Public License (LGPL) Version 2.1. A copy of each
+such license is available at
+http://www.opensource.org/licenses/gpl-2.0.php and
+http://www.opensource.org/licenses/lgpl-2.1.php
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="Collect MAC address table from Fabric Interconnect A" classname="network" status="ok" time="30.385">
+   <system_out><![CDATA[
+$ show mac address-table
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="exit" status="ok" time="0.238">
+   <system_out><![CDATA[
+exit
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="connect nxos a" status="ok" time="30.75">
+   <system_out><![CDATA[
+connect nxos a
+Cisco Nexus Operating System (NX-OS) Software
+TAC support: http://www.cisco.com/tac
+Copyright (c) 2002-2013, Cisco Systems, Inc. All rights reserved.
+The copyrights to certain works contained in this software are
+owned by other third parties and used and distributed under
+license. Certain components of this software are licensed under
+the GNU General Public License (GPL) version 2.0 or the GNU
+Lesser General Public License (LGPL) Version 2.1. A copy of each
+such license is available at
+http://www.opensource.org/licenses/gpl-2.0.php and
+http://www.opensource.org/licenses/lgpl-2.1.php
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="Collect VLAN information from Fabric Interconnect A" classname="network" status="ok" time="30.252">
+   <system_out><![CDATA[
+$ show vlan
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="exit" status="ok" time="0.263">
+   <system_out><![CDATA[
+exit
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="connect nxos b" status="ok" time="0.648">
+   <system_out><![CDATA[
+connect nxos b
+Cisco Nexus Operating System (NX-OS) Software
+TAC support: http://www.cisco.com/tac
+Copyright (c) 2002-2013, Cisco Systems, Inc. All rights reserved.
+The copyrights to certain works contained in this software are
+owned by other third parties and used and distributed under
+license. Certain components of this software are licensed under
+the GNU General Public License (GPL) version 2.0 or the GNU
+Lesser General Public License (LGPL) Version 2.1. A copy of each
+such license is available at
+http://www.opensource.org/licenses/gpl-2.0.php and
+http://www.opensource.org/licenses/lgpl-2.1.php
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="Collect configuration from Fabric Interconnect B" classname="network" status="ok" time="0.565">
+   <system_out><![CDATA[
+$ show running-config
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="exit" status="ok" time="0.256">
+   <system_out><![CDATA[
+exit
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="connect nxos b" status="ok" time="0.604">
+   <system_out><![CDATA[
+connect nxos b
+Cisco Nexus Operating System (NX-OS) Software
+TAC support: http://www.cisco.com/tac
+Copyright (c) 2002-2013, Cisco Systems, Inc. All rights reserved.
+The copyrights to certain works contained in this software are
+owned by other third parties and used and distributed under
+license. Certain components of this software are licensed under
+the GNU General Public License (GPL) version 2.0 or the GNU
+Lesser General Public License (LGPL) Version 2.1. A copy of each
+such license is available at
+http://www.opensource.org/licenses/gpl-2.0.php and
+http://www.opensource.org/licenses/lgpl-2.1.php
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="Collect version from Fabric Interconnect B" classname="network" status="ok" time="0.963">
+   <system_out><![CDATA[
+$ show version
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="exit" status="ok" time="0.247">
+   <system_out><![CDATA[
+exit
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="connect nxos b" status="ok" time="0.634">
+   <system_out><![CDATA[
+connect nxos b
+Cisco Nexus Operating System (NX-OS) Software
+TAC support: http://www.cisco.com/tac
+Copyright (c) 2002-2013, Cisco Systems, Inc. All rights reserved.
+The copyrights to certain works contained in this software are
+owned by other third parties and used and distributed under
+license. Certain components of this software are licensed under
+the GNU General Public License (GPL) version 2.0 or the GNU
+Lesser General Public License (LGPL) Version 2.1. A copy of each
+such license is available at
+http://www.opensource.org/licenses/gpl-2.0.php and
+http://www.opensource.org/licenses/lgpl-2.1.php
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="Collect interface information from Fabric Interconnect B" classname="network" status="ok" time="0.568">
+   <system_out><![CDATA[
+$ show interface
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="exit" status="ok" time="0.323">
+   <system_out><![CDATA[
+exit
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="connect nxos b" status="ok" time="0.616">
+   <system_out><![CDATA[
+connect nxos b
+Cisco Nexus Operating System (NX-OS) Software
+TAC support: http://www.cisco.com/tac
+Copyright (c) 2002-2013, Cisco Systems, Inc. All rights reserved.
+The copyrights to certain works contained in this software are
+owned by other third parties and used and distributed under
+license. Certain components of this software are licensed under
+the GNU General Public License (GPL) version 2.0 or the GNU
+Lesser General Public License (LGPL) Version 2.1. A copy of each
+such license is available at
+http://www.opensource.org/licenses/gpl-2.0.php and
+http://www.opensource.org/licenses/lgpl-2.1.php
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="Collect interface SNMP index information from Fabric Interconnect B" classname="network" status="ok" time="0.452">
+   <system_out><![CDATA[
+$ show interface snmp-ifindex
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="exit" status="ok" time="0.249">
+   <system_out><![CDATA[
+exit
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="connect nxos b" status="ok" time="0.634">
+   <system_out><![CDATA[
+connect nxos b
+Cisco Nexus Operating System (NX-OS) Software
+TAC support: http://www.cisco.com/tac
+Copyright (c) 2002-2013, Cisco Systems, Inc. All rights reserved.
+The copyrights to certain works contained in this software are
+owned by other third parties and used and distributed under
+license. Certain components of this software are licensed under
+the GNU General Public License (GPL) version 2.0 or the GNU
+Lesser General Public License (LGPL) Version 2.1. A copy of each
+such license is available at
+http://www.opensource.org/licenses/gpl-2.0.php and
+http://www.opensource.org/licenses/lgpl-2.1.php
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="Collect MAC address table from Fabric Interconnect B" classname="network" status="ok" time="0.41">
+   <system_out><![CDATA[
+$ show mac address-table
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="exit" status="ok" time="0.249">
+   <system_out><![CDATA[
+exit
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="connect nxos b" status="ok" time="0.609">
+   <system_out><![CDATA[
+connect nxos b
+Cisco Nexus Operating System (NX-OS) Software
+TAC support: http://www.cisco.com/tac
+Copyright (c) 2002-2013, Cisco Systems, Inc. All rights reserved.
+The copyrights to certain works contained in this software are
+owned by other third parties and used and distributed under
+license. Certain components of this software are licensed under
+the GNU General Public License (GPL) version 2.0 or the GNU
+Lesser General Public License (LGPL) Version 2.1. A copy of each
+such license is available at
+http://www.opensource.org/licenses/gpl-2.0.php and
+http://www.opensource.org/licenses/lgpl-2.1.php
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="Collect VLAN information from Fabric Interconnect B" classname="network" status="ok" time="0.254">
+   <system_out><![CDATA[
+$ show vlan
+]]>
+   </system_out>
+  </testcase>
+  <testcase name="exit" status="ok" time="0.247">
+   <system_out><![CDATA[
+exit
+]]>
+   </system_out>
+  </testcase>
+ </testsuite>
+ <testsuite hostname="cisco-ucs-manager" name="ndmtk.disconnect" errors="0" skipped="0" tests="1" failures="0" time="0.5" timestamp="2017-05-31T21:56:27">
+  <testcase name="disconnect" status="ok" time="0.5">
+   <system_out><![CDATA[
+################################################################################
+# connection termination log:
+# /home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.log_disconnect
+################################################################################
+
+exit
+Connection to 10.199.0.219 closed.
+################################################################################
+# default log:
+# /home/greenpau/.ansible/tmp/ndmtk/0859a9ac-464b-11e7-9d86-080027ed58b0/08726de8-464b-11e7-9d86-080027ed58b0/cisco-ucs-manager/cisco-ucs-manager.log
+################################################################################
+
+timestamp='Wed May 31 17:49:33 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='stdin is a terminal'
+timestamp='Wed May 31 17:49:33 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' controller='master' host='cisco-ucs-manager' operating_system='cisco_ucs' tool='ansible' plugin='ndmtk' action='init'
+timestamp='Wed May 31 17:49:33 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli: ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -p 5901 -tt admin@10.199.0.219'
+timestamp='Wed May 31 17:49:33 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' spawn_id='exp20'
+timestamp='Wed May 31 17:49:33 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' terminal_width='224'
+timestamp='Wed May 31 17:49:33 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='pid: 28637'
+timestamp='Wed May 31 17:49:33 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='successfully communicated status: spawned:yes'
+timestamp='Wed May 31 17:49:33 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='spawned status message was sent successfully'
+timestamp='Wed May 31 17:49:35 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='successfully communicated status: password_prompted:yes'
+timestamp='Wed May 31 17:49:35 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='connected, detected password prompt'
+timestamp='Wed May 31 17:49:35 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='sending password'
+timestamp='Wed May 31 17:49:36 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='successfully communicated status: pound_prompt:yes'
+timestamp='Wed May 31 17:49:36 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='successfully communicated status: authenticated:yes'
+timestamp='Wed May 31 17:49:36 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='successfully communicated status: authorized:yes'
+timestamp='Wed May 31 17:49:36 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='authenticated successfully'
+timestamp='Wed May 31 17:49:36 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='currently in Privileged EXEC mode'
+timestamp='Wed May 31 17:49:36 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='discovered prompt: "S6200-B# " and regexed it with "S6200-B# "'
+timestamp='Wed May 31 17:49:36 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='discovered prompt: "S6200-B# " and regexed it with "S6200-B# "'
+timestamp='Wed May 31 17:49:36 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='detected prompt <<S6200-B# >>'
+timestamp='Wed May 31 17:49:36 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='detected hostname <<S6200-B>>'
+timestamp='Wed May 31 17:49:36 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='regular prompt is S6200-B# '
+timestamp='Wed May 31 17:49:36 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='optional prompt is S6200-B(\S+)#'
+timestamp='Wed May 31 17:49:36 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: terminal length 0'
+timestamp='Wed May 31 17:49:36 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: paging'
+timestamp='Wed May 31 17:49:36 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: paging'
+timestamp='Wed May 31 17:49:36 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: terminal length 0'
+timestamp='Wed May 31 17:49:36 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (a): paging'
+timestamp='Wed May 31 17:49:36 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: paging'
+timestamp='Wed May 31 17:49:36 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:36 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='successfully communicated status: paging_mode:configured'
+timestamp='Wed May 31 17:49:36 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show configuration all'
+timestamp='Wed May 31 17:49:36 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.configuration.all.txt'
+timestamp='Wed May 31 17:49:36 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:36 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:36 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show configuration all'
+timestamp='Wed May 31 17:49:36 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.configuration.all.txt'
+timestamp='Wed May 31 17:49:36 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:39 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:39 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show version'
+timestamp='Wed May 31 17:49:39 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.version.txt'
+timestamp='Wed May 31 17:49:39 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:39 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:39 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show version'
+timestamp='Wed May 31 17:49:39 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.version.txt'
+timestamp='Wed May 31 17:49:39 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:39 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:39 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show chassis detail'
+timestamp='Wed May 31 17:49:39 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.chassis.detail.txt'
+timestamp='Wed May 31 17:49:39 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:39 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:39 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show chassis detail'
+timestamp='Wed May 31 17:49:39 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.chassis.detail.txt'
+timestamp='Wed May 31 17:49:39 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:40 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:40 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show chassis firmware detail'
+timestamp='Wed May 31 17:49:40 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.chassis.firmware.detail.txt'
+timestamp='Wed May 31 17:49:40 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:40 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:40 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show chassis firmware detail'
+timestamp='Wed May 31 17:49:40 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.chassis.firmware.detail.txt'
+timestamp='Wed May 31 17:49:40 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:40 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:40 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show chassis version detail'
+timestamp='Wed May 31 17:49:40 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.chassis.version.detail.txt'
+timestamp='Wed May 31 17:49:40 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:40 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:40 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show chassis version detail'
+timestamp='Wed May 31 17:49:40 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.chassis.version.detail.txt'
+timestamp='Wed May 31 17:49:40 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:41 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:41 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show chassis fabric detail'
+timestamp='Wed May 31 17:49:41 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.chassis.fabric.detail.txt'
+timestamp='Wed May 31 17:49:41 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:41 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:41 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show chassis fabric detail'
+timestamp='Wed May 31 17:49:41 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.chassis.fabric.detail.txt'
+timestamp='Wed May 31 17:49:41 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:42 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:42 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show chassis environment detail'
+timestamp='Wed May 31 17:49:42 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.chassis.environment.detail.txt'
+timestamp='Wed May 31 17:49:42 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:42 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:42 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show chassis environment detail'
+timestamp='Wed May 31 17:49:42 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.chassis.environment.detail.txt'
+timestamp='Wed May 31 17:49:42 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:42 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:42 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show chassis environment iom detail'
+timestamp='Wed May 31 17:49:42 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.chassis.environment.iom.detail.txt'
+timestamp='Wed May 31 17:49:42 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:42 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:42 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show chassis environment iom detail'
+timestamp='Wed May 31 17:49:42 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.chassis.environment.iom.detail.txt'
+timestamp='Wed May 31 17:49:42 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:42 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:42 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show chassis environment psu detail'
+timestamp='Wed May 31 17:49:42 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.chassis.environment.psu.detail.txt'
+timestamp='Wed May 31 17:49:42 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:42 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:42 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show chassis environment psu detail'
+timestamp='Wed May 31 17:49:42 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.chassis.environment.psu.detail.txt'
+timestamp='Wed May 31 17:49:42 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:43 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:43 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show chassis environment fan detail'
+timestamp='Wed May 31 17:49:43 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.chassis.environment.fan.detail.txt'
+timestamp='Wed May 31 17:49:43 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:43 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:43 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show chassis environment fan detail'
+timestamp='Wed May 31 17:49:43 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.chassis.environment.fan.detail.txt'
+timestamp='Wed May 31 17:49:43 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:44 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:44 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show chassis environment server detail'
+timestamp='Wed May 31 17:49:44 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.chassis.environment.server.detail.txt'
+timestamp='Wed May 31 17:49:44 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:44 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:44 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show chassis environment server detail'
+timestamp='Wed May 31 17:49:44 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.chassis.environment.server.detail.txt'
+timestamp='Wed May 31 17:49:44 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:44 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:44 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show chassis inventory detail'
+timestamp='Wed May 31 17:49:44 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.chassis.inventory.detail.txt'
+timestamp='Wed May 31 17:49:44 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:44 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:44 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show chassis inventory detail'
+timestamp='Wed May 31 17:49:44 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.chassis.inventory.detail.txt'
+timestamp='Wed May 31 17:49:44 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:45 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:45 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show chassis inventory iom detail'
+timestamp='Wed May 31 17:49:45 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.chassis.inventory.iom.detail.txt'
+timestamp='Wed May 31 17:49:45 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:45 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:45 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show chassis inventory iom detail'
+timestamp='Wed May 31 17:49:45 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.chassis.inventory.iom.detail.txt'
+timestamp='Wed May 31 17:49:45 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:45 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:45 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show chassis inventory psu detail'
+timestamp='Wed May 31 17:49:45 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.chassis.inventory.psu.detail.txt'
+timestamp='Wed May 31 17:49:45 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:45 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:45 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show chassis inventory psu detail'
+timestamp='Wed May 31 17:49:45 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.chassis.inventory.psu.detail.txt'
+timestamp='Wed May 31 17:49:45 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:46 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:46 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show chassis inventory fan detail'
+timestamp='Wed May 31 17:49:46 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.chassis.inventory.fan.detail.txt'
+timestamp='Wed May 31 17:49:46 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:46 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:46 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show chassis inventory fan detail'
+timestamp='Wed May 31 17:49:46 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.chassis.inventory.fan.detail.txt'
+timestamp='Wed May 31 17:49:46 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:46 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:46 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show chassis inventory server detail'
+timestamp='Wed May 31 17:49:46 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.chassis.inventory.server.detail.txt'
+timestamp='Wed May 31 17:49:46 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:46 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:46 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show chassis inventory server detail'
+timestamp='Wed May 31 17:49:46 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.chassis.inventory.server.detail.txt'
+timestamp='Wed May 31 17:49:46 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:47 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:47 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show clock detail'
+timestamp='Wed May 31 17:49:47 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.clock.detail.txt'
+timestamp='Wed May 31 17:49:47 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:47 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:47 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show clock detail'
+timestamp='Wed May 31 17:49:47 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.clock.detail.txt'
+timestamp='Wed May 31 17:49:47 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:47 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:47 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show cluster state'
+timestamp='Wed May 31 17:49:47 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.cluster.state.txt'
+timestamp='Wed May 31 17:49:47 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:47 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:47 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show cluster state'
+timestamp='Wed May 31 17:49:47 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.cluster.state.txt'
+timestamp='Wed May 31 17:49:47 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:48 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:48 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show cluster extended-state'
+timestamp='Wed May 31 17:49:48 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.cluster.extended-state.txt'
+timestamp='Wed May 31 17:49:48 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:48 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:48 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show cluster extended-state'
+timestamp='Wed May 31 17:49:48 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.cluster.extended-state.txt'
+timestamp='Wed May 31 17:49:48 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:48 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:48 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show eth-uplink detail'
+timestamp='Wed May 31 17:49:48 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.eth-uplink.detail.txt'
+timestamp='Wed May 31 17:49:48 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:48 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:48 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show eth-uplink detail'
+timestamp='Wed May 31 17:49:48 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.eth-uplink.detail.txt'
+timestamp='Wed May 31 17:49:48 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:49 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:49 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show eth-uplink detail expand'
+timestamp='Wed May 31 17:49:49 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.eth-uplink.detail.expand.txt'
+timestamp='Wed May 31 17:49:49 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:49 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:49 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show eth-uplink detail expand'
+timestamp='Wed May 31 17:49:49 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.eth-uplink.detail.expand.txt'
+timestamp='Wed May 31 17:49:49 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:49 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:49 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show fabric-interconnect detail'
+timestamp='Wed May 31 17:49:49 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.fabric-interconnect.detail.txt'
+timestamp='Wed May 31 17:49:49 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:49 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:49 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show fabric-interconnect detail'
+timestamp='Wed May 31 17:49:49 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.fabric-interconnect.detail.txt'
+timestamp='Wed May 31 17:49:49 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:50 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:50 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show fabric-interconnect environment expand detail'
+timestamp='Wed May 31 17:49:50 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.fabric-interconnect.environment.expand.detail.txt'
+timestamp='Wed May 31 17:49:50 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:50 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:50 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show fabric-interconnect environment expand detail'
+timestamp='Wed May 31 17:49:50 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.fabric-interconnect.environment.expand.detail.txt'
+timestamp='Wed May 31 17:49:50 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:50 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:50 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show fabric-interconnect inventory expand detail'
+timestamp='Wed May 31 17:49:50 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.fabric-interconnect.inventory.expand.detail.txt'
+timestamp='Wed May 31 17:49:50 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:50 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:50 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show fabric-interconnect inventory expand detail'
+timestamp='Wed May 31 17:49:50 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.fabric-interconnect.inventory.expand.detail.txt'
+timestamp='Wed May 31 17:49:50 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:52 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:52 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show fabric-interconnect mode'
+timestamp='Wed May 31 17:49:52 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.fabric-interconnect.mode.txt'
+timestamp='Wed May 31 17:49:52 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:52 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:52 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show fabric-interconnect mode'
+timestamp='Wed May 31 17:49:52 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.fabric-interconnect.mode.txt'
+timestamp='Wed May 31 17:49:52 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:52 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:52 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show fabric-interconnect mac-aging'
+timestamp='Wed May 31 17:49:52 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.fabric-interconnect.mac-aging.txt'
+timestamp='Wed May 31 17:49:52 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:52 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:52 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show fabric-interconnect mac-aging'
+timestamp='Wed May 31 17:49:52 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.fabric-interconnect.mac-aging.txt'
+timestamp='Wed May 31 17:49:52 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:53 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:53 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show fabric-interconnect version'
+timestamp='Wed May 31 17:49:53 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.fabric-interconnect.version.txt'
+timestamp='Wed May 31 17:49:53 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:53 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:53 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show fabric-interconnect version'
+timestamp='Wed May 31 17:49:53 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.fabric-interconnect.version.txt'
+timestamp='Wed May 31 17:49:53 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:53 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:53 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show fabric-interconnect firmware'
+timestamp='Wed May 31 17:49:53 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.fabric-interconnect.firmware.txt'
+timestamp='Wed May 31 17:49:53 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:53 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:53 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show fabric-interconnect firmware'
+timestamp='Wed May 31 17:49:53 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.fabric-interconnect.firmware.txt'
+timestamp='Wed May 31 17:49:53 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:54 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:54 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show fault'
+timestamp='Wed May 31 17:49:54 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.fault.txt'
+timestamp='Wed May 31 17:49:54 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:54 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:54 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show fault'
+timestamp='Wed May 31 17:49:54 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.fault.txt'
+timestamp='Wed May 31 17:49:54 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:54 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:54 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show security detail'
+timestamp='Wed May 31 17:49:54 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.security.detail.txt'
+timestamp='Wed May 31 17:49:54 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:54 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:54 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show security detail'
+timestamp='Wed May 31 17:49:54 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.security.detail.txt'
+timestamp='Wed May 31 17:49:54 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:55 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:55 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show server inventory expand detail'
+timestamp='Wed May 31 17:49:55 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.server.inventory.expand.detail.txt'
+timestamp='Wed May 31 17:49:55 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:55 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:55 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show server inventory expand detail'
+timestamp='Wed May 31 17:49:55 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.server.inventory.expand.detail.txt'
+timestamp='Wed May 31 17:49:55 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:56 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:56 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show server assoc'
+timestamp='Wed May 31 17:49:56 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.server.assoc.txt'
+timestamp='Wed May 31 17:49:56 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:56 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:56 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show server assoc'
+timestamp='Wed May 31 17:49:56 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.server.assoc.txt'
+timestamp='Wed May 31 17:49:56 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:56 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:56 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show server boot-order detail'
+timestamp='Wed May 31 17:49:56 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.server.boot-order.detail.txt'
+timestamp='Wed May 31 17:49:56 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:56 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:56 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show server boot-order detail'
+timestamp='Wed May 31 17:49:56 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.server.boot-order.detail.txt'
+timestamp='Wed May 31 17:49:56 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:57 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:57 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show server firmware detail'
+timestamp='Wed May 31 17:49:57 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.server.firmware.detail.txt'
+timestamp='Wed May 31 17:49:57 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:57 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:57 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show server firmware detail'
+timestamp='Wed May 31 17:49:57 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.server.firmware.detail.txt'
+timestamp='Wed May 31 17:49:57 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:57 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:57 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show server identity'
+timestamp='Wed May 31 17:49:57 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.server.identity.txt'
+timestamp='Wed May 31 17:49:57 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:57 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:57 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show server identity'
+timestamp='Wed May 31 17:49:57 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.server.identity.txt'
+timestamp='Wed May 31 17:49:57 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:58 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:58 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show server status'
+timestamp='Wed May 31 17:49:58 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.server.status.txt'
+timestamp='Wed May 31 17:49:58 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:58 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:58 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show server status'
+timestamp='Wed May 31 17:49:58 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.server.status.txt'
+timestamp='Wed May 31 17:49:58 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:58 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:58 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show server status detail'
+timestamp='Wed May 31 17:49:58 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.server.status.detail.txt'
+timestamp='Wed May 31 17:49:58 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:58 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:58 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show server status detail'
+timestamp='Wed May 31 17:49:58 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.server.status.detail.txt'
+timestamp='Wed May 31 17:49:58 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:59 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:59 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show server storage detail'
+timestamp='Wed May 31 17:49:59 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.server.storage.detail.txt'
+timestamp='Wed May 31 17:49:59 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:59 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:59 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show server storage detail'
+timestamp='Wed May 31 17:49:59 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.server.storage.detail.txt'
+timestamp='Wed May 31 17:49:59 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:49:59 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:49:59 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show server version detail'
+timestamp='Wed May 31 17:49:59 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.server.version.detail.txt'
+timestamp='Wed May 31 17:49:59 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:49:59 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:49:59 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show server version detail'
+timestamp='Wed May 31 17:49:59 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.server.version.detail.txt'
+timestamp='Wed May 31 17:49:59 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:50:00 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:50:00 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show service-profile assoc'
+timestamp='Wed May 31 17:50:00 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.service-profile.assoc.txt'
+timestamp='Wed May 31 17:50:00 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:50:00 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:50:00 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show service-profile assoc'
+timestamp='Wed May 31 17:50:00 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.service-profile.assoc.txt'
+timestamp='Wed May 31 17:50:00 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:50:00 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:50:00 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show service-profile assoc detail'
+timestamp='Wed May 31 17:50:00 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.service-profile.assoc.detail.txt'
+timestamp='Wed May 31 17:50:00 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:50:00 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:50:00 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show service-profile assoc detail'
+timestamp='Wed May 31 17:50:00 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.service-profile.assoc.detail.txt'
+timestamp='Wed May 31 17:50:00 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:50:01 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:50:01 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show service-profile circuit'
+timestamp='Wed May 31 17:50:01 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.service-profile.circuit.txt'
+timestamp='Wed May 31 17:50:01 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:50:01 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:50:01 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show service-profile circuit'
+timestamp='Wed May 31 17:50:01 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.service-profile.circuit.txt'
+timestamp='Wed May 31 17:50:01 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:50:02 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:50:02 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show service-profile circuit detail'
+timestamp='Wed May 31 17:50:02 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.service-profile.circuit.detail.txt'
+timestamp='Wed May 31 17:50:02 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:50:02 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:50:02 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show service-profile circuit detail'
+timestamp='Wed May 31 17:50:02 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.service-profile.circuit.detail.txt'
+timestamp='Wed May 31 17:50:02 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:50:02 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:50:02 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show service-profile connectivity'
+timestamp='Wed May 31 17:50:02 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.service-profile.connectivity.txt'
+timestamp='Wed May 31 17:50:02 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:50:02 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:50:02 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show service-profile connectivity'
+timestamp='Wed May 31 17:50:02 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.service-profile.connectivity.txt'
+timestamp='Wed May 31 17:50:02 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:50:03 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:50:03 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show service-profile connectivity detail'
+timestamp='Wed May 31 17:50:03 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.service-profile.connectivity.detail.txt'
+timestamp='Wed May 31 17:50:03 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:50:03 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:50:03 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show service-profile connectivity detail'
+timestamp='Wed May 31 17:50:03 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.service-profile.connectivity.detail.txt'
+timestamp='Wed May 31 17:50:03 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:50:04 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:50:04 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show service-profile identity'
+timestamp='Wed May 31 17:50:04 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.service-profile.identity.txt'
+timestamp='Wed May 31 17:50:04 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:50:04 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:50:04 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show service-profile identity'
+timestamp='Wed May 31 17:50:04 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.service-profile.identity.txt'
+timestamp='Wed May 31 17:50:04 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:50:05 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:50:05 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show service-profile inventory'
+timestamp='Wed May 31 17:50:05 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.service-profile.inventory.txt'
+timestamp='Wed May 31 17:50:05 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:50:05 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:50:05 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show service-profile inventory'
+timestamp='Wed May 31 17:50:05 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.service-profile.inventory.txt'
+timestamp='Wed May 31 17:50:05 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:50:05 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:50:05 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show service-profile inventory expand detail'
+timestamp='Wed May 31 17:50:05 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.service-profile.inventory.expand.detail.txt'
+timestamp='Wed May 31 17:50:05 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:50:05 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:50:05 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show service-profile inventory expand detail'
+timestamp='Wed May 31 17:50:05 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.service-profile.inventory.expand.detail.txt'
+timestamp='Wed May 31 17:50:05 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:50:06 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:50:06 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show service-profile path'
+timestamp='Wed May 31 17:50:06 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.service-profile.path.txt'
+timestamp='Wed May 31 17:50:06 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:50:06 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:50:06 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show service-profile path'
+timestamp='Wed May 31 17:50:06 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.service-profile.path.txt'
+timestamp='Wed May 31 17:50:06 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:50:07 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:50:07 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show service-profile path detail'
+timestamp='Wed May 31 17:50:07 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.service-profile.path.detail.txt'
+timestamp='Wed May 31 17:50:07 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:50:07 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:50:07 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show service-profile path detail'
+timestamp='Wed May 31 17:50:07 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.service-profile.path.detail.txt'
+timestamp='Wed May 31 17:50:07 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:50:07 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:50:07 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show service-profile status'
+timestamp='Wed May 31 17:50:07 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.service-profile.status.txt'
+timestamp='Wed May 31 17:50:07 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:50:07 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:50:07 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show service-profile status'
+timestamp='Wed May 31 17:50:07 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.service-profile.status.txt'
+timestamp='Wed May 31 17:50:07 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:50:08 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:50:08 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show service-profile status expand detail'
+timestamp='Wed May 31 17:50:08 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.show.service-profile.status.expand.detail.txt'
+timestamp='Wed May 31 17:50:08 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:50:08 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:50:08 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show service-profile status expand detail'
+timestamp='Wed May 31 17:50:08 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.show.service-profile.status.expand.detail.txt'
+timestamp='Wed May 31 17:50:08 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:50:08 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:50:08 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: connect nxos a'
+timestamp='Wed May 31 17:50:08 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: response.53.txt'
+timestamp='Wed May 31 17:50:08 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: pre'
+timestamp='Wed May 31 17:50:08 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:50:08 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: connect nxos a'
+timestamp='Wed May 31 17:50:08 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): response.53.txt'
+timestamp='Wed May 31 17:50:08 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: pre'
+timestamp='Wed May 31 17:50:39 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='expect defaulted'
+timestamp='Wed May 31 17:50:39 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg=''
+timestamp='Wed May 31 17:50:39 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show running-config'
+timestamp='Wed May 31 17:50:39 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.connect.nxos.a.show.running-config.txt'
+timestamp='Wed May 31 17:50:39 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:50:39 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:50:39 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show running-config'
+timestamp='Wed May 31 17:50:39 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.connect.nxos.a.show.running-config.txt'
+timestamp='Wed May 31 17:50:39 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:51:10 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='expect defaulted'
+timestamp='Wed May 31 17:51:10 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg=''
+timestamp='Wed May 31 17:51:10 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: exit'
+timestamp='Wed May 31 17:51:10 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: response.55.txt'
+timestamp='Wed May 31 17:51:10 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: post'
+timestamp='Wed May 31 17:51:10 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:51:10 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: exit'
+timestamp='Wed May 31 17:51:10 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): response.55.txt'
+timestamp='Wed May 31 17:51:10 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: post'
+timestamp='Wed May 31 17:51:10 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:51:10 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: connect nxos a'
+timestamp='Wed May 31 17:51:10 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: response.56.txt'
+timestamp='Wed May 31 17:51:10 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: pre'
+timestamp='Wed May 31 17:51:10 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:51:10 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: connect nxos a'
+timestamp='Wed May 31 17:51:10 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): response.56.txt'
+timestamp='Wed May 31 17:51:10 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: pre'
+timestamp='Wed May 31 17:51:41 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='expect defaulted'
+timestamp='Wed May 31 17:51:41 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg=''
+timestamp='Wed May 31 17:51:41 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show version'
+timestamp='Wed May 31 17:51:41 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.connect.nxos.a.show.version.txt'
+timestamp='Wed May 31 17:51:41 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:51:41 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:51:41 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show version'
+timestamp='Wed May 31 17:51:41 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.connect.nxos.a.show.version.txt'
+timestamp='Wed May 31 17:51:41 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:52:12 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='expect defaulted'
+timestamp='Wed May 31 17:52:12 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg=''
+timestamp='Wed May 31 17:52:12 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: exit'
+timestamp='Wed May 31 17:52:12 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: response.58.txt'
+timestamp='Wed May 31 17:52:12 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: post'
+timestamp='Wed May 31 17:52:12 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:52:12 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: exit'
+timestamp='Wed May 31 17:52:12 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): response.58.txt'
+timestamp='Wed May 31 17:52:12 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: post'
+timestamp='Wed May 31 17:52:12 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:52:12 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: connect nxos a'
+timestamp='Wed May 31 17:52:12 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: response.59.txt'
+timestamp='Wed May 31 17:52:12 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: pre'
+timestamp='Wed May 31 17:52:12 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:52:12 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: connect nxos a'
+timestamp='Wed May 31 17:52:12 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): response.59.txt'
+timestamp='Wed May 31 17:52:12 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: pre'
+timestamp='Wed May 31 17:52:43 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='expect defaulted'
+timestamp='Wed May 31 17:52:43 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg=''
+timestamp='Wed May 31 17:52:43 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show interface'
+timestamp='Wed May 31 17:52:43 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.connect.nxos.a.show.interface.txt'
+timestamp='Wed May 31 17:52:43 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:52:43 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:52:43 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show interface'
+timestamp='Wed May 31 17:52:43 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.connect.nxos.a.show.interface.txt'
+timestamp='Wed May 31 17:52:43 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:53:14 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='expect defaulted'
+timestamp='Wed May 31 17:53:14 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg=''
+timestamp='Wed May 31 17:53:14 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: exit'
+timestamp='Wed May 31 17:53:14 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: response.61.txt'
+timestamp='Wed May 31 17:53:14 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: post'
+timestamp='Wed May 31 17:53:14 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:53:14 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: exit'
+timestamp='Wed May 31 17:53:14 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): response.61.txt'
+timestamp='Wed May 31 17:53:14 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: post'
+timestamp='Wed May 31 17:53:14 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:53:14 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: connect nxos a'
+timestamp='Wed May 31 17:53:14 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: response.62.txt'
+timestamp='Wed May 31 17:53:14 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: pre'
+timestamp='Wed May 31 17:53:14 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:53:14 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: connect nxos a'
+timestamp='Wed May 31 17:53:14 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): response.62.txt'
+timestamp='Wed May 31 17:53:14 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: pre'
+timestamp='Wed May 31 17:53:45 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='expect defaulted'
+timestamp='Wed May 31 17:53:45 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg=''
+timestamp='Wed May 31 17:53:45 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show interface snmp-ifindex'
+timestamp='Wed May 31 17:53:45 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.connect.nxos.a.show.interface.snmp-ifindex.txt'
+timestamp='Wed May 31 17:53:45 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:53:45 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:53:45 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show interface snmp-ifindex'
+timestamp='Wed May 31 17:53:45 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.connect.nxos.a.show.interface.snmp-ifindex.txt'
+timestamp='Wed May 31 17:53:45 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:54:15 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='expect defaulted'
+timestamp='Wed May 31 17:54:15 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg=''
+timestamp='Wed May 31 17:54:15 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: exit'
+timestamp='Wed May 31 17:54:15 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: response.64.txt'
+timestamp='Wed May 31 17:54:15 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: post'
+timestamp='Wed May 31 17:54:15 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:54:15 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: exit'
+timestamp='Wed May 31 17:54:15 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): response.64.txt'
+timestamp='Wed May 31 17:54:15 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: post'
+timestamp='Wed May 31 17:54:15 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:54:15 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: connect nxos a'
+timestamp='Wed May 31 17:54:15 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: response.65.txt'
+timestamp='Wed May 31 17:54:15 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: pre'
+timestamp='Wed May 31 17:54:15 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:54:15 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: connect nxos a'
+timestamp='Wed May 31 17:54:15 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): response.65.txt'
+timestamp='Wed May 31 17:54:15 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: pre'
+timestamp='Wed May 31 17:54:46 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='expect defaulted'
+timestamp='Wed May 31 17:54:46 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg=''
+timestamp='Wed May 31 17:54:46 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show mac address-table'
+timestamp='Wed May 31 17:54:46 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.connect.nxos.a.show.mac.address-table.txt'
+timestamp='Wed May 31 17:54:46 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:54:46 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:54:46 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show mac address-table'
+timestamp='Wed May 31 17:54:46 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.connect.nxos.a.show.mac.address-table.txt'
+timestamp='Wed May 31 17:54:46 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:55:17 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='expect defaulted'
+timestamp='Wed May 31 17:55:17 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg=''
+timestamp='Wed May 31 17:55:17 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: exit'
+timestamp='Wed May 31 17:55:17 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: response.67.txt'
+timestamp='Wed May 31 17:55:17 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: post'
+timestamp='Wed May 31 17:55:17 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:55:17 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: exit'
+timestamp='Wed May 31 17:55:17 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): response.67.txt'
+timestamp='Wed May 31 17:55:17 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: post'
+timestamp='Wed May 31 17:55:17 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:55:17 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: connect nxos a'
+timestamp='Wed May 31 17:55:17 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: response.68.txt'
+timestamp='Wed May 31 17:55:17 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: pre'
+timestamp='Wed May 31 17:55:17 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:55:17 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: connect nxos a'
+timestamp='Wed May 31 17:55:17 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): response.68.txt'
+timestamp='Wed May 31 17:55:17 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: pre'
+timestamp='Wed May 31 17:55:48 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='expect defaulted'
+timestamp='Wed May 31 17:55:48 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg=''
+timestamp='Wed May 31 17:55:48 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show vlan'
+timestamp='Wed May 31 17:55:48 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.connect.nxos.a.show.vlan.txt'
+timestamp='Wed May 31 17:55:48 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:55:48 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:55:48 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show vlan'
+timestamp='Wed May 31 17:55:48 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.connect.nxos.a.show.vlan.txt'
+timestamp='Wed May 31 17:55:48 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:56:18 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='expect defaulted'
+timestamp='Wed May 31 17:56:18 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg=''
+timestamp='Wed May 31 17:56:18 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: exit'
+timestamp='Wed May 31 17:56:18 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: response.70.txt'
+timestamp='Wed May 31 17:56:18 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: post'
+timestamp='Wed May 31 17:56:18 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:56:18 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: exit'
+timestamp='Wed May 31 17:56:18 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): response.70.txt'
+timestamp='Wed May 31 17:56:18 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: post'
+timestamp='Wed May 31 17:56:18 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:56:18 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: connect nxos b'
+timestamp='Wed May 31 17:56:18 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: response.71.txt'
+timestamp='Wed May 31 17:56:18 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: pre'
+timestamp='Wed May 31 17:56:18 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:56:18 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: connect nxos b'
+timestamp='Wed May 31 17:56:18 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): response.71.txt'
+timestamp='Wed May 31 17:56:18 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: pre'
+timestamp='Wed May 31 17:56:19 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received modified return prompt: S6200-B(nxos)#'
+timestamp='Wed May 31 17:56:19 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show running-config'
+timestamp='Wed May 31 17:56:19 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.connect.nxos.b.show.running-config.txt'
+timestamp='Wed May 31 17:56:19 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:56:19 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:56:19 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show running-config'
+timestamp='Wed May 31 17:56:19 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.connect.nxos.b.show.running-config.txt'
+timestamp='Wed May 31 17:56:19 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:56:19 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received modified return prompt: S6200-B(nxos)#'
+timestamp='Wed May 31 17:56:19 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: exit'
+timestamp='Wed May 31 17:56:19 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: response.73.txt'
+timestamp='Wed May 31 17:56:19 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: post'
+timestamp='Wed May 31 17:56:19 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:56:19 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: exit'
+timestamp='Wed May 31 17:56:19 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): response.73.txt'
+timestamp='Wed May 31 17:56:19 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: post'
+timestamp='Wed May 31 17:56:20 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:56:20 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: connect nxos b'
+timestamp='Wed May 31 17:56:20 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: response.74.txt'
+timestamp='Wed May 31 17:56:20 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: pre'
+timestamp='Wed May 31 17:56:20 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:56:20 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: connect nxos b'
+timestamp='Wed May 31 17:56:20 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): response.74.txt'
+timestamp='Wed May 31 17:56:20 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: pre'
+timestamp='Wed May 31 17:56:20 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received modified return prompt: S6200-B(nxos)#'
+timestamp='Wed May 31 17:56:20 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show version'
+timestamp='Wed May 31 17:56:20 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.connect.nxos.b.show.version.txt'
+timestamp='Wed May 31 17:56:20 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:56:20 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:56:20 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show version'
+timestamp='Wed May 31 17:56:20 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.connect.nxos.b.show.version.txt'
+timestamp='Wed May 31 17:56:20 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:56:21 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received modified return prompt: S6200-B(nxos)#'
+timestamp='Wed May 31 17:56:21 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: exit'
+timestamp='Wed May 31 17:56:21 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: response.76.txt'
+timestamp='Wed May 31 17:56:21 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: post'
+timestamp='Wed May 31 17:56:21 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:56:21 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: exit'
+timestamp='Wed May 31 17:56:21 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): response.76.txt'
+timestamp='Wed May 31 17:56:21 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: post'
+timestamp='Wed May 31 17:56:21 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:56:21 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: connect nxos b'
+timestamp='Wed May 31 17:56:21 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: response.77.txt'
+timestamp='Wed May 31 17:56:21 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: pre'
+timestamp='Wed May 31 17:56:21 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:56:21 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: connect nxos b'
+timestamp='Wed May 31 17:56:21 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): response.77.txt'
+timestamp='Wed May 31 17:56:21 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: pre'
+timestamp='Wed May 31 17:56:22 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received modified return prompt: S6200-B(nxos)#'
+timestamp='Wed May 31 17:56:22 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show interface'
+timestamp='Wed May 31 17:56:22 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.connect.nxos.b.show.interface.txt'
+timestamp='Wed May 31 17:56:22 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:56:22 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:56:22 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show interface'
+timestamp='Wed May 31 17:56:22 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.connect.nxos.b.show.interface.txt'
+timestamp='Wed May 31 17:56:22 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:56:23 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received modified return prompt: S6200-B(nxos)#'
+timestamp='Wed May 31 17:56:23 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: exit'
+timestamp='Wed May 31 17:56:23 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: response.79.txt'
+timestamp='Wed May 31 17:56:23 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: post'
+timestamp='Wed May 31 17:56:23 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:56:23 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: exit'
+timestamp='Wed May 31 17:56:23 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): response.79.txt'
+timestamp='Wed May 31 17:56:23 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: post'
+timestamp='Wed May 31 17:56:23 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:56:23 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: connect nxos b'
+timestamp='Wed May 31 17:56:23 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: response.80.txt'
+timestamp='Wed May 31 17:56:23 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: pre'
+timestamp='Wed May 31 17:56:23 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:56:23 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: connect nxos b'
+timestamp='Wed May 31 17:56:23 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): response.80.txt'
+timestamp='Wed May 31 17:56:23 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: pre'
+timestamp='Wed May 31 17:56:24 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received modified return prompt: S6200-B(nxos)#'
+timestamp='Wed May 31 17:56:24 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show interface snmp-ifindex'
+timestamp='Wed May 31 17:56:24 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.connect.nxos.b.show.interface.snmp-ifindex.txt'
+timestamp='Wed May 31 17:56:24 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:56:24 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:56:24 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show interface snmp-ifindex'
+timestamp='Wed May 31 17:56:24 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.connect.nxos.b.show.interface.snmp-ifindex.txt'
+timestamp='Wed May 31 17:56:24 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:56:24 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received modified return prompt: S6200-B(nxos)#'
+timestamp='Wed May 31 17:56:24 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: exit'
+timestamp='Wed May 31 17:56:24 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: response.82.txt'
+timestamp='Wed May 31 17:56:24 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: post'
+timestamp='Wed May 31 17:56:24 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:56:24 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: exit'
+timestamp='Wed May 31 17:56:24 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): response.82.txt'
+timestamp='Wed May 31 17:56:24 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: post'
+timestamp='Wed May 31 17:56:24 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:56:24 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: connect nxos b'
+timestamp='Wed May 31 17:56:24 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: response.83.txt'
+timestamp='Wed May 31 17:56:24 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: pre'
+timestamp='Wed May 31 17:56:24 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:56:24 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: connect nxos b'
+timestamp='Wed May 31 17:56:24 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): response.83.txt'
+timestamp='Wed May 31 17:56:24 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: pre'
+timestamp='Wed May 31 17:56:25 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received modified return prompt: S6200-B(nxos)#'
+timestamp='Wed May 31 17:56:25 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show mac address-table'
+timestamp='Wed May 31 17:56:25 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.connect.nxos.b.show.mac.address-table.txt'
+timestamp='Wed May 31 17:56:25 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:56:25 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:56:25 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show mac address-table'
+timestamp='Wed May 31 17:56:25 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.connect.nxos.b.show.mac.address-table.txt'
+timestamp='Wed May 31 17:56:25 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:56:25 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received modified return prompt: S6200-B(nxos)#'
+timestamp='Wed May 31 17:56:25 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: exit'
+timestamp='Wed May 31 17:56:25 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: response.85.txt'
+timestamp='Wed May 31 17:56:25 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: post'
+timestamp='Wed May 31 17:56:25 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:56:25 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: exit'
+timestamp='Wed May 31 17:56:25 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): response.85.txt'
+timestamp='Wed May 31 17:56:25 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: post'
+timestamp='Wed May 31 17:56:26 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:56:26 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: connect nxos b'
+timestamp='Wed May 31 17:56:26 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: response.86.txt'
+timestamp='Wed May 31 17:56:26 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: pre'
+timestamp='Wed May 31 17:56:26 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:56:26 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: connect nxos b'
+timestamp='Wed May 31 17:56:26 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): response.86.txt'
+timestamp='Wed May 31 17:56:26 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: pre'
+timestamp='Wed May 31 17:56:26 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received modified return prompt: S6200-B(nxos)#'
+timestamp='Wed May 31 17:56:26 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: show vlan'
+timestamp='Wed May 31 17:56:26 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: cisco-ucs-manager.connect.nxos.b.show.vlan.txt'
+timestamp='Wed May 31 17:56:26 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: analytics'
+timestamp='Wed May 31 17:56:26 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:56:26 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: show vlan'
+timestamp='Wed May 31 17:56:26 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): cisco-ucs-manager.connect.nxos.b.show.vlan.txt'
+timestamp='Wed May 31 17:56:26 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: analytics'
+timestamp='Wed May 31 17:56:26 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received modified return prompt: S6200-B(nxos)#'
+timestamp='Wed May 31 17:56:26 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: exit'
+timestamp='Wed May 31 17:56:26 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clifile: response.88.txt'
+timestamp='Wed May 31 17:56:26 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received climode: post'
+timestamp='Wed May 31 17:56:26 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitimeout: 30'
+timestamp='Wed May 31 17:56:26 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli task: exit'
+timestamp='Wed May 31 17:56:26 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli output filename (w): response.88.txt'
+timestamp='Wed May 31 17:56:26 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='cli mode: post'
+timestamp='Wed May 31 17:56:27 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received return prompt: S6200-B# '
+timestamp='Wed May 31 17:56:27 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received clitask: eol'
+timestamp='Wed May 31 17:56:27 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received end of task list, exiting'
+timestamp='Wed May 31 17:56:27 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='logging out'
+timestamp='Wed May 31 17:56:27 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='received cliexit: exit'
+timestamp='Wed May 31 17:56:27 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='successfully communicated status: disconnected:yes'
+timestamp='Wed May 31 17:56:27 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='spawned process exited'
+timestamp='Wed May 31 17:56:27 EDT 2017' transaction_id='08726de8-464b-11e7-9d86-080027ed58b0' msg='finished command batch execution' rc=0
+]]>
+   </system_out>
+  </testcase>
+ </testsuite>
+</testsuites>

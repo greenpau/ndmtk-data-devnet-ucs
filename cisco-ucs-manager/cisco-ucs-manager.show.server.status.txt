@@ -1,0 +1,10 @@
+Server  Slot Status                       Availability Overall Status        Discovery
+------- --------------------------------- ------------ --------------------- ---------
+1/1     Equipped                          Available    Unassociated          Complete
+1/2     Equipped                          Unavailable  Ok                    Complete
+1/3     Equipped                          Available    Unassociated          Complete
+1/4     Equipped                          Unavailable  Ok                    Complete
+1/5     Equipped                          Unavailable  Power Off             Complete
+1/6     Equipped                          Available    Unassociated          Complete
+1/7     Equipped                          Available    Unassociated          Complete
+1/8     Equipped                          Available    Unassociated          Complete

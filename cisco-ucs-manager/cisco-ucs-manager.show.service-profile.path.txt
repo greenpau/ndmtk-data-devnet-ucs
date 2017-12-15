@@ -1,0 +1,74 @@
+Service Profile: Team1-ESXi1
+Server:
+
+Service Profile: Team1-ESXi2
+Server:
+
+Service Profile: Team1SPTemplate
+Server:
+
+Service Profile: Team2-ESXi1
+Server:
+
+Service Profile: Team2-ESXi2
+Server:
+
+Service Profile: Team2SPTemplate
+Server:
+
+Service Profile: Team3-ESXi1
+Server:
+
+Service Profile: Team3-ESXi2
+Server:
+
+Service Profile: Team3MobileProfile
+Server: 1/5
+    Conn Type                      Fabric Port                                     Peer Port
+    ------------------------------ ------ ---------------------------------------- ---------
+    Mux To Host                    A      sys/chassis-1/slot-1/host/port-9         sys/chassis-1/blade-5/adaptor-1/ext-eth-1
+    Mux Fabricpc                   A      sys/chassis-1/slot-1/fabric-pc/pc-1025   fabric/server/sw-A/pc-1025
+    Mux Fabricpc To Hostport       A      sys/chassis-1/slot-1/fabric-pc/pc-1025   sys/chassis-1/slot-1/host/port-9
+    Conn Type                      Fabric Port                                     Peer Port
+    ------------------------------ ------ ---------------------------------------- ---------
+    Mux To Host                    B      sys/chassis-1/slot-2/host/port-9         sys/chassis-1/blade-5/adaptor-1/ext-eth-2
+    Mux Fabricpc                   B      sys/chassis-1/slot-2/fabric-pc/pc-1153   fabric/server/sw-B/pc-1153
+    Mux Fabricpc To Hostport       B      sys/chassis-1/slot-2/fabric-pc/pc-1153   sys/chassis-1/slot-2/host/port-9
+
+Service Profile: Team3SPTemplate
+Server:
+
+Service Profile: Team4MobileProfile
+Server: 1/4
+    Conn Type                      Fabric Port                                     Peer Port
+    ------------------------------ ------ ---------------------------------------- ---------
+    Mux To Host                    A      sys/chassis-1/slot-1/host/port-7         sys/chassis-1/blade-4/adaptor-1/ext-eth-1
+    Mux Fabricpc                   A      sys/chassis-1/slot-1/fabric-pc/pc-1025   fabric/server/sw-A/pc-1025
+    Mux Fabricpc To Hostport       A      sys/chassis-1/slot-1/fabric-pc/pc-1025   sys/chassis-1/slot-1/host/port-7
+    Conn Type                      Fabric Port                                     Peer Port
+    ------------------------------ ------ ---------------------------------------- ---------
+    Mux To Host                    B      sys/chassis-1/slot-2/host/port-7         sys/chassis-1/blade-4/adaptor-1/ext-eth-2
+    Mux Fabricpc                   B      sys/chassis-1/slot-2/fabric-pc/pc-1153   fabric/server/sw-B/pc-1153
+    Mux Fabricpc To Hostport       B      sys/chassis-1/slot-2/fabric-pc/pc-1153   sys/chassis-1/slot-2/host/port-7
+
+Service Profile: Team5MobileProfile
+Server: 1/2
+    Conn Type                      Fabric Port                                     Peer Port
+    ------------------------------ ------ ---------------------------------------- ---------
+    Mux To Host                    A      sys/chassis-1/slot-1/host/port-3         sys/chassis-1/blade-2/adaptor-1/ext-eth-1
+    Mux Fabricpc                   A      sys/chassis-1/slot-1/fabric-pc/pc-1025   fabric/server/sw-A/pc-1025
+    Mux Fabricpc To Hostport       A      sys/chassis-1/slot-1/fabric-pc/pc-1025   sys/chassis-1/slot-1/host/port-3
+    Conn Type                      Fabric Port                                     Peer Port
+    ------------------------------ ------ ---------------------------------------- ---------
+    Mux To Host                    B      sys/chassis-1/slot-2/host/port-3         sys/chassis-1/blade-2/adaptor-1/ext-eth-2
+    Mux Fabricpc                   B      sys/chassis-1/slot-2/fabric-pc/pc-1153   fabric/server/sw-B/pc-1153
+    Mux Fabricpc To Hostport       B      sys/chassis-1/slot-2/fabric-pc/pc-1153   sys/chassis-1/slot-2/host/port-3
+
+Service Profile: Team6-ESXi1
+Server:
+
+Service Profile: Team6-ESXi2
+Server:
+
+Service Profile: Team6SPTemplate
+Server:

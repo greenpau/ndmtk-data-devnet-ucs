@@ -1,0 +1,52 @@
+Severity  Code     Last Transition Time     ID       Description
+--------- -------- ------------------------ -------- -----------
+Major     F0283    2017-05-27T01:05:46.109    207035 fc VIF 1134 on server 1 / 5 of switch A  down, reason: Bound Physical Interface Down
+Warning   F0334    2017-05-27T01:00:45.420    205178 Service profile Team6-ESXi1 is not associated
+Warning   F0334    2017-05-27T01:00:45.418    205161 Service profile Team1-ESXi1 is not associated
+Warning   F0334    2017-05-27T01:00:45.415    205144 Service profile Team2-ESXi1 is not associated
+Warning   F0334    2017-05-27T01:00:45.412    205126 Service profile Team3-ESXi1 is not associated
+Warning   F0334    2017-05-27T01:00:45.408    205109 Service profile Team6-ESXi2 is not associated
+Warning   F0334    2017-05-27T01:00:45.406    205092 Service profile Team1-ESXi2 is not associated
+Warning   F0334    2017-05-27T01:00:45.403    205075 Service profile Team2-ESXi2 is not associated
+Warning   F0334    2017-05-27T01:00:45.401    205057 Service profile Team3-ESXi2 is not associated
+Major     F0276    2017-05-27T00:15:49.558    200175 ether port 1/4 on fabric interconnect B oper state: link-down, reason: Link failure or not-connected
+Major     F0276    2017-05-27T00:15:45.078    200169 ether port 1/3 on fabric interconnect B oper state: link-down, reason: Link failure or not-connected
+Warning   F0670    2017-05-27T00:15:38.690    200110 license for ETH_PORT_ACTIVATION_PKG on fabric-interconnect B has entered into the grace period.
+Warning   F0670    2017-05-10T07:26:47.063    226927 license for ETH_PORT_ACTIVATION_PKG on fabric-interconnect A has entered into the grace period.
+Info      F0279    2017-05-10T07:26:47.063    226926 ether port 1/8 on fabric interconnect A oper state: sfp-not-present
+Major     F0283    2017-05-10T07:00:51.639    222172 ether VIF 1132 on server 1 / 5 of switch A  down, reason: Non participating
+Major     F0283    2017-05-10T07:00:51.638    222171 ether VIF 9326 on server 1 / 5 of switch A  down, reason: Non participating
+Major     F0283    2017-05-10T07:00:51.606    222128 ether VIF 1133 on server 1 / 5 of switch B  down, reason: Non participating
+Major     F0277    2017-05-08T09:18:03.610     97790 fc port 1/32 on fabric interconnect B oper state: failed, reason: Initializing
+Info      F0461    2017-05-04T22:15:40.624     80887 Log capacity on Management Controller on server 1/3 is very-low
+Info      F0461    2017-05-04T22:15:40.580     80804 Log capacity on Management Controller on server 1/7 is very-low
+Info      F0461    2017-05-04T22:15:39.329     80654 Log capacity on Management Controller on server 1/1 is very-low
+Info      F0461    2017-05-04T22:15:39.315     80603 Log capacity on Management Controller on server 1/4 is very-low
+Info      F0461    2017-05-04T22:15:38.956     80552 Log capacity on Management Controller on server 1/8 is very-low
+Info      F0461    2017-05-04T22:15:38.538     80476 Log capacity on Management Controller on server 1/6 is very-low
+Info      F0461    2017-05-04T22:15:36.268     80388 Log capacity on Management Controller on server 1/5 is very-low
+Info      F0461    2017-05-04T22:15:35.396     80296 Log capacity on Management Controller on server 1/2 is very-low
+Major     F0408    2017-05-04T22:15:07.006     79021 Power state on chassis 1 is redundancy-failed
+Warning   F0528    2017-05-04T22:15:07.006     79022 Power supply 1 in chassis 1 power: off
+Warning   F0528    2017-05-04T22:15:07.006     79023 Power supply 3 in chassis 1 power: off
+Info      F0279    2017-05-04T22:14:32.076     78715 fc port 1/30 on fabric interconnect B oper state: sfp-not-present
+Info      F0279    2017-05-04T22:14:32.075     78714 fc port 1/25 on fabric interconnect B oper state: sfp-not-present
+Info      F0279    2017-05-04T22:14:32.075     78713 fc port 1/26 on fabric interconnect B oper state: sfp-not-present
+Info      F0279    2017-05-04T22:14:32.074     78712 fc port 1/27 on fabric interconnect B oper state: sfp-not-present
+Info      F0279    2017-05-04T22:14:32.074     78711 fc port 1/28 on fabric interconnect B oper state: sfp-not-present
+Info      F0279    2017-05-04T22:14:32.074     78710 fc port 1/29 on fabric interconnect B oper state: sfp-not-present
+Info      F0279    2017-05-04T22:14:32.073     78708 fc port 1/29 on fabric interconnect A oper state: sfp-not-present
+Info      F0279    2017-05-04T22:14:32.073     78709 fc port 1/30 on fabric interconnect A oper state: sfp-not-present
+Info      F0279    2017-05-04T22:14:32.072     78705 fc port 1/26 on fabric interconnect A oper state: sfp-not-present
+Info      F0279    2017-05-04T22:14:32.072     78706 fc port 1/27 on fabric interconnect A oper state: sfp-not-present
+Info      F0279    2017-05-04T22:14:32.072     78707 fc port 1/28 on fabric interconnect A oper state: sfp-not-present
+Info      F0279    2017-05-04T22:14:32.071     78704 fc port 1/25 on fabric interconnect A oper state: sfp-not-present
+Major     F0369    2017-05-04T22:04:10.289     62687 Power supply 1 in fabric interconnect B power: error
+Major     F0374    2017-05-04T22:04:10.289     62688 Power supply 1 in fabric interconnect B operability: inoperable
+Major     F0369    2017-05-04T22:03:03.653     58896 Power supply 1 in fabric interconnect A power: error
+Major     F0374    2017-05-04T22:03:03.653     58897 Power supply 1 in fabric interconnect A operability: inoperable
+Minor     F0465    2017-05-04T22:02:58.996     58798 IP pool iscsi-initiator-pool is empty
+Minor     F0464    2017-05-04T22:02:58.994     58794 UUID suffix pool default is empty
+Minor     F0466    2017-05-04T22:02:58.993     58793 MAC pool default is empty
+Minor     F0476    2017-05-04T22:02:58.993     58791 FC pool node-wwn-assignment node-default is empty
+Minor     F0476    2017-05-04T22:02:58.992     58790 FC pool port-wwn-assignment default is empty

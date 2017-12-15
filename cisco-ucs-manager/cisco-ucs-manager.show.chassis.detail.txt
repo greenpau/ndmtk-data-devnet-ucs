@@ -1,0 +1,24 @@
+Chassis:
+    Chassis: 1
+    User Label:
+    Overall Status: Power Problem
+    Oper qualifier: Psu Power,Chassis Power
+    Operability: Operable
+    Conf State: Ok
+    Admin State: Acknowledged
+    Conn Path: A,B
+    Conn Status: A,B
+    Managing Instance: A
+    Product Name: Cisco UCS 5108
+    PID: N20-C6508
+    VID: 01
+    Part Number: 68-3231-01
+    Vendor: Cisco Systems Inc
+    Model: N20-C6508
+    Serial (SN): FOX1442GEZU
+    HW Revision: 0
+    Mfg Date: 2010-09-29T00:00:00.000
+    Power State: Redundancy Failed
+    Thermal Status: Ok
+    SEEPROM operability status: Operable
+    Current Task:

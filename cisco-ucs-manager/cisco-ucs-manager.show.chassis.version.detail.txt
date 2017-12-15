@@ -1,0 +1,460 @@
+Chassis 1:
+    Server 1:
+        CIMC:
+            Running-Vers: 2.1(3a)
+            Package-Vers: 2.1(3a)B
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: 2.1(3a)
+            Backup-Vers: 2.1(3b)
+            Bootloader-Vers: 2.0(2q).17
+
+        Adapter 1:
+            Running-Vers: 2.1(3b)
+            Package-Vers: 2.1(3b)B
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: 2.1(3b)
+            Backup-Vers: 2.1(3a)
+            Bootloader-Vers: 1.0(1e)
+        BIOS:
+            Running-Vers: S5500.2.1.3.0.081620131102
+            Package-Vers: 2.1(3b)B
+            Update-Status:
+            Activate-Status: Ready
+            Startup-Vers: S5500.2.1.3.0.081620131102
+            Backup-Vers:
+        RAID Controller 1:
+            Running-Vers: 01.32.09.00
+            Package-Vers:
+            Activate-Status: Ready
+            Startup-Vers: 01.32.09.00|06.34.00.00|03.22.00.00
+            Bootloader-Vers: 06.34.00.00
+
+    Server 2:
+        CIMC:
+            Running-Vers: 2.1(3a)
+            Package-Vers: 2.1(3a)B
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: 2.1(3a)
+            Backup-Vers: 2.1(3b)
+            Bootloader-Vers: 2.0(2q).17
+
+        Adapter 1:
+            Running-Vers: 2.1(3a)
+            Package-Vers: 2.1(3a)B
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: 2.1(3a)
+            Backup-Vers: 2.1(3c)
+            Bootloader-Vers: 1.0(1e)
+            Host FC IF 1:
+                Running-Vers:
+                Package-Vers:
+                Activate-Status:
+                Startup-Vers:
+                Bootloader-Vers:
+            Host Eth IF 1:
+                Bootloader-Vers:
+        BIOS:
+            Running-Vers: S5500.2.1.3.0.081620131102
+            Package-Vers: 2.1(3b)B
+            Update-Status:
+            Activate-Status: Ready
+            Startup-Vers: S5500.2.1.3.0.081620131102
+            Backup-Vers:
+        RAID Controller 1:
+            Running-Vers: 01.32.09.00
+            Package-Vers:
+            Activate-Status: Ready
+            Startup-Vers: 01.32.09.00|06.34.00.00|03.22.00.00
+            Bootloader-Vers: 06.34.00.00
+
+    Server 3:
+        CIMC:
+            Running-Vers: 2.1(3a)
+            Package-Vers: 2.1(3a)B
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: 2.1(3a)
+            Backup-Vers: 2.1(3b)
+            Bootloader-Vers: 2.0(2q).17
+
+        Adapter 1:
+            Running-Vers: 2.1(3a)
+            Package-Vers: 2.1(3a)B
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: 2.1(3a)
+            Backup-Vers: 2.1(3b)
+            Bootloader-Vers: 1.0(1e)
+        BIOS:
+            Running-Vers: S5500.2.1.3.0.081620131102
+            Package-Vers: 2.1(3b)B
+            Update-Status:
+            Activate-Status: Ready
+            Startup-Vers: S5500.2.1.3.0.081620131102
+            Backup-Vers:
+        RAID Controller 1:
+            Running-Vers: 01.32.09.00
+            Package-Vers:
+            Activate-Status: Ready
+            Startup-Vers: 01.32.09.00|06.34.00.00|03.22.00.00
+            Bootloader-Vers: 06.34.00.00
+
+    Server 4:
+        CIMC:
+            Running-Vers: 2.1(3a)
+            Package-Vers: 2.1(3a)B
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: 2.1(3a)
+            Backup-Vers: 2.1(3b)
+            Bootloader-Vers: 2.0(2q).17
+
+        Adapter 1:
+            Running-Vers: 2.1(3a)
+            Package-Vers: 2.1(3a)B
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: 2.1(3a)
+            Backup-Vers: 2.1(3c)
+            Bootloader-Vers: 1.0(1e)
+            Host FC IF 1:
+                Running-Vers:
+                Package-Vers:
+                Activate-Status:
+                Startup-Vers:
+                Bootloader-Vers:
+            Host Eth IF 1:
+                Bootloader-Vers:
+        BIOS:
+            Running-Vers: S5500.2.1.3.0.081620131102
+            Package-Vers: 2.1(3b)B
+            Update-Status:
+            Activate-Status: Ready
+            Startup-Vers: S5500.2.1.3.0.081620131102
+            Backup-Vers:
+        RAID Controller 1:
+            Running-Vers: 01.32.09.00
+            Package-Vers:
+            Activate-Status: Ready
+            Startup-Vers: 01.32.09.00|06.34.00.00|03.22.00.00
+            Bootloader-Vers: 06.34.00.00
+
+    Server 5:
+        CIMC:
+            Running-Vers: 2.1(3a)
+            Package-Vers: 2.1(3a)B
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: 2.1(3a)
+            Backup-Vers: 2.1(3b)
+            Bootloader-Vers: 2.0(2q).17
+
+        Adapter 1:
+            Running-Vers: 2.1(3a)
+            Package-Vers: 2.1(3a)B
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: 2.1(3a)
+            Backup-Vers: 2.1(3c)
+            Bootloader-Vers: 1.0(1e)
+            Host FC IF 1:
+                Running-Vers:
+                Package-Vers:
+                Activate-Status:
+                Startup-Vers:
+                Bootloader-Vers:
+            Host Eth IF 1:
+                Bootloader-Vers:
+
+            Host Eth IF 2:
+                Bootloader-Vers:
+
+            Host Eth IF 3:
+                Bootloader-Vers:
+
+            Host Eth IF 4:
+                Bootloader-Vers:
+
+            Host Eth IF 5:
+                Bootloader-Vers:
+
+            Host Eth IF 6:
+                Bootloader-Vers:
+
+            Host Eth IF 7:
+                Bootloader-Vers:
+
+            Host Eth IF 8:
+                Bootloader-Vers:
+
+            Host Eth IF 9:
+                Bootloader-Vers:
+
+            Host Eth IF 10:
+                Bootloader-Vers:
+
+            Host Eth IF 11:
+                Bootloader-Vers:
+
+            Host Eth IF 12:
+                Bootloader-Vers:
+
+            Host Eth IF 13:
+                Bootloader-Vers:
+
+            Host Eth IF 14:
+                Bootloader-Vers:
+
+            Host Eth IF 15:
+                Bootloader-Vers:
+
+            Host Eth IF 16:
+                Bootloader-Vers:
+
+            Host Eth IF 17:
+                Bootloader-Vers:
+
+            Host Eth IF 18:
+                Bootloader-Vers:
+
+            Host Eth IF 19:
+                Bootloader-Vers:
+
+            Host Eth IF 20:
+                Bootloader-Vers:
+
+            Host Eth IF 21:
+                Bootloader-Vers:
+
+            Host Eth IF 22:
+                Bootloader-Vers:
+
+            Host Eth IF 23:
+                Bootloader-Vers:
+
+            Host Eth IF 24:
+                Bootloader-Vers:
+
+            Host Eth IF 25:
+                Bootloader-Vers:
+
+            Host Eth IF 26:
+                Bootloader-Vers:
+
+            Host Eth IF 27:
+                Bootloader-Vers:
+
+            Host Eth IF 28:
+                Bootloader-Vers:
+
+            Host Eth IF 29:
+                Bootloader-Vers:
+
+            Host Eth IF 30:
+                Bootloader-Vers:
+
+            Host Eth IF 31:
+                Bootloader-Vers:
+
+            Host Eth IF 32:
+                Bootloader-Vers:
+
+            Host Eth IF 33:
+                Bootloader-Vers:
+
+            Host Eth IF 34:
+                Bootloader-Vers:
+
+            Host Eth IF 35:
+                Bootloader-Vers:
+
+            Host Eth IF 36:
+                Bootloader-Vers:
+
+            Host Eth IF 37:
+                Bootloader-Vers:
+
+            Host Eth IF 38:
+                Bootloader-Vers:
+
+            Host Eth IF 39:
+                Bootloader-Vers:
+
+            Host Eth IF 40:
+                Bootloader-Vers:
+
+            Host Eth IF 41:
+                Bootloader-Vers:
+
+            Host Eth IF 42:
+                Bootloader-Vers:
+
+            Host Eth IF 43:
+                Bootloader-Vers:
+
+            Host Eth IF 44:
+                Bootloader-Vers:
+
+            Host Eth IF 45:
+                Bootloader-Vers:
+
+            Host Eth IF 46:
+                Bootloader-Vers:
+
+            Host Eth IF 47:
+                Bootloader-Vers:
+
+            Host Eth IF 48:
+                Bootloader-Vers:
+
+            Host Eth IF 49:
+                Bootloader-Vers:
+
+            Host Eth IF 50:
+                Bootloader-Vers:
+
+            Host Eth IF 51:
+                Bootloader-Vers:
+
+            Host Eth IF 52:
+                Bootloader-Vers:
+
+            Host Eth IF 53:
+                Bootloader-Vers:
+
+            Host Eth IF 54:
+                Bootloader-Vers:
+
+            Host Eth IF 55:
+                Bootloader-Vers:
+        BIOS:
+            Running-Vers: S5500.2.1.3.0.081620131102
+            Package-Vers: 2.1(3b)B
+            Update-Status:
+            Activate-Status: Ready
+            Startup-Vers: S5500.2.1.3.0.081620131102
+            Backup-Vers:
+        RAID Controller 1:
+            Running-Vers: 01.32.09.00
+            Package-Vers:
+            Activate-Status: Ready
+            Startup-Vers: 01.32.09.00|06.34.00.00|03.22.00.00
+            Bootloader-Vers: 06.34.00.00
+
+    Server 6:
+        CIMC:
+            Running-Vers: 2.1(3b)
+            Package-Vers: 2.1(3b)B
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: 2.1(3b)
+            Backup-Vers: 2.1(3a)
+            Bootloader-Vers: 2.0(2q).17
+
+        Adapter 1:
+            Running-Vers: 2.1(3a)
+            Package-Vers: 2.1(3a)B
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: 2.1(3a)
+            Backup-Vers: 2.1(3c)
+            Bootloader-Vers: 1.0(1e)
+        BIOS:
+            Running-Vers: S5500.2.1.3.0.081620131102
+            Package-Vers: 2.1(3b)B
+            Update-Status:
+            Activate-Status: Ready
+            Startup-Vers: S5500.2.1.3.0.081620131102
+            Backup-Vers:
+        RAID Controller 1:
+            Running-Vers: 01.32.09.00
+            Package-Vers:
+            Activate-Status: Ready
+            Startup-Vers: 01.32.09.00|06.34.00.00|03.22.00.00
+            Bootloader-Vers: 06.34.00.00
+
+    Server 7:
+        CIMC:
+            Running-Vers: 2.1(3a)
+            Package-Vers: 2.1(3a)B
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: 2.1(3a)
+            Backup-Vers: 2.1(3b)
+            Bootloader-Vers: 2.0(2q).17
+
+        Adapter 1:
+            Running-Vers: 2.1(3a)
+            Package-Vers: 2.1(3a)B
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: 2.1(3a)
+            Backup-Vers: 2.1(3c)
+            Bootloader-Vers: 1.0(1e)
+        BIOS:
+            Running-Vers: S5500.2.1.3.0.081620131102
+            Package-Vers: 2.1(3b)B
+            Update-Status:
+            Activate-Status: Ready
+            Startup-Vers: S5500.2.1.3.0.081620131102
+            Backup-Vers:
+        RAID Controller 1:
+            Running-Vers: 01.32.09.00
+            Package-Vers:
+            Activate-Status: Ready
+            Startup-Vers: 01.32.09.00|06.34.00.00|03.22.00.00
+            Bootloader-Vers: 06.34.00.00
+
+    Server 8:
+        CIMC:
+            Running-Vers: 2.1(3a)
+            Package-Vers: 2.1(3a)B
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: 2.1(3a)
+            Backup-Vers: 2.1(3b)
+            Bootloader-Vers: 2.0(2q).17
+
+        Adapter 1:
+            Running-Vers: 2.1(3a)
+            Package-Vers: 2.1(3a)B
+            Update-Status: Ready
+            Activate-Status: Ready
+            Startup-Vers: 2.1(3a)
+            Backup-Vers: 2.1(3c)
+            Bootloader-Vers: 1.0(1e)
+        BIOS:
+            Running-Vers: S5500.2.1.3.0.081620131102
+            Package-Vers: 2.1(3b)B
+            Update-Status:
+            Activate-Status: Ready
+            Startup-Vers: S5500.2.1.3.0.081620131102
+            Backup-Vers:
+        RAID Controller 1:
+            Running-Vers: 01.32.09.00
+            Package-Vers:
+            Activate-Status: Ready
+            Startup-Vers: 01.32.09.00|06.34.00.00|03.22.00.00
+            Bootloader-Vers: 06.34.00.00
+
+    IOM 1 (Fabric A):
+        Running-Vers: 2.1(3a)
+        Package Vers: 2.1(3a)A
+        Update-Status: Ready
+        Activate-Status: Ready
+        Backup-Vers: 2.1(3a)
+        Startup-Vers: 2.1(3a)
+        Bootloader-Vers: 2.24
+
+    IOM 2 (Fabric B):
+        Running-Vers: 2.1(3a)
+        Package Vers: 2.1(3a)A
+        Update-Status: Ready
+        Activate-Status: Ready
+        Backup-Vers: 2.1(3a)
+        Startup-Vers: 2.1(3a)
+        Bootloader-Vers: 2.24

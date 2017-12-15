@@ -1,0 +1,4 @@
+Ethernet switching mode:
+Mode: End Host
+FC switching mode:
+Mode: End Host

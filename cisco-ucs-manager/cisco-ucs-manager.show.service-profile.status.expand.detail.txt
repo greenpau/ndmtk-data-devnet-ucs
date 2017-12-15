@@ -1,0 +1,398 @@
+Service Profile Name: Team1-ESXi1
+Type: Instance
+Server:
+Description:
+Assignment: Unassigned
+Association: Unassociated
+Power State:
+Op State: Unassociated
+Oper Qualifier:
+Conf State: Not Appl
+Config Qual: N/A
+Current Task:
+
+Service Profile Name: Team1-ESXi2
+Type: Instance
+Server:
+Description:
+Assignment: Unassigned
+Association: Unassociated
+Power State:
+Op State: Unassociated
+Oper Qualifier:
+Conf State: Not Appl
+Config Qual: N/A
+Current Task:
+
+Service Profile Name: Team1SPTemplate
+Type: Initial Template
+Server:
+Description:
+Assignment: Unassigned
+Association: Unassociated
+Power State:
+Op State: Unassociated
+Oper Qualifier:
+Conf State: Not Appl
+Config Qual: N/A
+Current Task:
+
+Service Profile Name: Team2-ESXi1
+Type: Instance
+Server:
+Description:
+Assignment: Unassigned
+Association: Unassociated
+Power State:
+Op State: Unassociated
+Oper Qualifier:
+Conf State: Not Appl
+Config Qual: N/A
+Current Task:
+
+Service Profile Name: Team2-ESXi2
+Type: Instance
+Server:
+Description:
+Assignment: Unassigned
+Association: Unassociated
+Power State:
+Op State: Unassociated
+Oper Qualifier:
+Conf State: Not Appl
+Config Qual: N/A
+Current Task:
+
+Service Profile Name: Team2SPTemplate
+Type: Initial Template
+Server:
+Description:
+Assignment: Unassigned
+Association: Unassociated
+Power State:
+Op State: Unassociated
+Oper Qualifier:
+Conf State: Not Appl
+Config Qual: N/A
+Current Task:
+
+Service Profile Name: Team3-ESXi1
+Type: Instance
+Server:
+Description:
+Assignment: Unassigned
+Association: Unassociated
+Power State:
+Op State: Unassociated
+Oper Qualifier:
+Conf State: Not Appl
+Config Qual: N/A
+Current Task:
+
+Service Profile Name: Team3-ESXi2
+Type: Instance
+Server:
+Description:
+Assignment: Unassigned
+Association: Unassociated
+Power State:
+Op State: Unassociated
+Oper Qualifier:
+Conf State: Not Appl
+Config Qual: N/A
+Current Task:
+
+Service Profile Name: Team3MobileProfile
+Type: Instance
+Server: 1/5
+Description:
+Assignment: Assigned
+Association: Associated
+Power State: Off
+Op State: Power Off
+Oper Qualifier: N/A
+Conf State: Applied
+Config Qual: N/A
+Current Task:
+    Server 1/5:
+        Overall Status: Power Off
+        Operability: Operable
+        Oper Power: Off
+
+        Adapter 1:
+            Threshold Status: N/A
+            Overall Status: Operable
+            Operability: Operable
+            Power State: Off
+            Thermal Status: N/A
+            Voltage Status: N/A
+
+        Motherboard:
+            Threshold Status: OK
+            Overall Status: N/A
+            Operability: N/A
+            Oper Power: Off
+            Power State: Ok
+            Thermal Status: OK
+            Voltage Status: OK
+            CMOS Battery Voltage Status: Ok
+            Mother Board Power Usage Status: Ok
+
+            Motherboard Temperature Statistics:
+                Motherboard Front Temperature (C): 12.000000
+                Motherboard Rear Temperature (C): 6.000000
+
+            Memory Array 1:
+                Threshold Status: N/A
+                Overall Status: N/A
+                Operability: N/A
+                Power State: N/A
+                Thermal Status: N/A
+                Voltage Status: N/A
+
+                DIMMs:
+
+                DIMM Threshold Status Overall Status  Operability     Power State   Thermal Status  Voltage Status
+                ---- ---------------- --------------- --------------- ------------- --------------- --------------
+                   1 OK               Operable        Operable        N/A           OK              N/A
+                   2 N/A              Removed         N/A             N/A           N/A             N/A
+                   3 N/A              Operable        Operable        N/A           OK              N/A
+                   4 N/A              Removed         N/A             N/A           N/A             N/A
+                   5 N/A              Operable        Operable        N/A           OK              N/A
+                   6 N/A              Removed         N/A             N/A           N/A             N/A
+                   7 N/A              Removed         N/A             N/A           N/A             N/A
+                   8 N/A              Removed         N/A             N/A           N/A             N/A
+                   9 N/A              Removed         N/A             N/A           N/A             N/A
+                  10 N/A              Removed         N/A             N/A           N/A             N/A
+                  11 N/A              Removed         N/A             N/A           N/A             N/A
+                  12 N/A              Removed         N/A             N/A           N/A             N/A
+
+            CPU 1:
+                Threshold Status: N/A
+                Overall Status: Operable
+                Operability: Operable
+                Power State: N/A
+                Thermal Status: OK
+                Voltage Status: N/A
+
+            CPU 2:
+                Threshold Status: N/A
+                Overall Status: Removed
+                Operability: N/A
+                Power State: N/A
+                Thermal Status: N/A
+                Voltage Status: N/A
+
+Service Profile Name: Team3SPTemplate
+Type: Initial Template
+Server:
+Description:
+Assignment: Unassigned
+Association: Unassociated
+Power State:
+Op State: Unassociated
+Oper Qualifier:
+Conf State: Not Appl
+Config Qual: N/A
+Current Task:
+
+Service Profile Name: Team4MobileProfile
+Type: Instance
+Server: 1/4
+Description:
+Assignment: Assigned
+Association: Associated
+Power State: On
+Op State: Ok
+Oper Qualifier: N/A
+Conf State: Applied
+Config Qual: N/A
+Current Task:
+    Server 1/4:
+        Overall Status: Ok
+        Operability: Operable
+        Oper Power: On
+
+        Adapter 1:
+            Threshold Status: N/A
+            Overall Status: Operable
+            Operability: Operable
+            Power State: On
+            Thermal Status: N/A
+            Voltage Status: N/A
+
+        Motherboard:
+            Threshold Status: OK
+            Overall Status: N/A
+            Operability: N/A
+            Oper Power: On
+            Power State: Ok
+            Thermal Status: OK
+            Voltage Status: OK
+            CMOS Battery Voltage Status: Lower Non Critical
+            Mother Board Power Usage Status: Ok
+
+            Motherboard Temperature Statistics:
+                Motherboard Front Temperature (C): 16.000000
+                Motherboard Rear Temperature (C): 21.000000
+
+            Memory Array 1:
+                Threshold Status: N/A
+                Overall Status: N/A
+                Operability: N/A
+                Power State: N/A
+                Thermal Status: N/A
+                Voltage Status: N/A
+
+                DIMMs:
+
+                DIMM Threshold Status Overall Status  Operability     Power State   Thermal Status  Voltage Status
+                ---- ---------------- --------------- --------------- ------------- --------------- --------------
+                   1 OK               Operable        Operable        N/A           OK              N/A
+                   2 N/A              Removed         N/A             N/A           N/A             N/A
+                   3 N/A              Operable        Operable        N/A           OK              N/A
+                   4 N/A              Removed         N/A             N/A           N/A             N/A
+                   5 N/A              Operable        Operable        N/A           OK              N/A
+                   6 N/A              Operable        Operable        N/A           OK              N/A
+                   7 N/A              Removed         N/A             N/A           N/A             N/A
+                   8 N/A              Removed         N/A             N/A           N/A             N/A
+                   9 N/A              Removed         N/A             N/A           N/A             N/A
+                  10 N/A              Removed         N/A             N/A           N/A             N/A
+                  11 N/A              Removed         N/A             N/A           N/A             N/A
+                  12 N/A              Removed         N/A             N/A           N/A             N/A
+
+            CPU 1:
+                Threshold Status: N/A
+                Overall Status: Operable
+                Operability: Operable
+                Power State: N/A
+                Thermal Status: OK
+                Voltage Status: N/A
+
+            CPU 2:
+                Threshold Status: N/A
+                Overall Status: Removed
+                Operability: N/A
+                Power State: N/A
+                Thermal Status: N/A
+                Voltage Status: N/A
+
+Service Profile Name: Team5MobileProfile
+Type: Instance
+Server: 1/2
+Description:
+Assignment: Assigned
+Association: Associated
+Power State: On
+Op State: Ok
+Oper Qualifier: N/A
+Conf State: Applied
+Config Qual: N/A
+Current Task:
+    Server 1/2:
+        Overall Status: Ok
+        Operability: Operable
+        Oper Power: On
+
+        Adapter 1:
+            Threshold Status: N/A
+            Overall Status: Operable
+            Operability: Operable
+            Power State: On
+            Thermal Status: N/A
+            Voltage Status: N/A
+
+        Motherboard:
+            Threshold Status: OK
+            Overall Status: N/A
+            Operability: N/A
+            Oper Power: On
+            Power State: Ok
+            Thermal Status: OK
+            Voltage Status: OK
+            CMOS Battery Voltage Status: Lower Non Critical
+            Mother Board Power Usage Status: Ok
+
+            Motherboard Temperature Statistics:
+                Motherboard Front Temperature (C): 17.000000
+                Motherboard Rear Temperature (C): 22.000000
+
+            Memory Array 1:
+                Threshold Status: N/A
+                Overall Status: N/A
+                Operability: N/A
+                Power State: N/A
+                Thermal Status: N/A
+                Voltage Status: N/A
+
+                DIMMs:
+
+                DIMM Threshold Status Overall Status  Operability     Power State   Thermal Status  Voltage Status
+                ---- ---------------- --------------- --------------- ------------- --------------- --------------
+                   1 OK               Operable        Operable        N/A           OK              N/A
+                   2 N/A              Removed         N/A             N/A           N/A             N/A
+                   3 N/A              Operable        Operable        N/A           OK              N/A
+                   4 N/A              Removed         N/A             N/A           N/A             N/A
+                   5 N/A              Operable        Operable        N/A           OK              N/A
+                   6 N/A              Operable        Operable        N/A           OK              N/A
+                   7 N/A              Removed         N/A             N/A           N/A             N/A
+                   8 N/A              Removed         N/A             N/A           N/A             N/A
+                   9 N/A              Removed         N/A             N/A           N/A             N/A
+                  10 N/A              Removed         N/A             N/A           N/A             N/A
+                  11 N/A              Removed         N/A             N/A           N/A             N/A
+                  12 N/A              Removed         N/A             N/A           N/A             N/A
+
+            CPU 1:
+                Threshold Status: N/A
+                Overall Status: Operable
+                Operability: Operable
+                Power State: N/A
+                Thermal Status: OK
+                Voltage Status: N/A
+
+            CPU 2:
+                Threshold Status: N/A
+                Overall Status: Removed
+                Operability: N/A
+                Power State: N/A
+                Thermal Status: N/A
+                Voltage Status: N/A
+
+Service Profile Name: Team6-ESXi1
+Type: Instance
+Server:
+Description:
+Assignment: Unassigned
+Association: Unassociated
+Power State:
+Op State: Unassociated
+Oper Qualifier:
+Conf State: Not Appl
+Config Qual: N/A
+Current Task:
+
+Service Profile Name: Team6-ESXi2
+Type: Instance
+Server:
+Description:
+Assignment: Unassigned
+Association: Unassociated
+Power State:
+Op State: Unassociated
+Oper Qualifier:
+Conf State: Not Appl
+Config Qual: N/A
+Current Task:
+
+Service Profile Name: Team6SPTemplate
+Type: Initial Template
+Server:
+Description:
+Assignment: Unassigned
+Association: Unassociated
+Power State:
+Op State: Unassociated
+Oper Qualifier:
+Conf State: Not Appl
+Config Qual: N/A
+Current Task:

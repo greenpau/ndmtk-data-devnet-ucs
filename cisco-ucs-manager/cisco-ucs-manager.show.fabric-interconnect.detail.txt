@@ -1,0 +1,32 @@
+Fabric Interconnect:
+    ID: A
+    Product Name: Cisco UCS 6248UP
+    PID: UCS-FI-6248UP
+    VID: V01
+    Vendor: Cisco Systems, Inc.
+    Serial (SN): SSI17280A9J
+    HW Revision: 0
+    Total Memory (MB): 16232
+    OOB IP Addr: 192.168.10.101
+    OOB Gateway: 192.168.10.254
+    OOB Netmask: 255.255.255.0
+    Operability: Operable
+    Thermal Status: Ok
+    Current Task 1:
+    Current Task 2:
+
+    ID: B
+    Product Name: Cisco UCS 6248UP
+    PID: UCS-FI-6248UP
+    VID: V01
+    Vendor: Cisco Systems, Inc.
+    Serial (SN): SSI172709V7
+    HW Revision: 0
+    Total Memory (MB): 16232
+    OOB IP Addr: 192.168.10.102
+    OOB Gateway: 192.168.10.254
+    OOB Netmask: 255.255.255.0
+    Operability: Operable
+    Thermal Status: Ok
+    Current Task 1:
+    Current Task 2:

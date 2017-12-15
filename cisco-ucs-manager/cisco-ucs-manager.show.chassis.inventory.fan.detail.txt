@@ -1,0 +1,209 @@
+Chassis 1:
+    Fan Modules:
+        Tray 1 Module 1:
+            Presence: Equipped
+            Product Name: Fan Module for UCS 5108 Blade Server Chassis
+            PID: N20-FAN5
+            VID: 02
+            Vendor: Cisco Systems Inc
+            Serial (SN): NWG143805CK
+            HW Revision: 0
+
+            Fans:
+                ID 1:
+                    Product Name: Fan Module for UCS 5108 Blade Server Chassis
+                    PID: N20-FAN5
+                    VID: V01
+                    Vendor: Cisco Systems Inc
+                    Serial (SN): NWG143805CK
+                    HW Revision: 0
+
+                ID 2:
+                    Product Name: Fan Module for UCS 5108 Blade Server Chassis
+                    PID: N20-FAN5
+                    VID: V01
+                    Vendor: Cisco Systems Inc
+                    Serial (SN): NWG143805CK
+                    HW Revision: 0
+
+        Tray 1 Module 2:
+            Presence: Equipped
+            Product Name: Fan Module for UCS 5108 Blade Server Chassis
+            PID: N20-FAN5
+            VID: 02
+            Vendor: Cisco Systems Inc
+            Serial (SN): NWG150707SL
+            HW Revision: 0
+
+            Fans:
+                ID 1:
+                    Product Name: Fan Module for UCS 5108 Blade Server Chassis
+                    PID: N20-FAN5
+                    VID: V01
+                    Vendor: Cisco Systems Inc
+                    Serial (SN): NWG150707SL
+                    HW Revision: 0
+
+                ID 2:
+                    Product Name: Fan Module for UCS 5108 Blade Server Chassis
+                    PID: N20-FAN5
+                    VID: V01
+                    Vendor: Cisco Systems Inc
+                    Serial (SN): NWG150707SL
+                    HW Revision: 0
+
+        Tray 1 Module 3:
+            Presence: Equipped
+            Product Name: Fan Module for UCS 5108 Blade Server Chassis
+            PID: N20-FAN5
+            VID: 02
+            Vendor: Cisco Systems Inc
+            Serial (SN): NWG143805BV
+            HW Revision: 0
+
+            Fans:
+                ID 1:
+                    Product Name: Fan Module for UCS 5108 Blade Server Chassis
+                    PID: N20-FAN5
+                    VID: V01
+                    Vendor: Cisco Systems Inc
+                    Serial (SN): NWG143805BV
+                    HW Revision: 0
+
+                ID 2:
+                    Product Name: Fan Module for UCS 5108 Blade Server Chassis
+                    PID: N20-FAN5
+                    VID: V01
+                    Vendor: Cisco Systems Inc
+                    Serial (SN): NWG143805BV
+                    HW Revision: 0
+
+        Tray 1 Module 4:
+            Presence: Equipped
+            Product Name: Fan Module for UCS 5108 Blade Server Chassis
+            PID: N20-FAN5
+            VID: 02
+            Vendor: Cisco Systems Inc
+            Serial (SN): NWG143806AW
+            HW Revision: 0
+
+            Fans:
+                ID 1:
+                    Product Name: Fan Module for UCS 5108 Blade Server Chassis
+                    PID: N20-FAN5
+                    VID: V01
+                    Vendor: Cisco Systems Inc
+                    Serial (SN): NWG143806AW
+                    HW Revision: 0
+
+                ID 2:
+                    Product Name: Fan Module for UCS 5108 Blade Server Chassis
+                    PID: N20-FAN5
+                    VID: V01
+                    Vendor: Cisco Systems Inc
+                    Serial (SN): NWG143806AW
+                    HW Revision: 0
+
+        Tray 1 Module 5:
+            Presence: Equipped
+            Product Name: Fan Module for UCS 5108 Blade Server Chassis
+            PID: N20-FAN5
+            VID: 02
+            Vendor: Cisco Systems Inc
+            Serial (SN): NWG143806XV
+            HW Revision: 0
+
+            Fans:
+                ID 1:
+                    Product Name: Fan Module for UCS 5108 Blade Server Chassis
+                    PID: N20-FAN5
+                    VID: V01
+                    Vendor: Cisco Systems Inc
+                    Serial (SN): NWG143806XV
+                    HW Revision: 0
+
+                ID 2:
+                    Product Name: Fan Module for UCS 5108 Blade Server Chassis
+                    PID: N20-FAN5
+                    VID: V01
+                    Vendor: Cisco Systems Inc
+                    Serial (SN): NWG143806XV
+                    HW Revision: 0
+
+        Tray 1 Module 6:
+            Presence: Equipped
+            Product Name: Fan Module for UCS 5108 Blade Server Chassis
+            PID: N20-FAN5
+            VID: 02
+            Vendor: Cisco Systems Inc
+            Serial (SN): NWG143805SN
+            HW Revision: 0
+
+            Fans:
+                ID 1:
+                    Product Name: Fan Module for UCS 5108 Blade Server Chassis
+                    PID: N20-FAN5
+                    VID: V01
+                    Vendor: Cisco Systems Inc
+                    Serial (SN): NWG143805SN
+                    HW Revision: 0
+
+                ID 2:
+                    Product Name: Fan Module for UCS 5108 Blade Server Chassis
+                    PID: N20-FAN5
+                    VID: V01
+                    Vendor: Cisco Systems Inc
+                    Serial (SN): NWG143805SN
+                    HW Revision: 0
+
+        Tray 1 Module 7:
+            Presence: Equipped
+            Product Name: Fan Module for UCS 5108 Blade Server Chassis
+            PID: N20-FAN5
+            VID: 02
+            Vendor: Cisco Systems Inc
+            Serial (SN): NWG143806UK
+            HW Revision: 0
+
+            Fans:
+                ID 1:
+                    Product Name: Fan Module for UCS 5108 Blade Server Chassis
+                    PID: N20-FAN5
+                    VID: V01
+                    Vendor: Cisco Systems Inc
+                    Serial (SN): NWG143806UK
+                    HW Revision: 0
+
+                ID 2:
+                    Product Name: Fan Module for UCS 5108 Blade Server Chassis
+                    PID: N20-FAN5
+                    VID: V01
+                    Vendor: Cisco Systems Inc
+                    Serial (SN): NWG143806UK
+                    HW Revision: 0
+
+        Tray 1 Module 8:
+            Presence: Equipped
+            Product Name: Fan Module for UCS 5108 Blade Server Chassis
+            PID: N20-FAN5
+            VID: 02
+            Vendor: Cisco Systems Inc
+            Serial (SN): NWG143806K1
+            HW Revision: 0
+
+            Fans:
+                ID 1:
+                    Product Name: Fan Module for UCS 5108 Blade Server Chassis
+                    PID: N20-FAN5
+                    VID: V01
+                    Vendor: Cisco Systems Inc
+                    Serial (SN): NWG143806K1
+                    HW Revision: 0
+
+                ID 2:
+                    Product Name: Fan Module for UCS 5108 Blade Server Chassis
+                    PID: N20-FAN5
+                    VID: V01
+                    Vendor: Cisco Systems Inc
+                    Serial (SN): NWG143806K1
+                    HW Revision: 0

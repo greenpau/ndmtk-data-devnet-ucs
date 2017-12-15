@@ -1,0 +1,37 @@
+Chassis 1:
+    Overall Status: Power Problem
+    Operability: Operable
+    Power State: Redundancy Failed
+    Thermal Status: Ok
+
+    PSU 1:
+        Threshold Status: N/A
+        Overall Status: N/A
+        Operability: N/A
+        Power State: Off
+        Thermal Status: OK
+        Voltage Status: N/A
+
+    PSU 2:
+        Threshold Status: OK
+        Overall Status: Operable
+        Operability: Operable
+        Power State: On
+        Thermal Status: OK
+        Voltage Status: OK
+
+    PSU 3:
+        Threshold Status: N/A
+        Overall Status: N/A
+        Operability: N/A
+        Power State: Off
+        Thermal Status: OK
+        Voltage Status: N/A
+
+    PSU 4:
+        Threshold Status: OK
+        Overall Status: Operable
+        Operability: Operable
+        Power State: On
+        Thermal Status: OK
+        Voltage Status: OK

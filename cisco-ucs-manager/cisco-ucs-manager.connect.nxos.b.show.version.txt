@@ -1,0 +1,42 @@
+Cisco Nexus Operating System (NX-OS) Software
+TAC support: http://www.cisco.com/tac
+Copyright (c) 2002-2013, Cisco Systems, Inc. All rights reserved.
+The copyrights to certain works contained herein are owned by
+other third parties and are used and distributed under license.
+Some parts of this software are covered under the GNU Public
+License. A copy of the license is available at
+http://www.gnu.org/licenses/gpl.html.
+
+Software
+  BIOS:      version 3.6.0
+  loader:    version N/A
+  kickstart: version 5.0(3)N2(2.11.3a)
+  system:    version 5.0(3)N2(2.11.3a)
+  power-seq: Module 1: version v2.0
+             Module 3: version v2.0
+  uC:        version v1.2.0.1
+  SFP uC:    Module 1: v1.1.0.0
+  BIOS compile time:       05/09/2012
+  kickstart image file is: bootflash:/installables/switch/ucs-6100-k9-kickstart.5.0.3.N2.2.11.3a.bin
+  kickstart compile time:  9/4/2013 7:00:00 [09/04/2013 14:49:00]
+  system image file is:    bootflash:/installables/switch/ucs-6100-k9-system.5.0.3.N2.2.11.3a.bin
+  system compile time:     9/4/2013 7:00:00 [09/04/2013 16:32:04]
+
+
+Hardware
+  cisco UCS 6248 Series Fabric Interconnect ("O2 32X10GE/Modular Universal Platform Supervisor")
+  Intel(R) Xeon(R) CPU         with 16622556 kB of memory.
+  Processor Board ID FOC17360N8A
+
+  Device name: S6200-B
+  bootflash:   31266648 kB
+
+Kernel uptime is 18 day(s), 18 hour(s), 5 minute(s), 10 second(s)
+
+Last reset
+  Reason: Unknown
+  System version: 5.0(3)N2(2.11.3a)
+  Service:
+
+plugin
+  Core Plugin, Ethernet Plugin, Fc Plugin, Virtualization Plugin

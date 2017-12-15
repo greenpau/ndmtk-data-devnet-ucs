@@ -1,0 +1,8 @@
+Chassis 1:
+    Product Name: Cisco UCS 5108
+    PID: N20-C6508
+    VID: 01
+    Vendor: Cisco Systems Inc
+    Model: N20-C6508
+    Serial (SN): FOX1442GEZU
+    HW Revision: 0

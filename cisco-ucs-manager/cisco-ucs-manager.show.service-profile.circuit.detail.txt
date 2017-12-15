@@ -1,0 +1,1250 @@
+Service Profile: Team1-ESXi1
+Server:
+
+Service Profile: Team1-ESXi2
+Server:
+
+Service Profile: Team1SPTemplate
+Server:
+
+Service Profile: Team2-ESXi1
+Server:
+
+Service Profile: Team2-ESXi2
+Server:
+
+Service Profile: Team2SPTemplate
+Server:
+
+Service Profile: Team3-ESXi1
+Server:
+
+Service Profile: Team3-ESXi2
+Server:
+
+Service Profile: Team3MobileProfile
+Server: 1/5
+    Fabric ID: A
+        VIF: 1132
+        vNIC: eth0
+        Link State: Error
+        Oper State: Error
+        State Reason: Non participating
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1134
+        vNIC: fc0
+        Link State: Error
+        Oper State: Error
+        State Reason: Bound Physical Interface Down
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Fc
+
+        VIF: 1135
+        vNIC: dynamic-prot-001
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1138
+        vNIC: dynamic-prot-002
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1139
+        vNIC: dynamic-prot-003
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1142
+        vNIC: dynamic-prot-004
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1143
+        vNIC: dynamic-prot-005
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1146
+        vNIC: dynamic-prot-006
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1147
+        vNIC: dynamic-prot-007
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1150
+        vNIC: dynamic-prot-008
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1151
+        vNIC: dynamic-prot-009
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1154
+        vNIC: dynamic-prot-010
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1155
+        vNIC: dynamic-prot-011
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1158
+        vNIC: dynamic-prot-012
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1159
+        vNIC: dynamic-prot-013
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1162
+        vNIC: dynamic-prot-014
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1163
+        vNIC: dynamic-prot-015
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1166
+        vNIC: dynamic-prot-016
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1167
+        vNIC: dynamic-prot-017
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1170
+        vNIC: dynamic-prot-018
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1171
+        vNIC: dynamic-prot-019
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1174
+        vNIC: dynamic-prot-020
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1175
+        vNIC: dynamic-prot-021
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1178
+        vNIC: dynamic-prot-022
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1179
+        vNIC: dynamic-prot-023
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1182
+        vNIC: dynamic-prot-024
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1183
+        vNIC: dynamic-prot-025
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1186
+        vNIC: dynamic-prot-026
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1187
+        vNIC: dynamic-prot-027
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1190
+        vNIC: dynamic-prot-028
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1191
+        vNIC: dynamic-prot-029
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1194
+        vNIC: dynamic-prot-030
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1195
+        vNIC: dynamic-prot-031
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1198
+        vNIC: dynamic-prot-032
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1199
+        vNIC: dynamic-prot-033
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1202
+        vNIC: dynamic-prot-034
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1203
+        vNIC: dynamic-prot-035
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1206
+        vNIC: dynamic-prot-036
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1207
+        vNIC: dynamic-prot-037
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1210
+        vNIC: dynamic-prot-038
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1211
+        vNIC: dynamic-prot-039
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1214
+        vNIC: dynamic-prot-040
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1215
+        vNIC: dynamic-prot-041
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1218
+        vNIC: dynamic-prot-042
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1219
+        vNIC: dynamic-prot-043
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1222
+        vNIC: dynamic-prot-044
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1223
+        vNIC: dynamic-prot-045
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1226
+        vNIC: dynamic-prot-046
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1227
+        vNIC: dynamic-prot-047
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1230
+        vNIC: dynamic-prot-048
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1231
+        vNIC: dynamic-prot-049
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1234
+        vNIC: dynamic-prot-050
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1235
+        vNIC: dynamic-prot-051
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1238
+        vNIC: dynamic-prot-052
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1239
+        vNIC: dynamic-prot-053
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1242
+        vNIC: dynamic-prot-054
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 9326
+        vNIC:
+        Link State: Error
+        Oper State: Error
+        State Reason: Non participating
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+    Fabric ID: B
+        VIF: 1133
+        vNIC: eth0
+        Link State: Error
+        Oper State: Error
+        State Reason: Non participating
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1136
+        vNIC: dynamic-prot-001
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1137
+        vNIC: dynamic-prot-002
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1140
+        vNIC: dynamic-prot-003
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1141
+        vNIC: dynamic-prot-004
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1144
+        vNIC: dynamic-prot-005
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1145
+        vNIC: dynamic-prot-006
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1148
+        vNIC: dynamic-prot-007
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1149
+        vNIC: dynamic-prot-008
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1152
+        vNIC: dynamic-prot-009
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1153
+        vNIC: dynamic-prot-010
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1156
+        vNIC: dynamic-prot-011
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1157
+        vNIC: dynamic-prot-012
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1160
+        vNIC: dynamic-prot-013
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1161
+        vNIC: dynamic-prot-014
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1164
+        vNIC: dynamic-prot-015
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1165
+        vNIC: dynamic-prot-016
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1168
+        vNIC: dynamic-prot-017
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1169
+        vNIC: dynamic-prot-018
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1172
+        vNIC: dynamic-prot-019
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1173
+        vNIC: dynamic-prot-020
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1176
+        vNIC: dynamic-prot-021
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1177
+        vNIC: dynamic-prot-022
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1180
+        vNIC: dynamic-prot-023
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1181
+        vNIC: dynamic-prot-024
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1184
+        vNIC: dynamic-prot-025
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1185
+        vNIC: dynamic-prot-026
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1188
+        vNIC: dynamic-prot-027
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1189
+        vNIC: dynamic-prot-028
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1192
+        vNIC: dynamic-prot-029
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1193
+        vNIC: dynamic-prot-030
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1196
+        vNIC: dynamic-prot-031
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1197
+        vNIC: dynamic-prot-032
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1200
+        vNIC: dynamic-prot-033
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1201
+        vNIC: dynamic-prot-034
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1204
+        vNIC: dynamic-prot-035
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1205
+        vNIC: dynamic-prot-036
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1208
+        vNIC: dynamic-prot-037
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1209
+        vNIC: dynamic-prot-038
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1212
+        vNIC: dynamic-prot-039
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1213
+        vNIC: dynamic-prot-040
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1216
+        vNIC: dynamic-prot-041
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1217
+        vNIC: dynamic-prot-042
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1220
+        vNIC: dynamic-prot-043
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1221
+        vNIC: dynamic-prot-044
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1224
+        vNIC: dynamic-prot-045
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1225
+        vNIC: dynamic-prot-046
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1228
+        vNIC: dynamic-prot-047
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1229
+        vNIC: dynamic-prot-048
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1232
+        vNIC: dynamic-prot-049
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1233
+        vNIC: dynamic-prot-050
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1236
+        vNIC: dynamic-prot-051
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1237
+        vNIC: dynamic-prot-052
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1240
+        vNIC: dynamic-prot-053
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1241
+        vNIC: dynamic-prot-054
+        Link State: Unknown
+        Oper State: Unknown
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+
+Service Profile: Team3SPTemplate
+Server:
+
+Service Profile: Team4MobileProfile
+Server: 1/4
+    Fabric ID: A
+        VIF: 1126
+        vNIC: eth0
+        Link State: Up
+        Oper State: Active
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/1
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1128
+        vNIC: fc0
+        Link State: Up
+        Oper State: Active
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 1/32
+        Encap: Virtual
+        Transport: Fc
+
+        VIF: 9320
+        vNIC:
+        Link State: Up
+        Oper State: Active
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+    Fabric ID: B
+        VIF: 1127
+        vNIC: eth0
+        Link State: Up
+        Oper State: Active
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/1
+        Encap: Virtual
+        Transport: Ether
+
+
+Service Profile: Team5MobileProfile
+Server: 1/2
+    Fabric ID: A
+        VIF: 1129
+        vNIC: eth0
+        Link State: Up
+        Oper State: Active
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/1
+        Encap: Virtual
+        Transport: Ether
+
+        VIF: 1131
+        vNIC: fc0
+        Link State: Up
+        Oper State: Active
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 1/31
+        Encap: Virtual
+        Transport: Fc
+
+        VIF: 9323
+        vNIC:
+        Link State: Up
+        Oper State: Active
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/0
+        Encap: Virtual
+        Transport: Ether
+
+    Fabric ID: B
+        VIF: 1130
+        vNIC: eth0
+        Link State: Up
+        Oper State: Active
+        State Reason:
+        Admin Pin: 0/0
+        Oper Pin: 0/1
+        Encap: Virtual
+        Transport: Ether
+
+
+Service Profile: Team6-ESXi1
+Server:
+
+Service Profile: Team6-ESXi2
+Server:
+
+Service Profile: Team6SPTemplate
+Server:

@@ -1,0 +1,922 @@
+A:
+    Product Name: Cisco UCS 6248UP
+    PID: UCS-FI-6248UP
+    VID: V01
+    Vendor: Cisco Systems, Inc.
+    Serial (SN): SSI17280A9J
+    HW Revision: 0
+    Total Memory (MB): 16232
+    OOB IP Addr: 192.168.10.101
+    OOB Gateway: 192.168.10.254
+    OOB Netmask: 255.255.255.0
+    Fabric Card:
+        Slot 1:
+            Description: O2 32X10GE/Modular Universal Pl
+            Num Ports: 32
+            State: Online
+            Product Name: Cisco UCS 6248UP
+            PID: UCS-FI-6248UP
+            VID: V01
+            Vendor: Cisco Systems, Inc.
+            Serial (SN): FOC17360NEG
+            HW Revision: 0
+
+    Ether Port:
+        Slot 1 Port 1:
+            User Label:
+            Oper State: Up
+            State Reason:
+            Mac: 00:2A:6A:6A:66:C8
+            Role: Server
+            Oper Speed: 10 Gbps
+            Xcvr: H10GB CU3M
+            Xcvr Model: 74752-9520
+            Xcvr Vendor: CISCO-MOLEX
+            Xcvr Serial: MOC16220DK5
+
+        Slot 1 Port 2:
+            User Label:
+            Oper State: Up
+            State Reason:
+            Mac: 00:2A:6A:6A:66:C9
+            Role: Server
+            Oper Speed: 10 Gbps
+            Xcvr: H10GB CU3M
+            Xcvr Model: 74752-9520
+            Xcvr Vendor: CISCO-MOLEX
+            Xcvr Serial: MOC16220DPW
+
+        Slot 1 Port 3:
+            User Label:
+            Oper State: Admin Down
+            State Reason: Administratively down
+            Mac: 00:2A:6A:6A:66:CA
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: H10GB CU5M
+            Xcvr Model: 1-2053783-3
+            Xcvr Vendor: CISCO-TYCO
+            Xcvr Serial: TED1524C3FA
+
+        Slot 1 Port 4:
+            User Label:
+            Oper State: Admin Down
+            State Reason: Administratively down
+            Mac: 00:2A:6A:6A:66:CB
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: H10GB CU5M
+            Xcvr Model: 1-2053783-3
+            Xcvr Vendor: CISCO-TYCO
+            Xcvr Serial: TED1528C429
+
+        Slot 1 Port 5:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6A:66:CC
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+        Slot 1 Port 6:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6A:66:CD
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+        Slot 1 Port 7:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6A:66:CE
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+        Slot 1 Port 8:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6A:66:CF
+            Role: Monitor
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+        Slot 1 Port 9:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6A:66:D0
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+        Slot 1 Port 10:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6A:66:D1
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+        Slot 1 Port 11:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6A:66:D2
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+        Slot 1 Port 12:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6A:66:D3
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+        Slot 1 Port 13:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6A:66:D4
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+        Slot 1 Port 14:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6A:66:D5
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+        Slot 1 Port 15:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6A:66:D6
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+        Slot 1 Port 16:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6A:66:D7
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+        Slot 1 Port 17:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6A:66:D8
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+        Slot 1 Port 18:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6A:66:D9
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+        Slot 1 Port 19:
+            User Label:
+            Oper State: Up
+            State Reason:
+            Mac: 00:2A:6A:6A:66:DA
+            Role: Network
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model: 74752-9025
+            Xcvr Vendor: CISCO-MOLEX INC
+            Xcvr Serial: MOC13332633
+
+        Slot 1 Port 20:
+            User Label:
+            Oper State: Up
+            State Reason:
+            Mac: 00:2A:6A:6A:66:DB
+            Role: Network
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model: 74752-9025
+            Xcvr Vendor: CISCO-MOLEX INC
+            Xcvr Serial: MOC13332603
+
+        Slot 1 Port 21:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6A:66:DC
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+        Slot 1 Port 22:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6A:66:DD
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+        Slot 1 Port 23:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6A:66:DE
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+        Slot 1 Port 24:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6A:66:DF
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+    FC Port:
+        Slot 1 Port 25:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: SFP not present
+            Oper Speed: Indeterminate
+            Wwn: 20:19:00:2A:6A:6A:66:C0
+
+        Slot 1 Port 26:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: SFP not present
+            Oper Speed: Indeterminate
+            Wwn: 20:1A:00:2A:6A:6A:66:C0
+
+        Slot 1 Port 27:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: SFP not present
+            Oper Speed: Indeterminate
+            Wwn: 20:1B:00:2A:6A:6A:66:C0
+
+        Slot 1 Port 28:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: SFP not present
+            Oper Speed: Indeterminate
+            Wwn: 20:1C:00:2A:6A:6A:66:C0
+
+        Slot 1 Port 29:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: SFP not present
+            Oper Speed: Indeterminate
+            Wwn: 20:1D:00:2A:6A:6A:66:C0
+
+        Slot 1 Port 30:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: SFP not present
+            Oper Speed: Indeterminate
+            Wwn: 20:1E:00:2A:6A:6A:66:C0
+
+        Slot 1 Port 31:
+            User Label:
+            Oper State: Up
+            State Reason:
+            Oper Speed: 4 Gbps
+            Wwn: 20:1F:00:2A:6A:6A:66:C0
+
+        Slot 1 Port 32:
+            User Label:
+            Oper State: Up
+            State Reason:
+            Oper Speed: 4 Gbps
+            Wwn: 20:20:00:2A:6A:6A:66:C0
+
+    Fan:
+        ID 1:
+            Product Name: Fan Module for UCS 6248UP Fabric Interconnect
+            PID: UCS-FAN-6248UP
+            VID: V01
+            Vendor: Cisco Systems, Inc.
+            Serial (SN): N/A
+            HW Revision: 0
+            Overall Status: Operable
+
+        ID 2:
+            Product Name: Fan Module for UCS 6248UP Fabric Interconnect
+            PID: UCS-FAN-6248UP
+            VID: V01
+            Vendor: Cisco Systems, Inc.
+            Serial (SN): N/A
+            HW Revision: 0
+            Overall Status: Operable
+
+        ID 3:
+            Product Name: Fan Module for UCS 6248UP Fabric Interconnect
+            PID: UCS-FAN-6248UP
+            VID: V01
+            Vendor: Cisco Systems, Inc.
+            Serial (SN): N/A
+            HW Revision: 0
+            Overall Status: Operable
+
+        ID 4:
+            Product Name: Fan Module for UCS 6248UP Fabric Interconnect
+            PID: UCS-FAN-6248UP
+            VID: V01
+            Vendor: Cisco Systems, Inc.
+            Serial (SN): N/A
+            HW Revision: 0
+            Overall Status: Operable
+
+        ID 1:
+            Product Name: Fan Module for UCS 6248UP Fabric Interconnect
+            PID: UCS-FAN-6248UP
+            VID: V01
+            Vendor: Cisco Systems, Inc.
+            Serial (SN): N/A
+            HW Revision: 0
+            Overall Status: Operable
+
+        ID 2:
+            Product Name: Fan Module for UCS 6248UP Fabric Interconnect
+            PID: UCS-FAN-6248UP
+            VID: V01
+            Vendor: Cisco Systems, Inc.
+            Serial (SN): N/A
+            HW Revision: 0
+            Overall Status: Operable
+
+        ID 3:
+            Product Name: Fan Module for UCS 6248UP Fabric Interconnect
+            PID: UCS-FAN-6248UP
+            VID: V01
+            Vendor: Cisco Systems, Inc.
+            Serial (SN): N/A
+            HW Revision: 0
+            Overall Status: Operable
+
+        ID 4:
+            Product Name: Fan Module for UCS 6248UP Fabric Interconnect
+            PID: UCS-FAN-6248UP
+            VID: V01
+            Vendor: Cisco Systems, Inc.
+            Serial (SN): N/A
+            HW Revision: 0
+            Overall Status: Operable
+
+    PSU:
+        ID 1:
+            Product Name: AC PSU for UCS-FI-6248UP
+            PID: UCS-PSU-6248UP-AC
+            VID:
+            Vendor: Cisco Systems, Inc.
+            Serial (SN): ART172910UF
+            HW Revision: 0
+            Overall Status: Power Problem
+
+        ID 2:
+            Product Name: AC PSU for UCS-FI-6248UP
+            PID: UCS-PSU-6248UP-AC
+            VID:
+            Vendor: Cisco Systems, Inc.
+            Serial (SN): ART172910U9
+            HW Revision: 0
+            Overall Status: Operable
+
+
+B:
+    Product Name: Cisco UCS 6248UP
+    PID: UCS-FI-6248UP
+    VID: V01
+    Vendor: Cisco Systems, Inc.
+    Serial (SN): SSI172709V7
+    HW Revision: 0
+    Total Memory (MB): 16232
+    OOB IP Addr: 192.168.10.102
+    OOB Gateway: 192.168.10.254
+    OOB Netmask: 255.255.255.0
+    Fabric Card:
+        Slot 1:
+            Description: O2 32X10GE/Modular Universal Pl
+            Num Ports: 32
+            State: Online
+            Product Name: Cisco UCS 6248UP
+            PID: UCS-FI-6248UP
+            VID: V01
+            Vendor: Cisco Systems, Inc.
+            Serial (SN): FOC17360N8A
+            HW Revision: 0
+
+    Ether Port:
+        Slot 1 Port 1:
+            User Label:
+            Oper State: Up
+            State Reason:
+            Mac: 00:2A:6A:6B:02:48
+            Role: Server
+            Oper Speed: 10 Gbps
+            Xcvr: H10GB CU3M
+            Xcvr Model: 74752-9520
+            Xcvr Vendor: CISCO-MOLEX
+            Xcvr Serial: MOC16220DU2
+
+        Slot 1 Port 2:
+            User Label:
+            Oper State: Up
+            State Reason:
+            Mac: 00:2A:6A:6B:02:49
+            Role: Server
+            Oper Speed: 10 Gbps
+            Xcvr: H10GB CU3M
+            Xcvr Model: 74752-9520
+            Xcvr Vendor: CISCO-MOLEX
+            Xcvr Serial: MOC1551053X
+
+        Slot 1 Port 3:
+            User Label:
+            Oper State: Link Down
+            State Reason: Link failure or not-connected
+            Mac: 00:2A:6A:6B:02:4A
+            Role: Server
+            Oper Speed: 10 Gbps
+            Xcvr: H10GB CU5M
+            Xcvr Model: 1-2053783-3
+            Xcvr Vendor: CISCO-TYCO
+            Xcvr Serial: TED1519C0H8
+
+        Slot 1 Port 4:
+            User Label:
+            Oper State: Link Down
+            State Reason: Link failure or not-connected
+            Mac: 00:2A:6A:6B:02:4B
+            Role: Server
+            Oper Speed: 10 Gbps
+            Xcvr: H10GB CU5M
+            Xcvr Model: 1-2053783-3
+            Xcvr Vendor: CISCO-TYCO
+            Xcvr Serial: TED1528C0VC
+
+        Slot 1 Port 5:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6B:02:4C
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+        Slot 1 Port 6:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6B:02:4D
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+        Slot 1 Port 7:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6B:02:4E
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+        Slot 1 Port 8:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6B:02:4F
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+        Slot 1 Port 9:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6B:02:50
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+        Slot 1 Port 10:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6B:02:51
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+        Slot 1 Port 11:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6B:02:52
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+        Slot 1 Port 12:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6B:02:53
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+        Slot 1 Port 13:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6B:02:54
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+        Slot 1 Port 14:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6B:02:55
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+        Slot 1 Port 15:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6B:02:56
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+        Slot 1 Port 16:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6B:02:57
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+        Slot 1 Port 17:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6B:02:58
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+        Slot 1 Port 18:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6B:02:59
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+        Slot 1 Port 19:
+            User Label:
+            Oper State: Up
+            State Reason:
+            Mac: 00:2A:6A:6B:02:5A
+            Role: Network
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model: SFP-H10GB-CU1M
+            Xcvr Vendor: CISCO-OEM
+            Xcvr Serial: YAAV0033
+
+        Slot 1 Port 20:
+            User Label:
+            Oper State: Up
+            State Reason:
+            Mac: 00:2A:6A:6B:02:5B
+            Role: Network
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model: SFP-H10GB-CU1M
+            Xcvr Vendor: CISCO-OEM
+            Xcvr Serial: YAAV0024
+
+        Slot 1 Port 21:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6B:02:5C
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+        Slot 1 Port 22:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6B:02:5D
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+        Slot 1 Port 23:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6B:02:5E
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+        Slot 1 Port 24:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: Unknown
+            Mac: 00:2A:6A:6B:02:5F
+            Role: Unknown
+            Oper Speed: 10 Gbps
+            Xcvr: N/A
+            Xcvr Model:
+            Xcvr Vendor:
+            Xcvr Serial:
+
+    FC Port:
+        Slot 1 Port 25:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: SFP not present
+            Oper Speed: Indeterminate
+            Wwn: 20:19:00:2A:6A:6B:02:40
+
+        Slot 1 Port 26:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: SFP not present
+            Oper Speed: Indeterminate
+            Wwn: 20:1A:00:2A:6A:6B:02:40
+
+        Slot 1 Port 27:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: SFP not present
+            Oper Speed: Indeterminate
+            Wwn: 20:1B:00:2A:6A:6B:02:40
+
+        Slot 1 Port 28:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: SFP not present
+            Oper Speed: Indeterminate
+            Wwn: 20:1C:00:2A:6A:6B:02:40
+
+        Slot 1 Port 29:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: SFP not present
+            Oper Speed: Indeterminate
+            Wwn: 20:1D:00:2A:6A:6B:02:40
+
+        Slot 1 Port 30:
+            User Label:
+            Oper State: Sfp Not Present
+            State Reason: SFP not present
+            Oper Speed: Indeterminate
+            Wwn: 20:1E:00:2A:6A:6B:02:40
+
+        Slot 1 Port 31:
+            User Label:
+            Oper State: Up
+            State Reason:
+            Oper Speed: 4 Gbps
+            Wwn: 20:1F:00:2A:6A:6B:02:40
+
+        Slot 1 Port 32:
+            User Label:
+            Oper State: Failed
+            State Reason: Initializing
+            Oper Speed: Indeterminate
+            Wwn: 20:20:00:2A:6A:6B:02:40
+
+    Fan:
+        ID 1:
+            Product Name: Fan Module for UCS 6248UP Fabric Interconnect
+            PID: UCS-FAN-6248UP
+            VID: V01
+            Vendor: Cisco Systems, Inc.
+            Serial (SN): N/A
+            HW Revision: 0
+            Overall Status: Operable
+
+        ID 2:
+            Product Name: Fan Module for UCS 6248UP Fabric Interconnect
+            PID: UCS-FAN-6248UP
+            VID: V01
+            Vendor: Cisco Systems, Inc.
+            Serial (SN): N/A
+            HW Revision: 0
+            Overall Status: Operable
+
+        ID 3:
+            Product Name: Fan Module for UCS 6248UP Fabric Interconnect
+            PID: UCS-FAN-6248UP
+            VID: V01
+            Vendor: Cisco Systems, Inc.
+            Serial (SN): N/A
+            HW Revision: 0
+            Overall Status: Operable
+
+        ID 4:
+            Product Name: Fan Module for UCS 6248UP Fabric Interconnect
+            PID: UCS-FAN-6248UP
+            VID: V01
+            Vendor: Cisco Systems, Inc.
+            Serial (SN): N/A
+            HW Revision: 0
+            Overall Status: Operable
+
+        ID 1:
+            Product Name: Fan Module for UCS 6248UP Fabric Interconnect
+            PID: UCS-FAN-6248UP
+            VID: V01
+            Vendor: Cisco Systems, Inc.
+            Serial (SN): N/A
+            HW Revision: 0
+            Overall Status: Operable
+
+        ID 2:
+            Product Name: Fan Module for UCS 6248UP Fabric Interconnect
+            PID: UCS-FAN-6248UP
+            VID: V01
+            Vendor: Cisco Systems, Inc.
+            Serial (SN): N/A
+            HW Revision: 0
+            Overall Status: Operable
+
+        ID 3:
+            Product Name: Fan Module for UCS 6248UP Fabric Interconnect
+            PID: UCS-FAN-6248UP
+            VID: V01
+            Vendor: Cisco Systems, Inc.
+            Serial (SN): N/A
+            HW Revision: 0
+            Overall Status: Operable
+
+        ID 4:
+            Product Name: Fan Module for UCS 6248UP Fabric Interconnect
+            PID: UCS-FAN-6248UP
+            VID: V01
+            Vendor: Cisco Systems, Inc.
+            Serial (SN): N/A
+            HW Revision: 0
+            Overall Status: Operable
+
+    PSU:
+        ID 1:
+            Product Name: AC PSU for UCS-FI-6248UP
+            PID: UCS-PSU-6248UP-AC
+            VID:
+            Vendor: Cisco Systems, Inc.
+            Serial (SN): ART17301002
+            HW Revision: 0
+            Overall Status: Power Problem
+
+        ID 2:
+            Product Name: AC PSU for UCS-FI-6248UP
+            PID: UCS-PSU-6248UP-AC
+            VID:
+            Vendor: Cisco Systems, Inc.
+            Serial (SN): ART1730100G
+            HW Revision: 0
+            Overall Status: Operable

@@ -1,0 +1,221 @@
+Chassis 1:
+    Overall Status: Power Problem
+    Operability: Operable
+    Power State: Redundancy Failed
+    Thermal Status: Ok
+
+    Tray 1 Module 1:
+        Threshold Status: OK
+        Overall Status: Operable
+        Operability: Operable
+        Power State: On
+        Thermal Status: OK
+        Voltage Status: OK
+
+        Fan Module Stats:
+             Ambient Temp (C): 27.000000
+
+        Fan 1:
+            Threshold Status: OK
+            Overall Status: Operable
+            Operability: Operable
+            Power State: On
+            Thermal Status: OK
+            Voltage Status: OK
+
+        Fan 2:
+            Threshold Status: OK
+            Overall Status: Operable
+            Operability: Operable
+            Power State: On
+            Thermal Status: OK
+            Voltage Status: OK
+
+    Tray 1 Module 2:
+        Threshold Status: OK
+        Overall Status: Operable
+        Operability: Operable
+        Power State: On
+        Thermal Status: OK
+        Voltage Status: OK
+
+        Fan Module Stats:
+             Ambient Temp (C): 26.000000
+
+        Fan 1:
+            Threshold Status: OK
+            Overall Status: Operable
+            Operability: Operable
+            Power State: On
+            Thermal Status: OK
+            Voltage Status: OK
+
+        Fan 2:
+            Threshold Status: OK
+            Overall Status: Operable
+            Operability: Operable
+            Power State: On
+            Thermal Status: OK
+            Voltage Status: OK
+
+    Tray 1 Module 3:
+        Threshold Status: OK
+        Overall Status: Operable
+        Operability: Operable
+        Power State: On
+        Thermal Status: OK
+        Voltage Status: OK
+
+        Fan Module Stats:
+             Ambient Temp (C): 23.000000
+
+        Fan 1:
+            Threshold Status: OK
+            Overall Status: Operable
+            Operability: Operable
+            Power State: On
+            Thermal Status: OK
+            Voltage Status: OK
+
+        Fan 2:
+            Threshold Status: OK
+            Overall Status: Operable
+            Operability: Operable
+            Power State: On
+            Thermal Status: OK
+            Voltage Status: OK
+
+    Tray 1 Module 4:
+        Threshold Status: OK
+        Overall Status: Operable
+        Operability: Operable
+        Power State: On
+        Thermal Status: OK
+        Voltage Status: OK
+
+        Fan Module Stats:
+             Ambient Temp (C): 20.000000
+
+        Fan 1:
+            Threshold Status: OK
+            Overall Status: Operable
+            Operability: Operable
+            Power State: On
+            Thermal Status: OK
+            Voltage Status: OK
+
+        Fan 2:
+            Threshold Status: OK
+            Overall Status: Operable
+            Operability: Operable
+            Power State: On
+            Thermal Status: OK
+            Voltage Status: OK
+
+    Tray 1 Module 5:
+        Threshold Status: OK
+        Overall Status: Operable
+        Operability: Operable
+        Power State: On
+        Thermal Status: OK
+        Voltage Status: OK
+
+        Fan Module Stats:
+             Ambient Temp (C): 23.000000
+
+        Fan 1:
+            Threshold Status: OK
+            Overall Status: Operable
+            Operability: Operable
+            Power State: On
+            Thermal Status: OK
+            Voltage Status: OK
+
+        Fan 2:
+            Threshold Status: OK
+            Overall Status: Operable
+            Operability: Operable
+            Power State: On
+            Thermal Status: OK
+            Voltage Status: OK
+
+    Tray 1 Module 6:
+        Threshold Status: OK
+        Overall Status: Operable
+        Operability: Operable
+        Power State: On
+        Thermal Status: OK
+        Voltage Status: OK
+
+        Fan Module Stats:
+             Ambient Temp (C): 23.000000
+
+        Fan 1:
+            Threshold Status: OK
+            Overall Status: Operable
+            Operability: Operable
+            Power State: On
+            Thermal Status: OK
+            Voltage Status: OK
+
+        Fan 2:
+            Threshold Status: OK
+            Overall Status: Operable
+            Operability: Operable
+            Power State: On
+            Thermal Status: OK
+            Voltage Status: OK
+
+    Tray 1 Module 7:
+        Threshold Status: OK
+        Overall Status: Operable
+        Operability: Operable
+        Power State: On
+        Thermal Status: OK
+        Voltage Status: OK
+
+        Fan Module Stats:
+             Ambient Temp (C): 20.000000
+
+        Fan 1:
+            Threshold Status: OK
+            Overall Status: Operable
+            Operability: Operable
+            Power State: On
+            Thermal Status: OK
+            Voltage Status: OK
+
+        Fan 2:
+            Threshold Status: OK
+            Overall Status: Operable
+            Operability: Operable
+            Power State: On
+            Thermal Status: OK
+            Voltage Status: OK
+
+    Tray 1 Module 8:
+        Threshold Status: OK
+        Overall Status: Operable
+        Operability: Operable
+        Power State: On
+        Thermal Status: OK
+        Voltage Status: OK
+
+        Fan Module Stats:
+             Ambient Temp (C): 20.000000
+
+        Fan 1:
+            Threshold Status: OK
+            Overall Status: Operable
+            Operability: Operable
+            Power State: On
+            Thermal Status: OK
+            Voltage Status: OK
+
+        Fan 2:
+            Threshold Status: OK
+            Overall Status: Operable
+            Operability: Operable
+            Power State: On
+            Thermal Status: OK
+            Voltage Status: OK

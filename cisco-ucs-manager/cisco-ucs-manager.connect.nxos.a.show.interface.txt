@@ -1,0 +1,1789 @@
+fc1/25 is down (SFP not present)
+    Hardware is Fibre Channel
+    Port WWN is 20:19:00:2a:6a:6a:66:c0
+    Admin port mode is NP, trunk mode is off
+    snmp link state traps are enabled
+    Port vsan is 1
+    Receive data field Size is 2112
+    Beacon is turned off
+    1 minute input rate 0 bits/sec, 0 bytes/sec, 0 frames/sec
+    1 minute output rate 0 bits/sec, 0 bytes/sec, 0 frames/sec
+      0 frames input, 0 bytes
+        0 discards, 0 errors
+        0 CRC,  0 unknown class
+        0 too long, 0 too short
+      0 frames output, 0 bytes
+        0 discards, 0 errors
+      0 input OLS, 0 LRR, 0 NOS, 0 loop inits
+      0 output OLS, 0 LRR, 0 NOS, 0 loop inits
+    last clearing of "show interface" counters never
+
+fc1/26 is down (SFP not present)
+    Hardware is Fibre Channel
+    Port WWN is 20:1a:00:2a:6a:6a:66:c0
+    Admin port mode is NP, trunk mode is off
+    snmp link state traps are enabled
+    Port vsan is 1
+    Receive data field Size is 2112
+    Beacon is turned off
+    1 minute input rate 0 bits/sec, 0 bytes/sec, 0 frames/sec
+    1 minute output rate 0 bits/sec, 0 bytes/sec, 0 frames/sec
+      0 frames input, 0 bytes
+        0 discards, 0 errors
+        0 CRC,  0 unknown class
+        0 too long, 0 too short
+      0 frames output, 0 bytes
+        0 discards, 0 errors
+      0 input OLS, 0 LRR, 0 NOS, 0 loop inits
+      0 output OLS, 0 LRR, 0 NOS, 0 loop inits
+    last clearing of "show interface" counters never
+
+fc1/27 is down (SFP not present)
+    Hardware is Fibre Channel
+    Port WWN is 20:1b:00:2a:6a:6a:66:c0
+    Admin port mode is NP, trunk mode is off
+    snmp link state traps are enabled
+    Port vsan is 1
+    Receive data field Size is 2112
+    Beacon is turned off
+    1 minute input rate 0 bits/sec, 0 bytes/sec, 0 frames/sec
+    1 minute output rate 0 bits/sec, 0 bytes/sec, 0 frames/sec
+      0 frames input, 0 bytes
+        0 discards, 0 errors
+        0 CRC,  0 unknown class
+        0 too long, 0 too short
+      0 frames output, 0 bytes
+        0 discards, 0 errors
+      0 input OLS, 0 LRR, 0 NOS, 0 loop inits
+      0 output OLS, 0 LRR, 0 NOS, 0 loop inits
+    last clearing of "show interface" counters never
+
+fc1/28 is down (SFP not present)
+    Hardware is Fibre Channel
+    Port WWN is 20:1c:00:2a:6a:6a:66:c0
+    Admin port mode is NP, trunk mode is off
+    snmp link state traps are enabled
+    Port vsan is 1
+    Receive data field Size is 2112
+    Beacon is turned off
+    1 minute input rate 0 bits/sec, 0 bytes/sec, 0 frames/sec
+    1 minute output rate 0 bits/sec, 0 bytes/sec, 0 frames/sec
+      0 frames input, 0 bytes
+        0 discards, 0 errors
+        0 CRC,  0 unknown class
+        0 too long, 0 too short
+      0 frames output, 0 bytes
+        0 discards, 0 errors
+      0 input OLS, 0 LRR, 0 NOS, 0 loop inits
+      0 output OLS, 0 LRR, 0 NOS, 0 loop inits
+    last clearing of "show interface" counters never
+
+fc1/29 is down (SFP not present)
+    Hardware is Fibre Channel
+    Port WWN is 20:1d:00:2a:6a:6a:66:c0
+    Admin port mode is NP, trunk mode is off
+    snmp link state traps are enabled
+    Port vsan is 1
+    Receive data field Size is 2112
+    Beacon is turned off
+    1 minute input rate 0 bits/sec, 0 bytes/sec, 0 frames/sec
+    1 minute output rate 0 bits/sec, 0 bytes/sec, 0 frames/sec
+      0 frames input, 0 bytes
+        0 discards, 0 errors
+        0 CRC,  0 unknown class
+        0 too long, 0 too short
+      0 frames output, 0 bytes
+        0 discards, 0 errors
+      0 input OLS, 0 LRR, 0 NOS, 0 loop inits
+      0 output OLS, 0 LRR, 0 NOS, 0 loop inits
+    last clearing of "show interface" counters never
+
+fc1/30 is down (SFP not present)
+    Hardware is Fibre Channel
+    Port WWN is 20:1e:00:2a:6a:6a:66:c0
+    Admin port mode is NP, trunk mode is off
+    snmp link state traps are enabled
+    Port vsan is 1
+    Receive data field Size is 2112
+    Beacon is turned off
+    1 minute input rate 0 bits/sec, 0 bytes/sec, 0 frames/sec
+    1 minute output rate 0 bits/sec, 0 bytes/sec, 0 frames/sec
+      0 frames input, 0 bytes
+        0 discards, 0 errors
+        0 CRC,  0 unknown class
+        0 too long, 0 too short
+      0 frames output, 0 bytes
+        0 discards, 0 errors
+      0 input OLS, 0 LRR, 0 NOS, 0 loop inits
+      0 output OLS, 0 LRR, 0 NOS, 0 loop inits
+    last clearing of "show interface" counters never
+
+fc1/31 is up
+    Hardware is Fibre Channel, SFP is short wave laser w/o OFC (SN)
+    Port WWN is 20:1f:00:2a:6a:6a:66:c0
+    Admin port mode is NP, trunk mode is off
+    snmp link state traps are enabled
+    Port mode is NP
+    Port vsan is 11
+    Speed is 4 Gbps
+    Transmit B2B Credit is 16
+    Receive B2B Credit is 16
+    Receive data field Size is 2112
+    Beacon is turned off
+    1 minute input rate 17920 bits/sec, 2240 bytes/sec, 1 frames/sec
+    1 minute output rate 18392 bits/sec, 2299 bytes/sec, 1 frames/sec
+      51915096 frames input, 67561612780 bytes
+        0 discards, 0 errors
+        0 CRC,  0 unknown class
+        0 too long, 0 too short
+      46959347 frames output, 67517407560 bytes
+        0 discards, 0 errors
+      0 input OLS, 0 LRR, 0 NOS, 0 loop inits
+      4 output OLS, 4 LRR, 3 NOS, 0 loop inits
+    last clearing of "show interface" counters never
+      16 receive B2B credit remaining
+      16 transmit B2B credit remaining
+      0 low priority transmit B2B credit remaining
+    Interface last changed at Mon May 22 05:29:52 2017
+
+
+fc1/32 is up
+    Hardware is Fibre Channel, SFP is short wave laser w/o OFC (SN)
+    Port WWN is 20:20:00:2a:6a:6a:66:c0
+    Admin port mode is NP, trunk mode is off
+    snmp link state traps are enabled
+    Port mode is NP
+    Port vsan is 11
+    Speed is 4 Gbps
+    Transmit B2B Credit is 16
+    Receive B2B Credit is 16
+    Receive data field Size is 2112
+    Beacon is turned off
+    1 minute input rate 17920 bits/sec, 2240 bytes/sec, 1 frames/sec
+    1 minute output rate 19016 bits/sec, 2377 bytes/sec, 1 frames/sec
+      2191818 frames input, 3571477420 bytes
+        16 discards, 0 errors
+        0 CRC,  0 unknown class
+        0 too long, 0 too short
+      1195332 frames output, 1819452956 bytes
+        0 discards, 0 errors
+      0 input OLS, 0 LRR, 0 NOS, 0 loop inits
+      6 output OLS, 5 LRR, 3 NOS, 0 loop inits
+    last clearing of "show interface" counters never
+      16 receive B2B credit remaining
+      16 transmit B2B credit remaining
+      0 low priority transmit B2B credit remaining
+    Interface last changed at Thu May 25 23:02:08 2017
+
+
+Ethernet1/1 is up
+  Hardware: 1000/10000 Ethernet, address: 002a.6a6a.66c8 (bia 002a.6a6a.66c8)
+  Description: S: Server, Port-channel 1025
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is fex-fabric
+  full-duplex, 10 Gb/s, media type is 10G
+  Beacon is turned off
+  Input flow-control is off, output flow-control is off
+  Rate mode is dedicated
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped 08:03:10
+  Last clearing of "show interface" counters never
+  30 seconds input rate 12808 bits/sec, 1601 bytes/sec, 9 packets/sec
+  30 seconds output rate 4736 bits/sec, 592 bytes/sec, 2 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 28.30 Kbps, 7 pps; output rate 29.31 Kbps, 1 pps
+  RX
+    224326 unicast packets  33355 multicast packets  225 broadcast packets
+    257906 input packets  120239642 bytes
+    27517 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    479039 unicast packets  87588 multicast packets  253 broadcast packets
+    566880 output packets  735243711 bytes
+    350182 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  3 interface resets
+
+Ethernet1/2 is up
+  Hardware: 1000/10000 Ethernet, address: 002a.6a6a.66c9 (bia 002a.6a6a.66c9)
+  Description: S: Server, Port-channel 1025
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is fex-fabric
+  full-duplex, 10 Gb/s, media type is 10G
+  Beacon is turned off
+  Input flow-control is off, output flow-control is off
+  Rate mode is dedicated
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped 08:03:14
+  Last clearing of "show interface" counters never
+  30 seconds input rate 18320 bits/sec, 2290 bytes/sec, 1 packets/sec
+  30 seconds output rate 6888 bits/sec, 861 bytes/sec, 5 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 26.72 Kbps, 2 pps; output rate 11.23 Kbps, 3 pps
+  RX
+    85953749 unicast packets  674577 multicast packets  1179712 broadcast packets
+    87808038 input packets  109394593603 bytes
+    53028876 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    87038582 unicast packets  2691627 multicast packets  1826306 broadcast packets
+    91556515 output packets  104470445261 bytes
+    49108454 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  3 interface resets
+
+Ethernet1/3 is down (Administratively down)
+  Hardware: 1000/10000 Ethernet, address: 002a.6a6a.66ca (bia 002a.6a6a.66ca)
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is access
+  auto-duplex, 10 Gb/s, media type is 10G
+  Beacon is turned off
+  Input flow-control is off, output flow-control is off
+  Rate mode is dedicated
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped never
+  Last clearing of "show interface" counters never
+  30 seconds input rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  30 seconds output rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  0 interface resets
+
+Ethernet1/4 is down (Administratively down)
+  Hardware: 1000/10000 Ethernet, address: 002a.6a6a.66cb (bia 002a.6a6a.66cb)
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is access
+  auto-duplex, 10 Gb/s, media type is 10G
+  Beacon is turned off
+  Input flow-control is off, output flow-control is off
+  Rate mode is dedicated
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped never
+  Last clearing of "show interface" counters never
+  30 seconds input rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  30 seconds output rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  0 interface resets
+
+Ethernet1/5 is down (SFP not inserted)
+  Hardware: 1000/10000 Ethernet, address: 002a.6a6a.66cc (bia 002a.6a6a.66cc)
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is access
+  auto-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is off
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped never
+  Last clearing of "show interface" counters never
+  30 seconds input rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  30 seconds output rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  0 interface resets
+
+Ethernet1/6 is down (SFP not inserted)
+  Hardware: 1000/10000 Ethernet, address: 002a.6a6a.66cd (bia 002a.6a6a.66cd)
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is access
+  auto-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is off
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped never
+  Last clearing of "show interface" counters never
+  30 seconds input rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  30 seconds output rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  0 interface resets
+
+Ethernet1/7 is down (SFP not inserted)
+  Hardware: 1000/10000 Ethernet, address: 002a.6a6a.66ce (bia 002a.6a6a.66ce)
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is access
+  auto-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is off
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped never
+  Last clearing of "show interface" counters never
+  30 seconds input rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  30 seconds output rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  0 interface resets
+
+Ethernet1/8 is down (SFP not inserted)
+  Hardware: 1000/10000 Ethernet, address: 002a.6a6a.66cf (bia 002a.6a6a.66cf)
+  Description: M: MonitorDestination
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is trunk
+  auto-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is off
+  Switchport monitor is on
+  EtherType is 0x8100
+  Last link flapped never
+  Last clearing of "show interface" counters never
+  30 seconds input rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  30 seconds output rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  0 interface resets
+
+Ethernet1/9 is down (SFP not inserted)
+  Hardware: 1000/10000 Ethernet, address: 002a.6a6a.66d0 (bia 002a.6a6a.66d0)
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is access
+  auto-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is off
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped never
+  Last clearing of "show interface" counters never
+  30 seconds input rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  30 seconds output rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  0 interface resets
+
+Ethernet1/10 is down (SFP not inserted)
+  Hardware: 1000/10000 Ethernet, address: 002a.6a6a.66d1 (bia 002a.6a6a.66d1)
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is access
+  auto-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is off
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped never
+  Last clearing of "show interface" counters never
+  30 seconds input rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  30 seconds output rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  0 interface resets
+
+Ethernet1/11 is down (SFP not inserted)
+  Hardware: 1000/10000 Ethernet, address: 002a.6a6a.66d2 (bia 002a.6a6a.66d2)
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is access
+  auto-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is off
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped never
+  Last clearing of "show interface" counters never
+  30 seconds input rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  30 seconds output rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  0 interface resets
+
+Ethernet1/12 is down (SFP not inserted)
+  Hardware: 1000/10000 Ethernet, address: 002a.6a6a.66d3 (bia 002a.6a6a.66d3)
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is access
+  auto-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is off
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped never
+  Last clearing of "show interface" counters never
+  30 seconds input rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  30 seconds output rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  0 interface resets
+
+Ethernet1/13 is down (SFP not inserted)
+  Hardware: 1000/10000 Ethernet, address: 002a.6a6a.66d4 (bia 002a.6a6a.66d4)
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is access
+  auto-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is off
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped never
+  Last clearing of "show interface" counters never
+  30 seconds input rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  30 seconds output rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  0 interface resets
+
+Ethernet1/14 is down (SFP not inserted)
+  Hardware: 1000/10000 Ethernet, address: 002a.6a6a.66d5 (bia 002a.6a6a.66d5)
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is access
+  auto-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is off
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped never
+  Last clearing of "show interface" counters never
+  30 seconds input rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  30 seconds output rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  0 interface resets
+
+Ethernet1/15 is down (SFP not inserted)
+  Hardware: 1000/10000 Ethernet, address: 002a.6a6a.66d6 (bia 002a.6a6a.66d6)
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is access
+  auto-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is off
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped never
+  Last clearing of "show interface" counters never
+  30 seconds input rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  30 seconds output rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  0 interface resets
+
+Ethernet1/16 is down (SFP not inserted)
+  Hardware: 1000/10000 Ethernet, address: 002a.6a6a.66d7 (bia 002a.6a6a.66d7)
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is access
+  auto-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is off
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped never
+  Last clearing of "show interface" counters never
+  30 seconds input rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  30 seconds output rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  0 interface resets
+
+Ethernet1/17 is down (SFP not inserted)
+  Hardware: 1000/10000 Ethernet, address: 002a.6a6a.66d8 (bia 002a.6a6a.66d8)
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is access
+  auto-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is off
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped never
+  Last clearing of "show interface" counters never
+  30 seconds input rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  30 seconds output rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  0 interface resets
+
+Ethernet1/18 is down (SFP not inserted)
+  Hardware: 1000/10000 Ethernet, address: 002a.6a6a.66d9 (bia 002a.6a6a.66d9)
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is access
+  auto-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is off
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped never
+  Last clearing of "show interface" counters never
+  30 seconds input rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  30 seconds output rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  0 interface resets
+
+Ethernet1/19 is up
+  Hardware: 1000/10000 Ethernet, address: 002a.6a6a.66da (bia 002a.6a6a.66da)
+  Description: U: Uplink
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is trunk
+  full-duplex, 10 Gb/s, media type is 10G
+  Beacon is turned off
+  Input flow-control is off, output flow-control is off
+  Rate mode is dedicated
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped 4d21h
+  Last clearing of "show interface" counters never
+  30 seconds input rate 2760 bits/sec, 345 bytes/sec, 1 packets/sec
+  30 seconds output rate 200 bits/sec, 25 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 1.96 Kbps, 1 pps; output rate 152 bps, 0 pps
+  RX
+    12596383 unicast packets  2076793 multicast packets  538396 broadcast packets
+    15211572 input packets  12718962304 bytes
+    6165019 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    16126573 unicast packets  159954 multicast packets  1176994 broadcast packets
+    17463521 output packets  17830833625 bytes
+    10507501 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  4 interface resets
+
+Ethernet1/20 is up
+  Hardware: 1000/10000 Ethernet, address: 002a.6a6a.66db (bia 002a.6a6a.66db)
+  Description: U: Uplink
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is trunk
+  full-duplex, 10 Gb/s, media type is 10G
+  Beacon is turned off
+  Input flow-control is off, output flow-control is off
+  Rate mode is dedicated
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped 4d21h
+  Last clearing of "show interface" counters never
+  30 seconds input rate 17256 bits/sec, 2157 bytes/sec, 23 packets/sec
+  30 seconds output rate 192 bits/sec, 24 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 16.19 Kbps, 23 pps; output rate 144 bps, 0 pps
+  RX
+    11235152 unicast packets  56731528 multicast packets  203124 broadcast packets
+    68169804 input packets  16268562414 bytes
+    6614691 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    13669050 unicast packets  159939 multicast packets  189 broadcast packets
+    13829178 output packets  15225966337 bytes
+    9160218 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  4 interface resets
+
+Ethernet1/21 is down (SFP not inserted)
+  Hardware: 1000/10000 Ethernet, address: 002a.6a6a.66dc (bia 002a.6a6a.66dc)
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is access
+  auto-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is off
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped never
+  Last clearing of "show interface" counters never
+  30 seconds input rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  30 seconds output rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  0 interface resets
+
+Ethernet1/22 is down (SFP not inserted)
+  Hardware: 1000/10000 Ethernet, address: 002a.6a6a.66dd (bia 002a.6a6a.66dd)
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is access
+  auto-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is off
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped never
+  Last clearing of "show interface" counters never
+  30 seconds input rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  30 seconds output rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  0 interface resets
+
+Ethernet1/23 is down (SFP not inserted)
+  Hardware: 1000/10000 Ethernet, address: 002a.6a6a.66de (bia 002a.6a6a.66de)
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is access
+  auto-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is off
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped never
+  Last clearing of "show interface" counters never
+  30 seconds input rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  30 seconds output rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  0 interface resets
+
+Ethernet1/24 is down (SFP not inserted)
+  Hardware: 1000/10000 Ethernet, address: 002a.6a6a.66df (bia 002a.6a6a.66df)
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is access
+  auto-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is off
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped never
+  Last clearing of "show interface" counters never
+  30 seconds input rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  30 seconds output rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  0 interface resets
+
+port-channel1 is up
+  Hardware: Port-Channel, address: 002a.6a6a.66da (bia 002a.6a6a.66da)
+  Description: U: Uplink
+  MTU 1500 bytes, BW 20000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is trunk
+  full-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is off
+  Switchport monitor is off
+  EtherType is 0x8100
+  Members in this channel: Eth1/19, Eth1/20
+  Last clearing of "show interface" counters never
+  30 seconds input rate 20016 bits/sec, 2502 bytes/sec, 24 packets/sec
+  30 seconds output rate 392 bits/sec, 49 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 18.15 Kbps, 24 pps; output rate 296 bps, 0 pps
+  RX
+    23831535 unicast packets  58808281 multicast packets  741520 broadcast packets
+    83381336 input packets  28987515738 bytes
+    12779710 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    29795623 unicast packets  319893 multicast packets  1177183 broadcast packets
+    31292699 output packets  33056799962 bytes
+    19667719 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  2 interface resets
+
+port-channel1025 is up
+  Hardware: Port-Channel, address: 002a.6a6a.66c9 (bia 002a.6a6a.66c9)
+  MTU 1500 bytes, BW 20000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is fex-fabric
+  full-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is off
+  Switchport monitor is off
+  EtherType is 0x8100
+  Members in this channel: Eth1/1, Eth1/2
+  Last clearing of "show interface" counters never
+  30 seconds input rate 31128 bits/sec, 3891 bytes/sec, 10 packets/sec
+  30 seconds output rate 11624 bits/sec, 1453 bytes/sec, 7 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 55.02 Kbps, 9 pps; output rate 40.54 Kbps, 4 pps
+  RX
+    335266 unicast packets  19555 multicast packets  450 broadcast packets
+    355271 input packets  205617647 bytes
+    76908 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    1089824 unicast packets  48799 multicast packets  155 broadcast packets
+    1138778 output packets  1613507766 bytes
+    802398 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  1 interface resets
+
+mgmt0 is down (Link not connected)
+  Hardware: GigabitEthernet, address: 002a.6a6a.66c0 (bia 002a.6a6a.66c0)
+  Internet Address is 192.168.10.101/24
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  auto-duplex, 100 Mb/s
+  EtherType is 0x0000
+  1 minute input rate 1352 bits/sec, 2 packets/sec
+  1 minute output rate 0 bits/sec, 0 packets/sec
+  Rx
+    4824417 input packets 0 unicast packets 4824417 multicast packets
+    0 broadcast packets 319177965 bytes
+  Tx
+    0 output packets 0 unicast packets 0 multicast packets
+    0 broadcast packets 0 bytes
+
+Vethernet1126 is up
+    Bound Interface is Ethernet1/1/7
+  Hardware: Virtual, address: 002a.6a6a.66c0 (bia 002a.6a6a.66c0)
+  Description: server 1/4, VNIC eth0
+  Encapsulation ARPA
+  Port mode is trunk
+  EtherType is 0x8100
+  Rx
+    0 unicast packets  0 multicast packets  4 broadcast packets
+    4 input packets  256 bytes
+    0 input packet drops
+  Tx
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 flood packets
+    0 output packet drops
+
+Vethernet1129 is up
+    Bound Interface is Ethernet1/1/3
+  Hardware: Virtual, address: 002a.6a6a.66c0 (bia 002a.6a6a.66c0)
+  Description: server 1/2, VNIC eth0
+  Encapsulation ARPA
+  Port mode is trunk
+  EtherType is 0x8100
+  Rx
+    1 unicast packets  0 multicast packets  4 broadcast packets
+    5 input packets  320 bytes
+    0 input packet drops
+  Tx
+    1 unicast packets  0 multicast packets  0 broadcast packets
+    1 output packets  68 bytes
+    0 flood packets
+    0 output packet drops
+
+Vethernet1132 is down (nonParticipating)
+    Bound Interface is --
+  Hardware: Virtual, address: 002a.6a6a.66c0 (bia 002a.6a6a.66c0)
+  Description: server 1/5, VNIC eth0
+  Encapsulation ARPA
+  Port mode is trunk
+  EtherType is 0x8100
+  Rx
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 input packet drops
+  Tx
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 flood packets
+    0 output packet drops
+
+Vethernet9320 is up
+    Bound Interface is Ethernet1/1/7
+  Hardware: Virtual, address: 002a.6a6a.66c0 (bia 002a.6a6a.66c0)
+  Description: server 1/4, VHBA fc0
+  Encapsulation ARPA
+  Port mode is access
+  EtherType is 0x8100
+  Rx
+    15889 unicast packets  0 multicast packets  0 broadcast packets
+    15889 input packets  23693540 bytes
+    0 input packet drops
+  Tx
+    26139 unicast packets  0 multicast packets  0 broadcast packets
+    26139 output packets  39204016 bytes
+    0 flood packets
+    0 output packet drops
+
+Vethernet9323 is up
+    Bound Interface is Ethernet1/1/3
+  Hardware: Virtual, address: 002a.6a6a.66c0 (bia 002a.6a6a.66c0)
+  Description: server 1/2, VHBA fc0
+  Encapsulation ARPA
+  Port mode is access
+  EtherType is 0x8100
+  Rx
+    10139 unicast packets  0 multicast packets  0 broadcast packets
+    10139 input packets  17033164 bytes
+    0 input packet drops
+  Tx
+    17057 unicast packets  0 multicast packets  0 broadcast packets
+    17057 output packets  29499700 bytes
+    0 flood packets
+    0 output packet drops
+
+Vethernet9326 is down (nonParticipating)
+    Bound Interface is --
+  Hardware: Virtual, address: 002a.6a6a.66c0 (bia 002a.6a6a.66c0)
+  Description: server 1/5, VHBA fc0
+  Encapsulation ARPA
+  Port mode is access
+  EtherType is 0x8100
+  Rx
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 input packet drops
+  Tx
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 flood packets
+    0 output packet drops
+
+vfc1128 is trunking
+    Bound interface is Vethernet9320
+    Port description is server 1/4, VHBA fc0
+    Hardware is Virtual Fibre Channel
+    Port WWN is 24:67:00:2a:6a:6a:66:ff
+    Admin port mode is F, trunk mode is on
+    snmp link state traps are enabled
+    Port mode is TF
+    Port vsan is 11
+    Trunk vsans (admin allowed and active) (11)
+    Trunk vsans (up)                       (11)
+    Trunk vsans (isolated)                 ()
+    Trunk vsans (initializing)             ()
+    1 minute input rate 0 bits/sec, 0 bytes/sec, 0 frames/sec
+    1 minute output rate 0 bits/sec, 0 bytes/sec, 0 frames/sec
+      15889 frames input, 23693540 bytes
+        0 discards, 0 errors
+      26139 frames output, 39204016 bytes
+        0 discards, 0 errors
+    last clearing of "show interface" counters never
+    Interface last changed at Sat May 27 01:07:45 2017
+
+
+vfc1131 is trunking
+    Bound interface is Vethernet9323
+    Port description is server 1/2, VHBA fc0
+    Hardware is Virtual Fibre Channel
+    Port WWN is 24:6a:00:2a:6a:6a:66:ff
+    Admin port mode is F, trunk mode is on
+    snmp link state traps are enabled
+    Port mode is TF
+    Port vsan is 11
+    Trunk vsans (admin allowed and active) (11)
+    Trunk vsans (up)                       (11)
+    Trunk vsans (isolated)                 ()
+    Trunk vsans (initializing)             ()
+    1 minute input rate 0 bits/sec, 0 bytes/sec, 0 frames/sec
+    1 minute output rate 0 bits/sec, 0 bytes/sec, 0 frames/sec
+      10139 frames input, 17033164 bytes
+        0 discards, 0 errors
+      17057 frames output, 29499700 bytes
+        0 discards, 0 errors
+    last clearing of "show interface" counters never
+    Interface last changed at Sat May 27 01:07:37 2017
+
+
+vfc1134 is down (Bound Physical Interface Down)
+    Bound interface is Vethernet9326
+    Port description is server 1/5, VHBA fc0
+    Hardware is Virtual Fibre Channel
+    Port WWN is 24:6d:00:2a:6a:6a:66:ff
+    Admin port mode is F, trunk mode is on
+    snmp link state traps are enabled
+    Port vsan is 11
+    1 minute input rate 0 bits/sec, 0 bytes/sec, 0 frames/sec
+    1 minute output rate 0 bits/sec, 0 bytes/sec, 0 frames/sec
+      0 frames input, 0 bytes
+        0 discards, 0 errors
+      0 frames output, 0 bytes
+        0 discards, 0 errors
+    last clearing of "show interface" counters never
+
+Ethernet1/1/1 is down (Link not connected)
+  Hardware: 10000 Ethernet, address: 002a.6a56.e0c4 (bia 002a.6a56.e0c4)
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is vntag
+  auto-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is on
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped 06:52:54
+  Last clearing of "show interface" counters never
+  30 seconds input rate 8376 bits/sec, 1047 bytes/sec, 9 packets/sec
+  30 seconds output rate 7632 bits/sec, 954 bytes/sec, 11 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 8.71 Kbps, 9 pps; output rate 7.45 Kbps, 10 pps
+  RX
+    17962976 unicast packets  132163 multicast packets  147108 broadcast packets
+    18242247 input packets  27175647114 bytes
+    15379208 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    20344788 unicast packets  231036 multicast packets  151922 broadcast packets
+    20727746 output packets  33697143664 bytes
+    15836241 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  2 interface resets
+
+Ethernet1/1/2 is down (Administratively down)
+  Hardware: 10000 Ethernet, address: 002a.6a56.e0c5 (bia 002a.6a56.e0c5)
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is access
+  auto-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is on
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped never
+  Last clearing of "show interface" counters never
+  30 seconds input rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  30 seconds output rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  0 interface resets
+
+Ethernet1/1/3 is up
+  Hardware: 10000 Ethernet, address: 002a.6a56.e0c6 (bia 002a.6a56.e0c6)
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is vntag
+  full-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is on
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped 02:02:09
+  Last clearing of "show interface" counters never
+  30 seconds input rate 424 bits/sec, 53 bytes/sec, 0 packets/sec
+  30 seconds output rate 992 bits/sec, 124 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 8.37 Kbps, 0 pps; output rate 8.57 Kbps, 0 pps
+  RX
+    8788876 unicast packets  133659 multicast packets  145941 broadcast packets
+    9068476 input packets  11453348476 bytes
+    5528648 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    8296330 unicast packets  178072 multicast packets  145505 broadcast packets
+    8619907 output packets  10189040748 bytes
+    4738169 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  8 interface resets
+
+Ethernet1/1/4 is down (Administratively down)
+  Hardware: 10000 Ethernet, address: 002a.6a56.e0c7 (bia 002a.6a56.e0c7)
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is access
+  auto-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is on
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped never
+  Last clearing of "show interface" counters never
+  30 seconds input rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  30 seconds output rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  0 interface resets
+
+Ethernet1/1/5 is down (Link not connected)
+  Hardware: 10000 Ethernet, address: 002a.6a56.e0c8 (bia 002a.6a56.e0c8)
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is vntag
+  auto-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is on
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped never
+  Last clearing of "show interface" counters never
+  30 seconds input rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  30 seconds output rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    13374442 unicast packets  126735 multicast packets  152583 broadcast packets
+    13653760 input packets  18626148979 bytes
+    8526676 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    11667533 unicast packets  222354 multicast packets  305120 broadcast packets
+    12195007 output packets  12304403288 bytes
+    5605609 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  0 interface resets
+
+Ethernet1/1/6 is down (Administratively down)
+  Hardware: 10000 Ethernet, address: 002a.6a56.e0c9 (bia 002a.6a56.e0c9)
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is access
+  auto-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is on
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped never
+  Last clearing of "show interface" counters never
+  30 seconds input rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  30 seconds output rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  0 interface resets
+
+Ethernet1/1/7 is up
+  Hardware: 10000 Ethernet, address: 002a.6a56.e0ca (bia 002a.6a56.e0ca)
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is vntag
+  full-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is on
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped 02:02:06
+  Last clearing of "show interface" counters never
+  30 seconds input rate 48 bits/sec, 6 bytes/sec, 0 packets/sec
+  30 seconds output rate 8 bits/sec, 1 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 18.87 Kbps, 1 pps; output rate 18.03 Kbps, 1 pps
+  RX
+    8970434 unicast packets  132903 multicast packets  145955 broadcast packets
+    9249292 input packets  11462552875 bytes
+    5389676 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    8547487 unicast packets  178722 multicast packets  145589 broadcast packets
+    8871798 output packets  9946908730 bytes
+    4611384 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  7 interface resets
+
+Ethernet1/1/8 is down (Administratively down)
+  Hardware: 10000 Ethernet, address: 002a.6a56.e0cb (bia 002a.6a56.e0cb)
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is access
+  auto-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is on
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped never
+  Last clearing of "show interface" counters never
+  30 seconds input rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  30 seconds output rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  0 interface resets
+
+Ethernet1/1/9 is down (Link not connected)
+  Hardware: 10000 Ethernet, address: 002a.6a56.e0cc (bia 002a.6a56.e0cc)
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is vntag
+  auto-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is on
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped 02:01:30
+  Last clearing of "show interface" counters never
+  30 seconds input rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  30 seconds output rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    9250410 unicast packets  126896 multicast packets  152468 broadcast packets
+    9529774 input packets  11885942899 bytes
+    5423137 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    10151058 unicast packets  170229 multicast packets  152059 broadcast packets
+    10473346 output packets  11965167317 bytes
+    5924866 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  6 interface resets
+
+Ethernet1/1/10 is down (Administratively down)
+  Hardware: 10000 Ethernet, address: 002a.6a56.e0cd (bia 002a.6a56.e0cd)
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is access
+  auto-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is on
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped never
+  Last clearing of "show interface" counters never
+  30 seconds input rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  30 seconds output rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  0 interface resets
+
+Ethernet1/1/11 is down (Link not connected)
+  Hardware: 10000 Ethernet, address: 002a.6a56.e0ce (bia 002a.6a56.e0ce)
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is vntag
+  auto-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is on
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped 02:41:10
+  Last clearing of "show interface" counters never
+  30 seconds input rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  30 seconds output rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    5972291 unicast packets  128575 multicast packets  147379 broadcast packets
+    6248245 input packets  7244859757 bytes
+    3323423 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    6107434 unicast packets  161344 multicast packets  146926 broadcast packets
+    6415704 output packets  7233140693 bytes
+    3028360 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  4 interface resets
+
+Ethernet1/1/12 is down (Administratively down)
+  Hardware: 10000 Ethernet, address: 002a.6a56.e0cf (bia 002a.6a56.e0cf)
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is access
+  auto-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is on
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped never
+  Last clearing of "show interface" counters never
+  30 seconds input rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  30 seconds output rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  0 interface resets
+
+Ethernet1/1/13 is down (Link not connected)
+  Hardware: 10000 Ethernet, address: 002a.6a56.e0d0 (bia 002a.6a56.e0d0)
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is vntag
+  auto-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is on
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped 02:42:56
+  Last clearing of "show interface" counters never
+  30 seconds input rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  30 seconds output rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    7514400 unicast packets  127317 multicast packets  144767 broadcast packets
+    7786484 input packets  9327957300 bytes
+    4244852 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    7755542 unicast packets  170231 multicast packets  144510 broadcast packets
+    8070283 output packets  9054099217 bytes
+    4240266 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  6 interface resets
+
+Ethernet1/1/14 is down (Administratively down)
+  Hardware: 10000 Ethernet, address: 002a.6a56.e0d1 (bia 002a.6a56.e0d1)
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is access
+  auto-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is on
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped never
+  Last clearing of "show interface" counters never
+  30 seconds input rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  30 seconds output rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  0 interface resets
+
+Ethernet1/1/15 is down (Link not connected)
+  Hardware: 10000 Ethernet, address: 002a.6a56.e0d2 (bia 002a.6a56.e0d2)
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is vntag
+  auto-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is on
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped never
+  Last clearing of "show interface" counters never
+  30 seconds input rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  30 seconds output rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    7505910 unicast packets  126240 multicast packets  144767 broadcast packets
+    7776917 input packets  9292815879 bytes
+    4224224 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    7684588 unicast packets  173115 multicast packets  674034 broadcast packets
+    8531737 output packets  8939469967 bytes
+    4160046 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  0 interface resets
+
+Ethernet1/1/16 is down (Administratively down)
+  Hardware: 10000 Ethernet, address: 002a.6a56.e0d3 (bia 002a.6a56.e0d3)
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is access
+  auto-duplex, 10 Gb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is on
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped never
+  Last clearing of "show interface" counters never
+  30 seconds input rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  30 seconds output rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  0 interface resets
+
+Ethernet1/1/17 is up
+  Hardware: 1000 Ethernet, address: 002a.6a56.e0d4 (bia 002a.6a56.e0d4)
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA
+  Port mode is trunk
+  full-duplex, 1000 Mb/s
+  Beacon is turned off
+  Input flow-control is off, output flow-control is on
+  Switchport monitor is off
+  EtherType is 0x8100
+  Last link flapped 01:24:07
+  Last clearing of "show interface" counters never
+  30 seconds input rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  30 seconds output rate 0 bits/sec, 0 bytes/sec, 0 packets/sec
+  Load-Interval #2: 5 minute (300 seconds)
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    5718360 unicast packets  64637 multicast packets  189 broadcast packets
+    5783186 input packets  1307146121 bytes
+    65787 jumbo packets  0 storm suppression bytes
+0 giants      0 input error  0 short frame  0 overrun   0 underrun      0 watchdog  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    8774006 unicast packets  2067294 multicast packets  122 broadcast packets
+    10841422 output packets  5720072413 bytes
+    0 jumbo packets
+    0 output errors  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble
+    0 Tx pause
+  2 interface resets

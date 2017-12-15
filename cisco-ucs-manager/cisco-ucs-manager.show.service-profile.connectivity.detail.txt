@@ -1,0 +1,1301 @@
+Service Profile: Team1-ESXi1
+
+    vNIC: eth0
+
+    vNIC: eth1
+
+    vHBA: fc0
+
+Service Profile: Team1-ESXi2
+
+    vNIC: eth0
+
+    vNIC: eth1
+
+    vHBA: fc0
+
+Service Profile: Team1SPTemplate
+
+    vNIC: eth0
+
+    vNIC: eth1
+
+    vHBA: fc0
+
+Service Profile: Team2-ESXi1
+
+    vNIC: eth0
+
+    vNIC: eth1
+
+    vHBA: fc0
+
+Service Profile: Team2-ESXi2
+
+    vNIC: eth0
+
+    vNIC: eth1
+
+    vHBA: fc0
+
+Service Profile: Team2SPTemplate
+
+    vNIC: eth0
+
+    vNIC: eth1
+
+    vHBA: fc0
+
+Service Profile: Team3-ESXi1
+
+    vNIC: eth0
+
+    vNIC: eth1
+
+    vHBA: fc0
+
+Service Profile: Team3-ESXi2
+
+    vNIC: eth0
+
+    vNIC: eth1
+
+    vHBA: fc0
+
+Service Profile: Team3MobileProfile
+
+    vNIC: dynamic-prot-001
+
+        VIF ID: 1135
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1136
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1136
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1135
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-002
+
+        VIF ID: 1137
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1138
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1138
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1137
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-003
+
+        VIF ID: 1139
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1140
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1140
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1139
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-004
+
+        VIF ID: 1141
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1142
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1142
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1141
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-005
+
+        VIF ID: 1143
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1144
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1144
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1143
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-006
+
+        VIF ID: 1145
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1146
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1146
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1145
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-007
+
+        VIF ID: 1147
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1148
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1148
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1147
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-008
+
+        VIF ID: 1149
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1150
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1150
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1149
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-009
+
+        VIF ID: 1151
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1152
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1152
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1151
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-010
+
+        VIF ID: 1153
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1154
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1154
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1153
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-011
+
+        VIF ID: 1155
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1156
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1156
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1155
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-012
+
+        VIF ID: 1157
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1158
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1158
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1157
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-013
+
+        VIF ID: 1159
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1160
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1160
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1159
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-014
+
+        VIF ID: 1161
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1162
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1162
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1161
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-015
+
+        VIF ID: 1163
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1164
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1164
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1163
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-016
+
+        VIF ID: 1165
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1166
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1166
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1165
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-017
+
+        VIF ID: 1167
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1168
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1168
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1167
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-018
+
+        VIF ID: 1169
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1170
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1170
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1169
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-019
+
+        VIF ID: 1171
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1172
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1172
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1171
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-020
+
+        VIF ID: 1173
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1174
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1174
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1173
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-021
+
+        VIF ID: 1175
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1176
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1176
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1175
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-022
+
+        VIF ID: 1177
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1178
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1178
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1177
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-023
+
+        VIF ID: 1179
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1180
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1180
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1179
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-024
+
+        VIF ID: 1181
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1182
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1182
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1181
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-025
+
+        VIF ID: 1183
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1184
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1184
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1183
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-026
+
+        VIF ID: 1185
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1186
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1186
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1185
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-027
+
+        VIF ID: 1187
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1188
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1188
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1187
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-028
+
+        VIF ID: 1189
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1190
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1190
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1189
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-029
+
+        VIF ID: 1191
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1192
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1192
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1191
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-030
+
+        VIF ID: 1193
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1194
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1194
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1193
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-031
+
+        VIF ID: 1195
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1196
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1196
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1195
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-032
+
+        VIF ID: 1197
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1198
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1198
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1197
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-033
+
+        VIF ID: 1199
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1200
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1200
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1199
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-034
+
+        VIF ID: 1201
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1202
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1202
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1201
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-035
+
+        VIF ID: 1203
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1204
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1204
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1203
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-036
+
+        VIF ID: 1205
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1206
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1206
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1205
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-037
+
+        VIF ID: 1207
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1208
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1208
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1207
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-038
+
+        VIF ID: 1209
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1210
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1210
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1209
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-039
+
+        VIF ID: 1211
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1212
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1212
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1211
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-040
+
+        VIF ID: 1213
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1214
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1214
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1213
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-041
+
+        VIF ID: 1215
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1216
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1216
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1215
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-042
+
+        VIF ID: 1217
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1218
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1218
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1217
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-043
+
+        VIF ID: 1219
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1220
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1220
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1219
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-044
+
+        VIF ID: 1221
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1222
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1222
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1221
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-045
+
+        VIF ID: 1223
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1224
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1224
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1223
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-046
+
+        VIF ID: 1225
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1226
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1226
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1225
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-047
+
+        VIF ID: 1227
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1228
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1228
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1227
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-048
+
+        VIF ID: 1229
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1230
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1230
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1229
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-049
+
+        VIF ID: 1231
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1232
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1232
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1231
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-050
+
+        VIF ID: 1233
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1234
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1234
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1233
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-051
+
+        VIF ID: 1235
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1236
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1236
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1235
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-052
+
+        VIF ID: 1237
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1238
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1238
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1237
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-053
+
+        VIF ID: 1239
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1240
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1240
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1239
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: dynamic-prot-054
+
+        VIF ID: 1241
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1242
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1242
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1241
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vNIC: eth0
+
+        VIF ID: 1132
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1133
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 1133
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1132
+        Prot State: No Protection
+        Oper State: Admin Down
+
+    vHBA: fc0
+
+        VIF ID: 1134
+        Transport: Fc
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Unprotected
+        Peer VIF ID: 0
+        Prot State: No Protection
+        Oper State: Admin Down
+
+        VIF ID: 9326
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Unprotected
+        Peer VIF ID: 0
+        Prot State: No Protection
+        Oper State: Admin Down
+
+Service Profile: Team3SPTemplate
+
+    vNIC: eth0
+
+    vNIC: eth1
+
+    vHBA: fc0
+
+Service Profile: Team4MobileProfile
+
+    vNIC: eth0
+
+        VIF ID: 1126
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1127
+        Prot State: Active
+        Oper State: Active
+
+        VIF ID: 1127
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1126
+        Prot State: Passive
+        Oper State: Passive
+
+    vHBA: fc0
+
+        VIF ID: 1128
+        Transport: Fc
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Unprotected
+        Peer VIF ID: 0
+        Prot State: No Protection
+        Oper State: Active
+
+        VIF ID: 9320
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Unprotected
+        Peer VIF ID: 0
+        Prot State: No Protection
+        Oper State: Unknown
+
+Service Profile: Team5MobileProfile
+
+    vNIC: eth0
+
+        VIF ID: 1129
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Primary
+        Peer VIF ID: 1130
+        Prot State: Active
+        Oper State: Active
+
+        VIF ID: 1130
+        Transport: Ether
+        Fabric ID: B
+        Status: Allocated
+        Prot Role: Backup
+        Peer VIF ID: 1129
+        Prot State: Passive
+        Oper State: Passive
+
+    vHBA: fc0
+
+        VIF ID: 1131
+        Transport: Fc
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Unprotected
+        Peer VIF ID: 0
+        Prot State: No Protection
+        Oper State: Active
+
+        VIF ID: 9323
+        Transport: Ether
+        Fabric ID: A
+        Status: Allocated
+        Prot Role: Unprotected
+        Peer VIF ID: 0
+        Prot State: No Protection
+        Oper State: Unknown
+
+Service Profile: Team6-ESXi1
+
+    vNIC: eth0
+
+    vNIC: eth1
+
+    vHBA: fc0
+
+Service Profile: Team6-ESXi2
+
+    vNIC: eth0
+
+    vNIC: eth1
+
+    vHBA: fc0
+
+Service Profile: Team6SPTemplate
+
+    vNIC: eth0
+
+    vNIC: eth1
+
+    vHBA: fc0

@@ -1,0 +1,36 @@
+Chassis 1:
+    PSU 1:
+        Presence: Equipped
+        Product Name: 2500W 200-240VAC PSU for UCS 5108 Blade Server Chassis
+        PID: N20-PAC5-2500W
+        VID: V03
+        Vendor: Cisco Systems Inc
+        Serial (SN): DTM144100EK
+        HW Revision: 0
+
+    PSU 2:
+        Presence: Equipped
+        Product Name: 2500W 200-240VAC PSU for UCS 5108 Blade Server Chassis
+        PID: N20-PAC5-2500W
+        VID: V03
+        Vendor: Cisco Systems Inc
+        Serial (SN): DTM1441043G
+        HW Revision: 0
+
+    PSU 3:
+        Presence: Equipped
+        Product Name: 2500W 200-240VAC PSU for UCS 5108 Blade Server Chassis
+        PID: N20-PAC5-2500W
+        VID: V03
+        Vendor: Cisco Systems Inc
+        Serial (SN): DTM14410341
+        HW Revision: 0
+
+    PSU 4:
+        Presence: Equipped
+        Product Name: 2500W 200-240VAC PSU for UCS 5108 Blade Server Chassis
+        PID: N20-PAC5-2500W
+        VID: V03
+        Vendor: Cisco Systems Inc
+        Serial (SN): DTM1441043Y
+        HW Revision: 0

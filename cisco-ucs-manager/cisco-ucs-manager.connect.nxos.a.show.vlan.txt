@@ -1,0 +1,31 @@
+VLAN Name                             Status    Ports
+---- -------------------------------- --------- -------------------------------
+1    default                          active    Po1, Eth1/3, Eth1/4, Eth1/5
+                                                Eth1/6, Eth1/7, Eth1/8, Eth1/9
+                                                Eth1/10, Eth1/11, Eth1/12
+                                                Eth1/13, Eth1/14, Eth1/15
+                                                Eth1/16, Eth1/17, Eth1/18
+                                                Eth1/21, Eth1/22, Eth1/23
+                                                Eth1/24, Eth1/1/2, Eth1/1/4
+                                                Eth1/1/6, Eth1/1/8, Eth1/1/10
+                                                Eth1/1/12, Eth1/1/14, Eth1/1/16
+10   VLAN0010                         active    Po1, Eth1/8
+20   VLAN0020                         active    Po1, Eth1/8
+30   VLAN0030                         active    Po1, Eth1/8, Veth1132
+40   VLAN0040                         active    Po1, Eth1/8, Veth1126
+50   VLAN0050                         active    Po1, Eth1/8, Veth1129
+60   VLAN0060                         active    Po1, Eth1/8
+70   VLAN0070                         active    Po1, Eth1/8
+80   VLAN0080                         active    Po1, Eth1/8
+1011 fcoe-vsan-1011                   active    Eth1/8, Veth9320, Veth9323
+                                                Veth9326
+4044 SAM-vlan-management              active    Eth1/8, Eth1/1/17
+4047 SAM-vlan-boot                    active    Eth1/8
+4048 fcoe-vsan-4048                   active    Eth1/8
+4049 VLAN4049                         active    Eth1/8
+
+Remote SPAN VLANs
+-------------------------------------------------------------------------------
+
+Primary  Secondary  Type             Ports
+-------  ---------  ---------------  -------------------------------------------

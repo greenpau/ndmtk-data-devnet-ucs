@@ -1,0 +1,5 @@
+Chassis 1:
+    Overall Status: Power Problem
+    Operability: Operable
+    Power State: Redundancy Failed
+    Thermal Status: Ok

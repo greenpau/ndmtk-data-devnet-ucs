@@ -1,0 +1,296 @@
+Service Profile: Team1-ESXi1
+Server:
+
+Service Profile: Team1-ESXi2
+Server:
+
+Service Profile: Team1SPTemplate
+Server:
+
+Service Profile: Team2-ESXi1
+Server:
+
+Service Profile: Team2-ESXi2
+Server:
+
+Service Profile: Team2SPTemplate
+Server:
+
+Service Profile: Team3-ESXi1
+Server:
+
+Service Profile: Team3-ESXi2
+Server:
+
+Service Profile: Team3MobileProfile
+Server: 1/5
+    Fabric ID: A
+        Path ID: 1
+        VIF        vNIC            Link State  Oper State Prot State    Prot Role   Admin Pin  Oper Pin   Transport
+        ---------- --------------- ----------- ---------- ------------- ----------- ---------- ---------- ---------
+              1132 eth0            Error       Error      No Protection Primary     0/0        0/0        Ether
+              1134 fc0             Error       Error      No Protection Unprotected 0/0        0/0        Fc
+              1135 dynamic-prot-001
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1138 dynamic-prot-002
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1139 dynamic-prot-003
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1142 dynamic-prot-004
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1143 dynamic-prot-005
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1146 dynamic-prot-006
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1147 dynamic-prot-007
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1150 dynamic-prot-008
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1151 dynamic-prot-009
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1154 dynamic-prot-010
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1155 dynamic-prot-011
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1158 dynamic-prot-012
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1159 dynamic-prot-013
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1162 dynamic-prot-014
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1163 dynamic-prot-015
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1166 dynamic-prot-016
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1167 dynamic-prot-017
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1170 dynamic-prot-018
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1171 dynamic-prot-019
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1174 dynamic-prot-020
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1175 dynamic-prot-021
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1178 dynamic-prot-022
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1179 dynamic-prot-023
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1182 dynamic-prot-024
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1183 dynamic-prot-025
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1186 dynamic-prot-026
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1187 dynamic-prot-027
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1190 dynamic-prot-028
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1191 dynamic-prot-029
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1194 dynamic-prot-030
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1195 dynamic-prot-031
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1198 dynamic-prot-032
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1199 dynamic-prot-033
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1202 dynamic-prot-034
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1203 dynamic-prot-035
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1206 dynamic-prot-036
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1207 dynamic-prot-037
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1210 dynamic-prot-038
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1211 dynamic-prot-039
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1214 dynamic-prot-040
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1215 dynamic-prot-041
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1218 dynamic-prot-042
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1219 dynamic-prot-043
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1222 dynamic-prot-044
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1223 dynamic-prot-045
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1226 dynamic-prot-046
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1227 dynamic-prot-047
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1230 dynamic-prot-048
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1231 dynamic-prot-049
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1234 dynamic-prot-050
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1235 dynamic-prot-051
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1238 dynamic-prot-052
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1239 dynamic-prot-053
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1242 dynamic-prot-054
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              9326                 Error       Error      No Protection Unprotected 0/0        0/0        Ether
+    Fabric ID: B
+        Path ID: 1
+        VIF        vNIC            Link State  Oper State Prot State    Prot Role   Admin Pin  Oper Pin   Transport
+        ---------- --------------- ----------- ---------- ------------- ----------- ---------- ---------- ---------
+              1133 eth0            Error       Error      No Protection Backup      0/0        0/0        Ether
+              1136 dynamic-prot-001
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1137 dynamic-prot-002
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1140 dynamic-prot-003
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1141 dynamic-prot-004
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1144 dynamic-prot-005
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1145 dynamic-prot-006
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1148 dynamic-prot-007
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1149 dynamic-prot-008
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1152 dynamic-prot-009
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1153 dynamic-prot-010
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1156 dynamic-prot-011
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1157 dynamic-prot-012
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1160 dynamic-prot-013
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1161 dynamic-prot-014
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1164 dynamic-prot-015
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1165 dynamic-prot-016
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1168 dynamic-prot-017
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1169 dynamic-prot-018
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1172 dynamic-prot-019
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1173 dynamic-prot-020
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1176 dynamic-prot-021
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1177 dynamic-prot-022
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1180 dynamic-prot-023
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1181 dynamic-prot-024
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1184 dynamic-prot-025
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1185 dynamic-prot-026
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1188 dynamic-prot-027
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1189 dynamic-prot-028
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1192 dynamic-prot-029
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1193 dynamic-prot-030
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1196 dynamic-prot-031
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1197 dynamic-prot-032
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1200 dynamic-prot-033
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1201 dynamic-prot-034
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1204 dynamic-prot-035
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1205 dynamic-prot-036
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1208 dynamic-prot-037
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1209 dynamic-prot-038
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1212 dynamic-prot-039
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1213 dynamic-prot-040
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1216 dynamic-prot-041
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1217 dynamic-prot-042
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1220 dynamic-prot-043
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1221 dynamic-prot-044
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1224 dynamic-prot-045
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1225 dynamic-prot-046
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1228 dynamic-prot-047
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1229 dynamic-prot-048
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1232 dynamic-prot-049
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1233 dynamic-prot-050
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1236 dynamic-prot-051
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1237 dynamic-prot-052
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+              1240 dynamic-prot-053
+                                   Unknown     Unknown    No Protection Backup      0/0        0/0        Ether
+              1241 dynamic-prot-054
+                                   Unknown     Unknown    No Protection Primary     0/0        0/0        Ether
+
+Service Profile: Team3SPTemplate
+Server:
+
+Service Profile: Team4MobileProfile
+Server: 1/4
+    Fabric ID: A
+        Path ID: 1
+        VIF        vNIC            Link State  Oper State Prot State    Prot Role   Admin Pin  Oper Pin   Transport
+        ---------- --------------- ----------- ---------- ------------- ----------- ---------- ---------- ---------
+              1126 eth0            Up          Active     Active        Primary     0/0        0/1        Ether
+              1128 fc0             Up          Active     No Protection Unprotected 0/0        1/32       Fc
+              9320                 Up          Active     No Protection Unprotected 0/0        0/0        Ether
+    Fabric ID: B
+        Path ID: 1
+        VIF        vNIC            Link State  Oper State Prot State    Prot Role   Admin Pin  Oper Pin   Transport
+        ---------- --------------- ----------- ---------- ------------- ----------- ---------- ---------- ---------
+              1127 eth0            Up          Active     Passive       Backup      0/0        0/1        Ether
+
+Service Profile: Team5MobileProfile
+Server: 1/2
+    Fabric ID: A
+        Path ID: 1
+        VIF        vNIC            Link State  Oper State Prot State    Prot Role   Admin Pin  Oper Pin   Transport
+        ---------- --------------- ----------- ---------- ------------- ----------- ---------- ---------- ---------
+              1129 eth0            Up          Active     Active        Primary     0/0        0/1        Ether
+              1131 fc0             Up          Active     No Protection Unprotected 0/0        1/31       Fc
+              9323                 Up          Active     No Protection Unprotected 0/0        0/0        Ether
+    Fabric ID: B
+        Path ID: 1
+        VIF        vNIC            Link State  Oper State Prot State    Prot Role   Admin Pin  Oper Pin   Transport
+        ---------- --------------- ----------- ---------- ------------- ----------- ---------- ---------- ---------
+              1130 eth0            Up          Active     Passive       Backup      0/0        0/1        Ether
+
+Service Profile: Team6-ESXi1
+Server:
+
+Service Profile: Team6-ESXi2
+Server:
+
+Service Profile: Team6SPTemplate
+Server:

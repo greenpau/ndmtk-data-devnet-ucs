@@ -1,0 +1,17 @@
+Service Profile Name Association    Server  Server Pool
+-------------------- -------------- ------- -----------
+Team1-ESXi1          Unassociated
+Team1-ESXi2          Unassociated
+Team1SPTemplate      Unassociated
+Team2-ESXi1          Unassociated
+Team2-ESXi2          Unassociated
+Team2SPTemplate      Unassociated
+Team3-ESXi1          Unassociated
+Team3-ESXi2          Unassociated
+Team3MobileProfile   Associated     1/5
+Team3SPTemplate      Unassociated
+Team4MobileProfile   Associated     1/4
+Team5MobileProfile   Associated     1/2
+Team6-ESXi1          Unassociated
+Team6-ESXi2          Unassociated
+Team6SPTemplate      Unassociated

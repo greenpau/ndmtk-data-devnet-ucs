@@ -1,0 +1,119 @@
+Service Profile Name: Team1-ESXi1
+UUID Suffix Pool: Team1UUIDPool
+Dynamic UUID: 00000000-0000-0001-1000-00000000000e
+
+    VNIC FC Node:
+        WWNN Pool: Team1WWNNPool
+        Dynamic WWNN: 20:1B:00:25:B5:11:00:08
+
+Service Profile Name: Team1-ESXi2
+UUID Suffix Pool: Team1UUIDPool
+Dynamic UUID: 00000000-0000-0001-1000-00000000000f
+
+    VNIC FC Node:
+        WWNN Pool: Team1WWNNPool
+        Dynamic WWNN: 20:1B:00:25:B5:11:00:09
+
+Service Profile Name: Team1SPTemplate
+UUID Suffix Pool: Team1UUIDPool
+Dynamic UUID: Derived
+
+    VNIC FC Node:
+        WWNN Pool: Team1WWNNPool
+        Dynamic WWNN: Pool Derived
+
+Service Profile Name: Team2-ESXi1
+UUID Suffix Pool: Team2UUIDPool
+Dynamic UUID: 00000000-0000-0002-2000-00000000000e
+
+    VNIC FC Node:
+        WWNN Pool: Team2WWNNPool
+        Dynamic WWNN: 20:1B:00:25:B5:12:00:0A
+
+Service Profile Name: Team2-ESXi2
+UUID Suffix Pool: Team2UUIDPool
+Dynamic UUID: 00000000-0000-0002-2000-00000000000f
+
+    VNIC FC Node:
+        WWNN Pool: Team2WWNNPool
+        Dynamic WWNN: 20:1B:00:25:B5:12:00:0B
+
+Service Profile Name: Team2SPTemplate
+UUID Suffix Pool: Team2UUIDPool
+Dynamic UUID: Derived
+
+    VNIC FC Node:
+        WWNN Pool: Team2WWNNPool
+        Dynamic WWNN: Pool Derived
+
+Service Profile Name: Team3-ESXi1
+UUID Suffix Pool: Team3UUIDPool.
+Dynamic UUID: 5601e392-3113-11e7-3000-00000000000e
+
+    VNIC FC Node:
+        WWNN Pool: Team3WWNNPool
+        Dynamic WWNN: 20:1B:00:25:B5:13:00:0A
+
+Service Profile Name: Team3-ESXi2
+UUID Suffix Pool: Team3UUIDPool.
+Dynamic UUID: 5601e392-3113-11e7-3000-00000000000f
+
+    VNIC FC Node:
+        WWNN Pool: Team3WWNNPool
+        Dynamic WWNN: 20:1B:00:25:B5:13:00:0B
+
+Service Profile Name: Team3MobileProfile
+UUID Suffix Pool:
+Dynamic UUID: 30000000-0000-0000-0000-000000000000
+
+    VNIC FC Node:
+        WWNN Pool:
+        Dynamic WWNN: 20:1B:00:25:B5:13:01:00
+
+Service Profile Name: Team3SPTemplate
+UUID Suffix Pool: Team3UUIDPool.
+Dynamic UUID: Derived
+
+    VNIC FC Node:
+        WWNN Pool: Team3WWNNPool
+        Dynamic WWNN: Pool Derived
+
+Service Profile Name: Team4MobileProfile
+UUID Suffix Pool:
+Dynamic UUID: 40000000-0000-0000-0000-000000000000
+
+    VNIC FC Node:
+        WWNN Pool:
+        Dynamic WWNN: 20:1B:00:25:B5:14:00:01
+
+Service Profile Name: Team5MobileProfile
+UUID Suffix Pool:
+Dynamic UUID: 50000000-0000-0000-0000-000000000000
+
+    VNIC FC Node:
+        WWNN Pool:
+        Dynamic WWNN: 20:1B:00:25:B5:15:00:01
+
+Service Profile Name: Team6-ESXi1
+UUID Suffix Pool: Team6UUIDPool
+Dynamic UUID: 00000000-0000-0006-6000-00000000000e
+
+    VNIC FC Node:
+        WWNN Pool: Team6WWNNPool
+        Dynamic WWNN: 20:1B:00:25:B5:16:00:0A
+
+Service Profile Name: Team6-ESXi2
+UUID Suffix Pool: Team6UUIDPool
+Dynamic UUID: 00000000-0000-0006-6000-00000000000f
+
+    VNIC FC Node:
+        WWNN Pool: Team6WWNNPool
+        Dynamic WWNN: 20:1B:00:25:B5:16:00:0B
+
+Service Profile Name: Team6SPTemplate
+UUID Suffix Pool: Team6UUIDPool
+Dynamic UUID: Derived
+
+    VNIC FC Node:
+        WWNN Pool: Team6WWNNPool
+        Dynamic WWNN: Pool Derived

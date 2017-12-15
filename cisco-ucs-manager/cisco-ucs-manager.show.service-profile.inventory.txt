@@ -1,0 +1,17 @@
+Service Profile Name Type              Server  Assignment Association
+-------------------- ----------------- ------- ---------- -----------
+Team1-ESXi1          Instance                  Unassigned Unassociated
+Team1-ESXi2          Instance                  Unassigned Unassociated
+Team1SPTemplate      Initial Template          Unassigned Unassociated
+Team2-ESXi1          Instance                  Unassigned Unassociated
+Team2-ESXi2          Instance                  Unassigned Unassociated
+Team2SPTemplate      Initial Template          Unassigned Unassociated
+Team3-ESXi1          Instance                  Unassigned Unassociated
+Team3-ESXi2          Instance                  Unassigned Unassociated
+Team3MobileProfile   Instance          1/5     Assigned   Associated
+Team3SPTemplate      Initial Template          Unassigned Unassociated
+Team4MobileProfile   Instance          1/4     Assigned   Associated
+Team5MobileProfile   Instance          1/2     Assigned   Associated
+Team6-ESXi1          Instance                  Unassigned Unassociated
+Team6-ESXi2          Instance                  Unassigned Unassociated
+Team6SPTemplate      Initial Template          Unassigned Unassociated
